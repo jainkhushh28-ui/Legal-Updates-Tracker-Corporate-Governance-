@@ -19,6 +19,7 @@ from bs4 import BeautifulSoup
 from dateutil import parser as date_parser
 from analyser import analyse
 from document_extractor import extract_document
+from quality_filter import passes_quality_filters
 
 ROOT = Path(__file__).parent
 SOURCES_FILE = ROOT / "data" / "sources.json"
@@ -138,7 +139,7 @@ def classify(title: str, configured_area: str) -> tuple[str, str]:
     return configured_area, "Applicability requires review of the primary source."
 
 
-def collect_source(source: dict, since: date) -> list[Update]:
+def collect_source(source: dict, since: date, skipped: list[str]) -> list[Update]:
     response = requests.get(source["url"], headers=REQUEST_HEADERS, timeout=30)
     response.raise_for_status()
     soup = BeautifulSoup(response.text, "html.parser")
@@ -157,13 +158,23 @@ def collect_source(source: dict, since: date) -> list[Update]:
         if notice_date is None or notice_date < since:
             continue
         seen.add(link)
-        area, applicability = classify(title, source["law_area"])
-        item_id = hashlib.sha256(link.encode()).hexdigest()[:16]
+
         # The index page is not enough evidence: fetch the exact linked document
         # and retain its hash/text before a record can ever be analysed.
         document = extract_document(link)
         if len(document.extracted_text) < 100:
             continue
+
+        # Editorial capture policy: only genuinely substantive, general-applicability,
+        # operative items proceed past this point. Checking this before calling
+        # Gemini also avoids spending API quota on items that would never publish.
+        ok, reason = passes_quality_filters(title, document.extracted_text, source["authority"])
+        if not ok:
+            skipped.append(f'{source["authority"]}: "{title[:80]}" — {reason}')
+            continue
+
+        area, applicability = classify(title, source["law_area"])
+        item_id = hashlib.sha256(link.encode()).hexdigest()[:16]
         base_record = {
             "id": item_id, "title": title, "regulatory_authority": source["authority"],
             "country": "India", "region": "APAC", "state": "National", "law_area": area,
@@ -182,7 +193,7 @@ def collect_source(source: dict, since: date) -> list[Update]:
 def run(default_days: int = DEFAULT_LOOKBACK_DAYS) -> dict:
     sources = json.loads(SOURCES_FILE.read_text())
     current = {item["id"]: item for item in json.loads(UPDATES_FILE.read_text())}
-    errors, collected = [], []
+    errors, collected, skipped = [], [], []
 
     # Each source may define its own "lookback_days" (e.g. a quieter source
     # can look back further so it still has something to show). The overall
@@ -194,7 +205,7 @@ def run(default_days: int = DEFAULT_LOOKBACK_DAYS) -> dict:
         since = date.today() - timedelta(days=source_days)
         widest_since = min(widest_since, since)
         try:
-            collected.extend(collect_source(source, since))
+            collected.extend(collect_source(source, since, skipped))
         except requests.RequestException as exc:
             errors.append(f'{source["authority"]}: {exc}')
 
@@ -205,7 +216,13 @@ def run(default_days: int = DEFAULT_LOOKBACK_DAYS) -> dict:
     retained = [u for u in current.values() if u.get("notification_date", "") >= widest_since.isoformat()]
     retained.sort(key=lambda u: u["notification_date"], reverse=True)
     UPDATES_FILE.write_text(json.dumps(retained, indent=2, ensure_ascii=False) + "\n")
-    return {"updates": len(retained), "new": len(collected), "errors": errors}
+    return {
+        "updates": len(retained),
+        "new": len(collected),
+        "screened_out": len(skipped),
+        "screened_out_examples": skipped[:10],
+        "errors": errors,
+    }
 
 
 if __name__ == "__main__":
