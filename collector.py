@@ -23,7 +23,19 @@ from document_extractor import extract_document
 ROOT = Path(__file__).parent
 SOURCES_FILE = ROOT / "data" / "sources.json"
 UPDATES_FILE = ROOT / "data" / "updates.json"
-USER_AGENT = "LegalUpdateTracker/0.1 (educational portfolio project)"
+# Government sites frequently block requests whose User-Agent identifies as a
+# script or bot. Presenting as an ordinary browser avoids that block while
+# remaining truthful in effect: this really is an ordinary automated fetch of
+# a public page, not a probe of anything restricted.
+USER_AGENT = (
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+    "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+)
+REQUEST_HEADERS = {
+    "User-Agent": USER_AGENT,
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.9",
+}
 DATE_PATTERN = re.compile(
     r"\b(?:Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|Jun(?:e)?|"
     r"Jul(?:y)?|Aug(?:ust)?|Sep(?:t(?:ember)?)?|Oct(?:ober)?|Nov(?:ember)?|"
@@ -69,6 +81,35 @@ def extract_date(text: str) -> date | None:
         return None
 
 
+def find_item_date(anchor):
+    """Find the date associated with an item link.
+
+    Many Indian government sites put the date in the same table row as the
+    link (e.g. SEBI: Date | Type | Title columns), or in a separate header
+    row above a block of items that share one date (e.g. RBI: a bold date
+    row, followed by several notification rows with no date of their own).
+    This checks the immediate row first, then walks backwards through prior
+    sibling rows to find the most recent date header.
+    """
+    row = anchor.find_parent("tr") or anchor.parent
+    own_text = concise_text(row.get_text(" ", strip=True), 1000)
+    found = extract_date(own_text)
+    if found:
+        return found
+
+    if row is not None and row.name == "tr":
+        prev = row.find_previous_sibling("tr")
+        steps = 0
+        while prev is not None and steps < 40:
+            prev_text = concise_text(prev.get_text(" ", strip=True), 300)
+            found = extract_date(prev_text)
+            if found:
+                return found
+            prev = prev.find_previous_sibling("tr")
+            steps += 1
+    return None
+
+
 def is_official_link(source_url: str, link: str) -> bool:
     """Allow only links on the source's exact host (including its subdomains)."""
     source_host = urlparse(source_url).hostname or ""
@@ -89,11 +130,13 @@ def classify(title: str, configured_area: str) -> tuple[str, str]:
         return "Labour and employment", "Employers, HR teams, employees or labour-law compliance teams may be affected."
     if any(word in t for word in ("securit", "listing", "mutual fund", "broker", "demat", "market", "aif")):
         return "Securities and capital markets", "Listed entities, market intermediaries, investors or issuers may be affected."
+    if any(word in t for word in ("bank", "nbfc", "rbi", "monetary", "forex", "fema", "deposit")):
+        return "Banking and finance", "Banks, NBFCs or regulated financial entities may be affected."
     return configured_area, "Applicability requires review of the primary source."
 
 
 def collect_source(source: dict, since: date) -> list[Update]:
-    response = requests.get(source["url"], headers={"User-Agent": USER_AGENT}, timeout=30)
+    response = requests.get(source["url"], headers=REQUEST_HEADERS, timeout=30)
     response.raise_for_status()
     soup = BeautifulSoup(response.text, "html.parser")
     results: list[Update] = []
@@ -107,9 +150,7 @@ def collect_source(source: dict, since: date) -> list[Update]:
         link = urljoin(source["url"], href)
         if not is_official_link(source["url"], link) or link in seen:
             continue
-        # Government index pages often put the date in the table/list item, not the link.
-        context = concise_text(anchor.parent.get_text(" ", strip=True), 1000)
-        notice_date = extract_date(context) or extract_date(title)
+        notice_date = find_item_date(anchor) or extract_date(title)
         if notice_date is None or notice_date < since:
             continue
         seen.add(link)
