@@ -1,0 +1,29 @@
+[
+  {
+    "id": "sebi_circulars",
+    "name": "Securities and Exchange Board of India",
+    "authority": "SEBI",
+    "url": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&smid=0&ssid=7",
+    "law_area": "Securities and capital markets",
+    "update_type": "Circular",
+    "selector": "a"
+  },
+  {
+    "id": "mca_notifications",
+    "name": "Ministry of Corporate Affairs",
+    "authority": "MCA",
+    "url": "https://www.mca.gov.in/content/mca/global/en/acts-rules/notifications.html",
+    "law_area": "Corporate and secretarial",
+    "update_type": "Notification",
+    "selector": "a"
+  },
+  {
+    "id": "labour_gazette",
+    "name": "Ministry of Labour & Employment",
+    "authority": "Ministry of Labour & Employment",
+    "url": "https://labour.gov.in/mainsecretariatdivisions/gazette-notifications",
+    "law_area": "Labour and employment",
+    "update_type": "Gazette notification",
+    "selector": "a"
+  }
+]
