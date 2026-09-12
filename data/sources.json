@@ -3,10 +3,10 @@
     "id": "sebi_circulars",
     "name": "Securities and Exchange Board of India",
     "authority": "SEBI",
-    "url": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&smid=0&ssid=7",
+    "url": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListingAll=yes",
     "law_area": "Securities and capital markets",
     "update_type": "Circular",
-    "selector": "a"
+    "selector": "table a"
   },
   {
     "id": "mca_notifications",
@@ -23,7 +23,16 @@
     "authority": "Ministry of Labour & Employment",
     "url": "https://labour.gov.in/mainsecretariatdivisions/gazette-notifications",
     "law_area": "Labour and employment",
-    "update_type": "Gazette notification",
+    "update_type": "Notification",
     "selector": "a"
+  },
+  {
+    "id": "rbi_notifications",
+    "name": "Reserve Bank of India",
+    "authority": "RBI",
+    "url": "https://rbi.org.in/Scripts/NotificationUser.aspx",
+    "law_area": "Banking and finance",
+    "update_type": "Notification",
+    "selector": "table a"
   }
 ]
