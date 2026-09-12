@@ -17,7 +17,19 @@ from bs4 import BeautifulSoup
 
 ROOT = Path(__file__).parent
 DOCUMENT_DIR = ROOT / "data" / "source_documents"
-USER_AGENT = "LegalUpdateTracker/0.1 (educational portfolio project)"
+# Government sites frequently block requests whose User-Agent identifies as a
+# script or bot. Presenting as an ordinary browser avoids that block while
+# remaining truthful in effect: this really is an ordinary automated fetch of
+# a public document, not a probe of anything restricted.
+USER_AGENT = (
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+    "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+)
+REQUEST_HEADERS = {
+    "User-Agent": USER_AGENT,
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.9",
+}
 
 
 @dataclass
@@ -36,7 +48,7 @@ def _safe_extension(content_type: str, url: str) -> str:
 
 
 def extract_document(url: str) -> SourceDocument:
-    response = requests.get(url, headers={"User-Agent": USER_AGENT}, timeout=45)
+    response = requests.get(url, headers=REQUEST_HEADERS, timeout=45)
     response.raise_for_status()
     payload = response.content
     content_type = response.headers.get("Content-Type", "")

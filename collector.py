@@ -36,6 +36,7 @@ REQUEST_HEADERS = {
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
     "Accept-Language": "en-US,en;q=0.9",
 }
+DEFAULT_LOOKBACK_DAYS = 7
 DATE_PATTERN = re.compile(
     r"\b(?:Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|Jun(?:e)?|"
     r"Jul(?:y)?|Aug(?:ust)?|Sep(?:t(?:ember)?)?|Oct(?:ober)?|Nov(?:ember)?|"
@@ -130,8 +131,10 @@ def classify(title: str, configured_area: str) -> tuple[str, str]:
         return "Labour and employment", "Employers, HR teams, employees or labour-law compliance teams may be affected."
     if any(word in t for word in ("securit", "listing", "mutual fund", "broker", "demat", "market", "aif")):
         return "Securities and capital markets", "Listed entities, market intermediaries, investors or issuers may be affected."
-    if any(word in t for word in ("bank", "nbfc", "rbi", "monetary", "forex", "fema", "deposit")):
-        return "Banking and finance", "Banks, NBFCs or regulated financial entities may be affected."
+    if any(word in t for word in ("fema", "forex", "foreign exchange", "external commercial borrow", "ecb")):
+        return "Corporate and secretarial", "Entities with cross-border transactions, ECBs or foreign investment may be affected."
+    if any(word in t for word in ("bank", "nbfc", "monetary", "deposit", "co-operative bank", "rrb")):
+        return "Corporate and secretarial", "Banks, NBFCs and regulated financial entities may be affected."
     return configured_area, "Applicability requires review of the primary source."
 
 
@@ -176,21 +179,30 @@ def collect_source(source: dict, since: date) -> list[Update]:
     return results
 
 
-def run(days: int = 7) -> dict:
-    since = date.today() - timedelta(days=days)
+def run(default_days: int = DEFAULT_LOOKBACK_DAYS) -> dict:
     sources = json.loads(SOURCES_FILE.read_text())
     current = {item["id"]: item for item in json.loads(UPDATES_FILE.read_text())}
     errors, collected = [], []
+
+    # Each source may define its own "lookback_days" (e.g. a quieter source
+    # can look back further so it still has something to show). The overall
+    # retention filter below must use the widest window in play, or a source
+    # with a longer lookback would have its own items pruned immediately.
+    widest_since = date.today() - timedelta(days=default_days)
     for source in sources:
+        source_days = source.get("lookback_days", default_days)
+        since = date.today() - timedelta(days=source_days)
+        widest_since = min(widest_since, since)
         try:
             collected.extend(collect_source(source, since))
         except requests.RequestException as exc:
             errors.append(f'{source["authority"]}: {exc}')
+
     for item in collected:
         current[item.id] = asdict(item)
     # A source capture is retained for review, but a public dashboard may only
     # display records explicitly approved by a reviewer.
-    retained = [u for u in current.values() if u.get("notification_date", "") >= since.isoformat()]
+    retained = [u for u in current.values() if u.get("notification_date", "") >= widest_since.isoformat()]
     retained.sort(key=lambda u: u["notification_date"], reverse=True)
     UPDATES_FILE.write_text(json.dumps(retained, indent=2, ensure_ascii=False) + "\n")
     return {"updates": len(retained), "new": len(collected), "errors": errors}

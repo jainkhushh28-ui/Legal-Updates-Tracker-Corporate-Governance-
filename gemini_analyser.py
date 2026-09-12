@@ -9,6 +9,7 @@ from __future__ import annotations
 import json
 import os
 import re
+import time
 
 
 def _normalise(value: str) -> str:
@@ -50,13 +51,34 @@ def _validate(draft: dict, source_text: str, logic: dict) -> tuple[bool, str]:
     return True, ""
 
 
+# Free-tier Gemini quota is 15 requests per minute for this model. Pacing calls
+# at this interval keeps a normal run comfortably under that limit instead of
+# bursting through it and crashing mid-run.
+MIN_SECONDS_BETWEEN_CALLS = 4.5
+_last_call_at = 0.0
+
+
+def _wait_for_rate_limit() -> None:
+    global _last_call_at
+    elapsed = time.monotonic() - _last_call_at
+    if elapsed < MIN_SECONDS_BETWEEN_CALLS:
+        time.sleep(MIN_SECONDS_BETWEEN_CALLS - elapsed)
+    _last_call_at = time.monotonic()
+
+
 def generate_source_bound_draft(record: dict, source_text: str, logic: dict) -> dict | None:
-    """Return a publishable draft, or None if no configured key / evidence failure."""
+    """Return a publishable draft, or None if no configured key / evidence failure.
+
+    On a 429 (rate limit / quota) response this waits and retries a few times
+    rather than raising, so one busy source cannot crash the whole collection
+    run and lose every item already gathered before it.
+    """
     api_key = os.environ.get("GEMINI_API_KEY")
     if not api_key:
         return None
     from google import genai
     from google.genai import types
+    from google.genai import errors as genai_errors
 
     # Long annexures are less useful than the operative portion in a first MVP.
     # A full-document chunker can be added once source-specific adapters are tested.
@@ -76,13 +98,32 @@ PRIMARY SOURCE TEXT START
 {source_text}
 PRIMARY SOURCE TEXT END"""
     client = genai.Client(api_key=api_key)
-    response = client.models.generate_content(
-        model=os.environ.get("GEMINI_MODEL", "gemini-3.5-flash-lite"),
-        contents=prompt,
-        config=types.GenerateContentConfig(
-            response_mime_type="application/json", response_schema=_schema(), temperature=0,
-        ),
-    )
+
+    response = None
+    max_attempts = 4
+    for attempt in range(max_attempts):
+        _wait_for_rate_limit()
+        try:
+            response = client.models.generate_content(
+                model=os.environ.get("GEMINI_MODEL", "gemini-3.5-flash-lite"),
+                contents=prompt,
+                config=types.GenerateContentConfig(
+                    response_mime_type="application/json", response_schema=_schema(), temperature=0,
+                ),
+            )
+            break
+        except genai_errors.ClientError as exc:
+            is_rate_limit = getattr(exc, "code", None) == 429
+            if is_rate_limit and attempt < max_attempts - 1:
+                # Free tier resets quickly; back off a bit longer each retry.
+                time.sleep(35 + 10 * attempt)
+                continue
+            # Either a non-rate-limit error, or we've retried enough: skip this
+            # item gracefully instead of crashing the whole collection run.
+            return None
+
+    if response is None:
+        return None
     try:
         draft = json.loads(response.text)
     except (TypeError, json.JSONDecodeError):
