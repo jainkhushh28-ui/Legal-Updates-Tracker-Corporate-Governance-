@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "status": "automatic_source_bound_publication",
+  "instruction": "Draft only from extracted source text. Every generated field must carry a verbatim source quote. If a fact, effective date, applicability or impact is not stated or cannot be supported, say 'Not stated in source' or do not publish.",
+  "update_types": [
+    "Notification", "Rules", "Consultation", "Amendment", "Form revision",
+    "Circular", "Clarification", "Filing extension"
+  ],
+  "applicability_mappings": {
+    "listed entity": "Listed companies",
+    "listed entities": "Listed companies",
+    "nbfc": "NBFCs",
+    "private company": "Private companies",
+    "private companies": "Private companies",
+    "public company": "Public companies",
+    "public companies": "Public companies",
+    "employer": "Employers",
+    "employers": "Employers"
+  },
+  "formats": {
+    "title": "{authority}: {update_type} — {plain_language_subject}",
+    "description": "{authority} has issued a {update_type_lower} concerning {plain_language_subject}.",
+    "summary": "State only what the official document changes, introduces, clarifies, extends or consults on. Do not add context not in the source.",
+    "takeaway": "State the directly supported action for the affected entity. If no action is stated, say: 'Review the official document to determine applicability and required action.'",
+    "effective_date": "Use a date only where expressly stated in the source; otherwise output exactly: Not stated in source"
+  }
+}
