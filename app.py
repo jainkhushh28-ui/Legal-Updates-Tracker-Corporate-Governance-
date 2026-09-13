@@ -70,12 +70,24 @@ st.markdown(
             radial-gradient(650px circle at 100% 100%, rgba(224,122,41,0.12), transparent 60%),
             var(--cream);
     }
-    .block-container { padding-top: 3.4rem; max-width: 1080px; }
+    .block-container { padding-top: 3.4rem; max-width: 1080px; color: var(--ink); }
     [data-testid="stHeader"] { background: transparent; }
+    /* Default Streamlit text (captions, tab labels, multiselect chips) has no
+       explicit color of its own, so it was inheriting the platform's default
+       (often white) instead of our palette. Setting color on the shared
+       ancestors below makes it inherit ours — our own explicitly-colored
+       spans and dark stats-strip are unaffected since explicit rules always
+       win over inherited ones. */
+    [data-testid="stMarkdownContainer"], [data-testid="stCaptionContainer"],
+    [data-testid="stTabs"] p, .stMultiSelect label, .stMultiSelect span,
+    .stSlider label, .stTextInput label {
+        color: var(--ink);
+    }
+    [data-testid="stCaptionContainer"] { color: var(--muted) !important; }
 
     .brand-kicker { font-size: 0.85rem; letter-spacing: 0.1em; color: var(--orange); font-weight: bold; margin-bottom: 0.4rem; }
     .brand-title { font-size: 4.8rem; font-weight: 700; color: var(--navy); margin: 0; line-height: 1.05; }
-    .brand-summary { color: var(--muted); font-size: 0.95rem; margin: 0.7rem 0 1.4rem 0; max-width: 640px; }
+    .brand-summary { color: var(--muted); font-size: 0.98rem; margin: 0.7rem 0 1.4rem 0; max-width: 680px; line-height: 1.55; }
 
     /* ---- Sidebar: black / cream / orange ---- */
     section[data-testid="stSidebar"] > div {
@@ -147,7 +159,11 @@ st.markdown(
     """
     <div class="brand-kicker">INDIA · OFFICIAL SOURCES ONLY</div>
     <p class="brand-title">Regulatory Intelligence</p>
-    <p class="brand-summary">Verified legal updates from MCA, RBI, SEBI, NSE, BSE &amp; Labour — every fact backed by a verbatim source quote.</p>
+    <p class="brand-summary">
+        This platform checks MCA, RBI, SEBI, NSE, BSE and the Ministry of Labour every day and
+        surfaces only genuine rule changes — not news, speeches or case orders. Every fact shown
+        is backed by a verbatim quote from the original document, so nothing here is guessed.
+    </p>
     """,
     unsafe_allow_html=True,
 )
