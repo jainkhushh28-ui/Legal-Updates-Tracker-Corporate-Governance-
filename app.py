@@ -70,11 +70,12 @@ st.markdown(
             radial-gradient(650px circle at 100% 100%, rgba(224,122,41,0.12), transparent 60%),
             var(--cream);
     }
-    .block-container { padding-top: 0.4rem; max-width: 1080px; }
+    .block-container { padding-top: 3.4rem; max-width: 1080px; }
+    [data-testid="stHeader"] { background: transparent; }
 
-    .brand-kicker { font-size: 0.8rem; letter-spacing: 0.08em; color: var(--orange); font-weight: bold; margin-bottom: 0.3rem; }
-    .brand-title { font-size: 4rem; font-weight: 700; color: var(--navy); margin: 0; line-height: 1.02; }
-    .brand-summary { color: var(--muted); font-size: 0.92rem; margin: 0.55rem 0 1.3rem 0; max-width: 620px; }
+    .brand-kicker { font-size: 0.85rem; letter-spacing: 0.1em; color: var(--orange); font-weight: bold; margin-bottom: 0.4rem; }
+    .brand-title { font-size: 4.8rem; font-weight: 700; color: var(--navy); margin: 0; line-height: 1.05; }
+    .brand-summary { color: var(--muted); font-size: 0.95rem; margin: 0.7rem 0 1.4rem 0; max-width: 640px; }
 
     /* ---- Sidebar: black / cream / orange ---- */
     section[data-testid="stSidebar"] > div {
