@@ -24,10 +24,6 @@ from quality_filter import passes_quality_filters
 ROOT = Path(__file__).parent
 SOURCES_FILE = ROOT / "data" / "sources.json"
 UPDATES_FILE = ROOT / "data" / "updates.json"
-# Government sites frequently block requests whose User-Agent identifies as a
-# script or bot. Presenting as an ordinary browser avoids that block while
-# remaining truthful in effect: this really is an ordinary automated fetch of
-# a public page, not a probe of anything restricted.
 USER_AGENT = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
     "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
@@ -87,11 +83,9 @@ def find_item_date(anchor):
     """Find the date associated with an item link.
 
     Many Indian government sites put the date in the same table row as the
-    link (e.g. SEBI: Date | Type | Title columns), or in a separate header
-    row above a block of items that share one date (e.g. RBI: a bold date
-    row, followed by several notification rows with no date of their own).
-    This checks the immediate row first, then walks backwards through prior
-    sibling rows to find the most recent date header.
+    link, or in a separate header row above a block of items that share one
+    date. This checks the immediate row first, then walks backwards through
+    prior sibling rows to find the most recent date header.
     """
     row = anchor.find_parent("tr") or anchor.parent
     own_text = concise_text(row.get_text(" ", strip=True), 1000)
@@ -159,15 +153,10 @@ def collect_source(source: dict, since: date, skipped: list[str]) -> list[Update
             continue
         seen.add(link)
 
-        # The index page is not enough evidence: fetch the exact linked document
-        # and retain its hash/text before a record can ever be analysed.
         document = extract_document(link)
         if len(document.extracted_text) < 100:
             continue
 
-        # Editorial capture policy: only genuinely substantive, general-applicability,
-        # operative items proceed past this point. Checking this before calling
-        # Gemini also avoids spending API quota on items that would never publish.
         ok, reason = passes_quality_filters(title, document.extracted_text, source["authority"])
         if not ok:
             skipped.append(f'{source["authority"]}: "{title[:80]}" — {reason}')
@@ -192,13 +181,13 @@ def collect_source(source: dict, since: date, skipped: list[str]) -> list[Update
 
 def run(default_days: int = DEFAULT_LOOKBACK_DAYS) -> dict:
     sources = json.loads(SOURCES_FILE.read_text())
-    current = {item["id"]: item for item in json.loads(UPDATES_FILE.read_text())}
+    try:
+        previous = {item["id"]: item for item in json.loads(UPDATES_FILE.read_text())}
+    except json.JSONDecodeError:
+        previous = {}
     errors, collected, skipped = [], [], []
+    failed_source_names: set[str] = set()
 
-    # Each source may define its own "lookback_days" (e.g. a quieter source
-    # can look back further so it still has something to show). The overall
-    # retention filter below must use the widest window in play, or a source
-    # with a longer lookback would have its own items pruned immediately.
     widest_since = date.today() - timedelta(days=default_days)
     for source in sources:
         source_days = source.get("lookback_days", default_days)
@@ -208,17 +197,31 @@ def run(default_days: int = DEFAULT_LOOKBACK_DAYS) -> dict:
             collected.extend(collect_source(source, since, skipped))
         except requests.RequestException as exc:
             errors.append(f'{source["authority"]}: {exc}')
+            failed_source_names.add(source["name"])
 
-    for item in collected:
-        current[item.id] = asdict(item)
-    # A source capture is retained for review, but a public dashboard may only
-    # display records explicitly approved by a reviewer.
+    collected_by_id = {item.id: asdict(item) for item in collected}
+
+    # An item from a source that fetched successfully today is only kept if
+    # it was reconfirmed today — so tightening the editorial policy, or an
+    # item simply aging off the index page, actually takes effect instead of
+    # being remembered forever. An item from a source whose fetch failed this
+    # run (site down, temporarily blocked) is carried over as-is, so a
+    # transient outage doesn't blank that source's data.
+    carried_over = {
+        item_id: item for item_id, item in previous.items()
+        if item.get("source_name") in failed_source_names
+    }
+    current = {**carried_over, **collected_by_id}
+
     retained = [u for u in current.values() if u.get("notification_date", "") >= widest_since.isoformat()]
     retained.sort(key=lambda u: u["notification_date"], reverse=True)
     UPDATES_FILE.write_text(json.dumps(retained, indent=2, ensure_ascii=False) + "\n")
+
+    retired = sorted(set(previous) - set(current))
     return {
         "updates": len(retained),
         "new": len(collected),
+        "retired": len(retired),
         "screened_out": len(skipped),
         "screened_out_examples": skipped[:10],
         "errors": errors,
