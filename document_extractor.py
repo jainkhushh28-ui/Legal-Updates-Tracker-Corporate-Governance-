@@ -17,10 +17,6 @@ from bs4 import BeautifulSoup
 
 ROOT = Path(__file__).parent
 DOCUMENT_DIR = ROOT / "data" / "source_documents"
-# Government sites frequently block requests whose User-Agent identifies as a
-# script or bot. Presenting as an ordinary browser avoids that block while
-# remaining truthful in effect: this really is an ordinary automated fetch of
-# a public document, not a probe of anything restricted.
 USER_AGENT = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
     "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
@@ -30,6 +26,22 @@ REQUEST_HEADERS = {
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
     "Accept-Language": "en-US,en;q=0.9",
 }
+# Tags/regions that are site chrome, not the document itself. Almost every
+# Indian government site repeats a "Recruitment / RTI / Tender / Annual
+# Report" style footer or nav menu on every single page — if that text is
+# left in, it falsely trips the editorial exclusion filter on every item
+# regardless of what the actual circular says.
+BOILERPLATE_TAGS = ("nav", "header", "footer", "script", "style", "noscript", "aside")
+BOILERPLATE_HINTS = ("nav", "menu", "footer", "header", "breadcrumb", "sidebar", "cookie")
+
+
+def _strip_boilerplate(soup: BeautifulSoup) -> None:
+    for tag in soup.find_all(BOILERPLATE_TAGS):
+        tag.decompose()
+    for tag in soup.find_all(True):
+        identifiers = " ".join([tag.get("id", ""), *(tag.get("class") or [])]).lower()
+        if any(hint in identifiers for hint in BOILERPLATE_HINTS):
+            tag.decompose()
 
 
 @dataclass
@@ -60,12 +72,12 @@ def extract_document(url: str) -> SourceDocument:
 
     is_pdf = "pdf" in content_type.lower() or local_file.suffix == ".pdf"
     if is_pdf:
-        # Imported only for PDFs so the dashboard and HTML-source tests remain
-        # usable before dependencies are installed in a fresh environment.
         from pypdf import PdfReader
         text = "\n".join(page.extract_text() or "" for page in PdfReader(io.BytesIO(payload)).pages)
     else:
-        text = BeautifulSoup(payload, "html.parser").get_text(" ", strip=True)
+        soup = BeautifulSoup(payload, "html.parser")
+        _strip_boilerplate(soup)
+        text = soup.get_text(" ", strip=True)
     text = re.sub(r"[ \t]+", " ", text)
     text = re.sub(r"\n{3,}", "\n\n", text).strip()
     return SourceDocument(url, content_type, digest, text, str(local_file.relative_to(ROOT)))
