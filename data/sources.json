@@ -1,21 +1,11 @@
 [
   {
-    "id": "mca_circulars",
-    "name": "Ministry of Corporate Affairs — Circulars",
+    "id": "mca_notifications",
+    "name": "Ministry of Corporate Affairs — Notifications",
     "authority": "MCA",
-    "url": "https://www.mca.gov.in/content/mca/global/en/acts-rules/ebooks/circulars.html",
+    "url": "https://www.mca.gov.in/content/mca/global/en/acts-rules/notifications.html",
     "law_area": "Corporate and secretarial",
-    "update_type": "Circular",
-    "selector": "a",
-    "lookback_days": 21
-  },
-  {
-    "id": "mca_rules",
-    "name": "Ministry of Corporate Affairs — Rules",
-    "authority": "MCA",
-    "url": "https://www.mca.gov.in/content/mca/global/en/acts-rules/ebooks/rules.html",
-    "law_area": "Corporate and secretarial",
-    "update_type": "Rules",
+    "update_type": "Notification",
     "selector": "a",
     "lookback_days": 21
   },
@@ -40,24 +30,14 @@
     "lookback_days": 30
   },
   {
-    "id": "sebi_circulars",
-    "name": "Securities and Exchange Board of India — Circulars",
+    "id": "sebi_master_circulars",
+    "name": "Securities and Exchange Board of India — Master Circulars",
     "authority": "SEBI",
     "url": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=6&smid=0",
     "law_area": "Securities and capital markets",
     "update_type": "Circular",
     "selector": "table a",
-    "lookback_days": 14
-  },
-  {
-    "id": "sebi_consultation",
-    "name": "Securities and Exchange Board of India — Consultation Papers",
-    "authority": "SEBI",
-    "url": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=7&smid=0",
-    "law_area": "Securities and capital markets",
-    "update_type": "Consultation",
-    "selector": "table a",
-    "lookback_days": 21
+    "lookback_days": 90
   },
   {
     "id": "nse_circulars",
@@ -87,6 +67,6 @@
     "law_area": "Labour and employment",
     "update_type": "Notification",
     "selector": "a",
-    "lookback_days": 30
+    "lookback_days": 45
   }
 ]
