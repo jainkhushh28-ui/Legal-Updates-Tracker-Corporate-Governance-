@@ -38,9 +38,19 @@ BOILERPLATE_HINTS = ("nav", "menu", "footer", "header", "breadcrumb", "sidebar",
 def _strip_boilerplate(soup: BeautifulSoup) -> None:
     for tag in soup.find_all(BOILERPLATE_TAGS):
         tag.decompose()
+
+    # Decomposing a tag also clears its children's attrs, so collect matches
+    # first and remove them afterwards rather than mutating mid-scan — doing
+    # both in one pass can hit an already-cleared child and crash.
+    to_remove = []
     for tag in soup.find_all(True):
-        identifiers = " ".join([tag.get("id", ""), *(tag.get("class") or [])]).lower()
+        if tag.attrs is None:
+            continue
+        identifiers = " ".join([tag.get("id") or "", *(tag.get("class") or [])]).lower()
         if any(hint in identifiers for hint in BOILERPLATE_HINTS):
+            to_remove.append(tag)
+    for tag in to_remove:
+        if tag.attrs is not None:
             tag.decompose()
 
 
