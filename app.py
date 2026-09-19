@@ -60,7 +60,7 @@ st.markdown(
     """
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,500;8..60,600;8..60,700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,500;8..60,600;8..60,700&amp;family=IBM+Plex+Sans:wght@400;500;600&amp;display=swap" rel="stylesheet">
     <style>
     :root {
         --bg: #14171C;
@@ -88,7 +88,6 @@ st.markdown(
         color: var(--ink);
     }
     [data-testid="stCaptionContainer"] { color: var(--muted) !important; }
-
     /* ---- Header: one serif title carries the weight, no eyebrow label ---- */
     .brand-title {
         font-family: 'Source Serif 4', serif;
@@ -100,7 +99,6 @@ st.markdown(
         max-width: 620px; line-height: 1.6;
     }
     .brand-summary b { color: var(--ink); font-weight: 600; }
-
     /* ---- Sidebar ---- */
     section[data-testid="stSidebar"] > div {
         background: #101317;
@@ -124,7 +122,6 @@ st.markdown(
         font-family: 'Source Serif 4', serif; font-weight: 600; font-size: 1.05rem;
     }
     .sidebar-brand-sub { font-size: 0.78rem; color: #6E7178 !important; margin-bottom: 1.2rem; }
-
     /* ---- Stats strip ---- */
     .stats-strip {
         display: flex; gap: 0; flex-wrap: wrap; background: var(--surface);
@@ -138,18 +135,15 @@ st.markdown(
         line-height: 1; color: var(--ink);
     }
     .stat-label { color: var(--muted); font-size: 0.78rem; margin-top: 0.35rem; }
-
     .section-title {
         font-family: 'Source Serif 4', serif; font-size: 1.25rem; font-weight: 600;
         color: var(--ink); margin: 0.2rem 0 0.8rem 0;
     }
-
     .dist-row { display: flex; align-items: center; gap: 0.7rem; margin-bottom: 0.6rem; }
     .dist-label { width: 190px; font-size: 0.86rem; color: var(--ink); flex-shrink: 0; }
     .dist-track { flex: 1; height: 8px; border-radius: 999px; background: var(--surface-raised); overflow: hidden; }
     .dist-fill { height: 100%; border-radius: 999px; }
     .dist-count { width: 26px; text-align: right; font-size: 0.84rem; color: var(--muted); }
-
     .urgent-preview {
         display: flex; align-items: center; gap: 0.75rem; background: var(--surface);
         border: 1px solid var(--border); border-radius: 8px; padding: 0.7rem 1rem; margin-bottom: 0.5rem;
@@ -157,7 +151,6 @@ st.markdown(
     .urgent-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
     .urgent-text { font-size: 0.9rem; color: var(--ink); flex: 1; }
     .urgent-when { font-size: 0.78rem; color: var(--muted); }
-
     /* ---- Update cards: a left accent bar encodes the authority - a
        structural device that carries real information, not decoration ---- */
     div[data-testid="stVerticalBlockBorderWrapper"] {
@@ -190,13 +183,11 @@ st.markdown(
         border-left: 2px solid var(--gold); padding-left: 0.65rem; margin: 0.25rem 0 0.55rem 0;
         font-style: italic; color: var(--muted); font-size: 0.88rem;
     }
-
     .stTabs [aria-selected="true"] { color: var(--gold) !important; border-bottom-color: var(--gold) !important; }
     .stButton>button, .stLinkButton>a {
         background: var(--surface) !important; border: 1px solid var(--border) !important; color: var(--ink) !important;
     }
     .stButton>button:hover, .stLinkButton>a:hover { border-color: var(--gold) !important; color: var(--gold) !important; }
-
     .footer-note { color: var(--muted); font-size: 0.8rem; text-align: center; line-height: 1.8; }
     </style>
     """,
