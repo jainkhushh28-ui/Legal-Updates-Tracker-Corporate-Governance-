@@ -16,9 +16,9 @@
     "update_type": "Notification",
     "primary_source_link": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13399",
     "source_name": "Reserve Bank of India — Master Directions",
-    "collected_at": "2026-09-13T14:06:17.845861+00:00",
-    "source_document_sha256": "cff91de3dc68e3eabacb4102fb6ce8f02261f26cab93018bb604844a11f38033",
-    "source_text_path": "data/source_documents/cff91de3dc68e3eabacb4102fb6ce8f02261f26cab93018bb604844a11f38033.html",
+    "collected_at": "2026-09-19T09:00:55.645929+00:00",
+    "source_document_sha256": "f49191a943e6067bccd35e71b16e97c89f5279260167d15bc8d6406c9ccaba10",
+    "source_text_path": "data/source_documents/f49191a943e6067bccd35e71b16e97c89f5279260167d15bc8d6406c9ccaba10.html",
     "evidence": [
       "617 Master Directions | Official Website of Reserve Bank of India Skip to main content Not Pressed Not Pressed Pressed Not Pressed Not Pressed Pressed Not Pressed Change Language हिंदी Search the Website Search Master Directions RBI/DOR/2026-27/397 DOR.CRE.REC 5/21.06.201/2026-27 April 27, 2026 Reserve Bank of India (Commercial Banks - Capital Charge for Credit Risk – Standardised Approach) Directions, 2026 (Effective from April 1, 2027) CONTENTS CHAPTER I – PRELIMINARY 1. Introduction 2. Powers Exercised and Commencement 3. Scope 4. Definitions CHAPTER II – GENERAL INSTRUCTIONS 5. General 6. Due diligence requirements CHAPTER III – EXPOSURE CLASSES AND RISK WEIGHTS 7. Exposures to Domestic Sovereigns 8. Exposures to Foreign Sovereigns and Foreign Central Banks 9. Exposures to Public Sector Entities (PSEs) 10. Exposures to MDBs, BIS and IMF 11. Exposures to Banks 12. Exposures to Corporates 13. Exposures to Subordinated debt, equity and other capital instruments 14. Retail Exposures 15"
     ],
@@ -42,18 +42,18 @@
     "update_type": "Notification",
     "primary_source_link": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13400",
     "source_name": "Reserve Bank of India — Master Directions",
-    "collected_at": "2026-09-13T14:06:21.907980+00:00",
-    "source_document_sha256": "4aa5278cf2b829e3cf644ca3b373ed3e934aef9410daab2e075115f1d418c3cf",
-    "source_text_path": "data/source_documents/4aa5278cf2b829e3cf644ca3b373ed3e934aef9410daab2e075115f1d418c3cf.html",
+    "collected_at": "2026-09-19T09:01:28.367939+00:00",
+    "source_document_sha256": "d9f6b6ab8d51b1c604be8ac9df64a34927eac31cb3d59795e721e33dd66ccbfd",
+    "source_text_path": "data/source_documents/d9f6b6ab8d51b1c604be8ac9df64a34927eac31cb3d59795e721e33dd66ccbfd.html",
     "evidence": [
-      "617 Master Directions | Official Website of Reserve Bank of India Skip to main content Not Pressed Not Pressed Pressed Not Pressed Not Pressed Pressed Not Pressed Change Language हिंदी Search the Website Search Master Directions RBI/DOR/2026-27/398 DOR.STR.REC.No.6/21.06.011/2026-27 April 27, 2026 Reserve Bank of India (Commercial Banks - Asset Classification, Provisioning and Income Recognition) Directions, 2026 Table of Contents Introduction Chapter I: Preliminary A. Short title and commencement B. Applicability C. Definitions Chapter II: Classification as Non-Performing Asset A. Classification as Non-Performing Asset B. Other Prudential Norms applicable to a bank Chapter III: Expected Credit Loss (ECL) – based Provisioning A. The Methodological Framework for calculating ECL B. Fair Valuation on Transition C. Initial Recognition and subsequent measurement D. Determination of Significant Increase in Credit Risk (SICR) E. Measurement of ECL – Treatment of different Financial Instrument"
+      "617 Master Directions - Reserve Bank of India Skip to main content Not Pressed Not Pressed Pressed Not Pressed Not Pressed Pressed Not Pressed Change Language हिंदी Search the Website Search Master Directions RBI/DOR/2026-27/398 DOR.STR.REC.No.6/21.06.011/2026-27 April 27, 2026 Reserve Bank of India (Commercial Banks - Asset Classification, Provisioning and Income Recognition) Directions, 2026 Table of Contents Introduction Chapter I: Preliminary A. Short title and commencement B. Applicability C. Definitions Chapter II: Classification as Non-Performing Asset A. Classification as Non-Performing Asset B. Other Prudential Norms applicable to a bank Chapter III: Expected Credit Loss (ECL) – based Provisioning A. The Methodological Framework for calculating ECL B. Fair Valuation on Transition C. Initial Recognition and subsequent measurement D. Determination of Significant Increase in Credit Risk (SICR) E. Measurement of ECL – Treatment of different Financial Instruments F. Determination o"
     ],
     "analysis_status": "withheld_no_validated_draft",
     "field_evidence": {}
   },
   {
-    "id": "69147318f3ca0324",
-    "title": "Reserve Bank of India (Priority Sector Lending – Targets and Classification) Third Amendment Directions, 2026",
+    "id": "512348dd7cacf97e",
+    "title": "Reserve Bank of India (Rural Co-operative Banks – Know Your Customer) Amendment Directions, 2026",
     "regulatory_authority": "RBI",
     "country": "India",
     "region": "APAC",
@@ -63,23 +63,23 @@
     "description": "Source document captured; no validated automatic draft was produced.",
     "summary": "Not generated.",
     "takeaway": "Read the exact primary source.",
-    "notification_date": "2026-09-11",
+    "notification_date": "2026-09-18",
     "effective_date": "Not stated — verify in source",
     "update_type": "Notification",
-    "primary_source_link": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13698&Mode=0",
+    "primary_source_link": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13704&Mode=0",
     "source_name": "Reserve Bank of India — Notifications",
-    "collected_at": "2026-09-13T14:05:51.331339+00:00",
-    "source_document_sha256": "730df4b111ec321233b706947d125d2bee9620de0722fa3e143c1a926afa6492",
-    "source_text_path": "data/source_documents/730df4b111ec321233b706947d125d2bee9620de0722fa3e143c1a926afa6492.html",
+    "collected_at": "2026-09-19T08:59:38.690420+00:00",
+    "source_document_sha256": "19192fac38ea4a459bb43cb96493e7a9e4093dba3ab07dde1f71987ce2950df6",
+    "source_text_path": "data/source_documents/19192fac38ea4a459bb43cb96493e7a9e4093dba3ab07dde1f71987ce2950df6.html",
     "evidence": [
-      "Notifications | Official Website of Reserve Bank of India Skip to main content Not Pressed Not Pressed Pressed Not Pressed Not Pressed Pressed Not Pressed Change Language हिंदी Search the Website Search Notifications RBI/2026-27/256 FIDD.CO.PSD.BC.No.10/04.09.001/2026-27 September 11, 2026 Reserve Bank of India (Priority Sector Lending – Targets and Classification) Third Amendment Directions, 2026 Please refer to Reserve Bank of India (Priority Sector Lending – Targets and Classification) Second Amendment Directions, 2026 issued on August 7, 2026 , specifying that the following advances extended in India would be excluded from calculation of Adjusted Net Bank Credit (ANBC): a) advances against the fresh FCNR (B) deposits of minimum tenor of three years and maximum tenor of five years mobilised (including deposits that are renewed upon maturity) by the banks between June 08, 2026 and September 30, 2026, and b) advances against NRE term deposits of three years or more mobilised (includin"
+      "Notifications | Official Website of Reserve Bank of India Skip to main content Not Pressed Not Pressed Pressed Not Pressed Not Pressed Pressed Not Pressed Change Language हिंदी Search the Website Search Notifications RBI/2026-27/262 DOR.AML.REC.223/14.01.005/2026-27 September 18, 2026 Reserve Bank of India (Rural Co-operative Banks – Know Your Customer) Amendment Directions, 2026 Reserve Bank has issued Reserve Bank of India (Rural Co-operative Banks – Know Your Customer) Directions, 2025 dated November 28, 2025 (hereinafter referred to as the Directions) in compliance with the provisions of the Prevention of Money Laundering Act, 2002, and the Prevention of Money Laundering (Maintenance of Records) Rules, 2005. The Directions in paragraph 4(1)(v) allow the banks to alternatively obtain the original certified copy which are certified by any one of the authorities / authorised officials mentioned therein in case of Non-Resident Indians (NRIs) and Persons of Indian Origin (PIOs), as defi"
     ],
     "analysis_status": "withheld_no_validated_draft",
     "field_evidence": {}
   },
   {
-    "id": "deb1fd04bb5c32f3",
-    "title": "Reserve Bank of India (Local Area Banks – Cash Reserve Ratio and Statutory Liquidity Ratio) Second Amendment Directions, 2026",
+    "id": "fcd8d777e1349fd4",
+    "title": "Reserve Bank of India (Urban Co-operative Banks – Know Your Customer) Amendment Directions, 2026",
     "regulatory_authority": "RBI",
     "country": "India",
     "region": "APAC",
@@ -89,898 +89,169 @@
     "description": "Source document captured; no validated automatic draft was produced.",
     "summary": "Not generated.",
     "takeaway": "Read the exact primary source.",
-    "notification_date": "2026-09-11",
+    "notification_date": "2026-09-18",
     "effective_date": "Not stated — verify in source",
     "update_type": "Notification",
-    "primary_source_link": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13697&Mode=0",
+    "primary_source_link": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13703&Mode=0",
     "source_name": "Reserve Bank of India — Notifications",
-    "collected_at": "2026-09-13T14:05:55.925459+00:00",
-    "source_document_sha256": "fbba051847566649dc6eed87bca626b5a9da1d687a40f502722c24350415a85c",
-    "source_text_path": "data/source_documents/fbba051847566649dc6eed87bca626b5a9da1d687a40f502722c24350415a85c.html",
+    "collected_at": "2026-09-19T08:59:50.155505+00:00",
+    "source_document_sha256": "69a209a978f3e096f12fe300e5c52493f4d2f04645a4e69e9a51ff4566f3b2cc",
+    "source_text_path": "data/source_documents/69a209a978f3e096f12fe300e5c52493f4d2f04645a4e69e9a51ff4566f3b2cc.html",
     "evidence": [
-      "Notifications | Official Website of Reserve Bank of India Skip to main content Not Pressed Not Pressed Pressed Not Pressed Not Pressed Pressed Not Pressed Change Language हिंदी Search the Website Search Notifications RBI/2026-27/255 DOR.RET.REC.220/12.01.001/2026-27 September 11, 2026 Reserve Bank of India (Local Area Banks – Cash Reserve Ratio and Statutory Liquidity Ratio) Second Amendment Directions, 2026 Please refer to Reserve Bank of India (Local Area Banks – Cash Reserve Ratio and Statutory Liquidity Ratio) Directions, 2025 dated November 28, 2025. Consequent upon the inclusion of a Local Area Bank in the Second Schedule to the Reserve Bank of India Act, 1934, it has been decided to amend the Reserve Bank of India (Local Area Banks – Cash Reserve Ratio and Statutory Liquidity Ratio) Directions, 2025 dated November 28, 2025 to incorporate the applicable provisions for the scheduled banks. 2. Accordingly, in exercise of the powers conferred by Section 35A of the Banking Regulation"
+      "Notifications | Official Website of Reserve Bank of India Skip to main content Not Pressed Not Pressed Pressed Not Pressed Not Pressed Pressed Not Pressed Change Language हिंदी Search the Website Search Notifications RBI/2026-27/261 DOR.AML.REC.225/14.01.006/2026-27 September 18, 2026 Reserve Bank of India (Urban Co-operative Banks – Know Your Customer) Amendment Directions, 2026 Reserve Bank had issued Reserve Bank of India (Urban Co-operative Banks – Know Your Customer) Directions, 2025 dated November 28, 2025 (hereinafter referred to as the Directions) in compliance with the provisions of the Prevention of Money Laundering Act, 2002, and the Prevention of Money Laundering (Maintenance of Records) Rules, 2005. The Directions in paragraph 4(1)(v) allow the banks to alternatively obtain the original certified copy which are certified by any one of the authorities / authorised officials mentioned therein in case of Non-Resident Indians (NRIs) and Persons of Indian Origin (PIOs), as defi"
     ],
     "analysis_status": "withheld_no_validated_draft",
     "field_evidence": {}
   },
   {
-    "id": "7202fbf155dea175",
-    "title": "Reserve Bank of India (Local Area Banks – Cash Reserve Ratio and Statutory Liquidity Ratio) Directions, 2025 (Updated as on September 11, 2026)",
+    "id": "cc48b05b36526f75",
+    "title": "RBI: Amendment — Reserve Bank of India (Regional Rural Banks – Know Your Customer) Amendment Directions, 2026",
     "regulatory_authority": "RBI",
     "country": "India",
     "region": "APAC",
     "state": "National",
-    "law_area": "Corporate and secretarial",
-    "applicability": "Banks, NBFCs and regulated financial entities may be affected.",
-    "description": "Source document captured; no validated automatic draft was produced.",
-    "summary": "Not generated.",
-    "takeaway": "Read the exact primary source.",
-    "notification_date": "2026-09-11",
-    "effective_date": "Not stated — verify in source",
-    "update_type": "Notification",
-    "primary_source_link": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13081",
-    "source_name": "Reserve Bank of India — Master Directions",
-    "collected_at": "2026-09-13T14:07:55.989740+00:00",
-    "source_document_sha256": "265049464f24e464b0a5c005855e2f621f42ecc47928a0ab54c33bea99608849",
-    "source_text_path": "data/source_documents/265049464f24e464b0a5c005855e2f621f42ecc47928a0ab54c33bea99608849.html",
-    "evidence": [
-      "Master Directions | Official Website of Reserve Bank of India Skip to main content Not Pressed Not Pressed Pressed Not Pressed Not Pressed Pressed Not Pressed Change Language हिंदी Search the Website Search Master Directions RBI/DOR/2025-26/226 DOR.RET.REC.145/12-01-001/2025-26 November 28, 2025 Previous Versions Reserve Bank of India (Local Area Banks – Cash Reserve Ratio and Statutory Liquidity Ratio) Directions, 2025 (Updated as on September 11, 2026) Table of Contents Chapter I - Preliminary Chapter II - Cash Reserve Ratio (CRR) Chapter III - Statutory Liquidity Ratio (SLR) Chapter IV - Procedure for computation of SLR Chapter V - Reporting Chapter VI - Penalties Chapter VII - Repeal And Other Provisions Annex I Annex II In exercise of the powers conferred by Section 35A of the Banking Regulation Act, 1949 and pursuant to Section 42 of the Reserve Bank of India Act, 1934 and Sections 18 and 24 of Banking Regulation Act, 1949, as amended from time to time, and all other provisions /"
-    ],
-    "analysis_status": "withheld_no_validated_draft",
-    "field_evidence": {}
-  },
-  {
-    "id": "a0e7950ceab7da04",
-    "title": "Reserve Bank of India (Local Area Banks – Governance) Directions, 2025",
-    "regulatory_authority": "RBI",
-    "country": "India",
-    "region": "APAC",
-    "state": "National",
-    "law_area": "Corporate and secretarial",
-    "applicability": "Banks, NBFCs and regulated financial entities may be affected.",
-    "description": "Source document captured; no validated automatic draft was produced.",
-    "summary": "Not generated.",
-    "takeaway": "Read the exact primary source.",
-    "notification_date": "2026-09-11",
-    "effective_date": "Not stated — verify in source",
-    "update_type": "Notification",
-    "primary_source_link": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13082",
-    "source_name": "Reserve Bank of India — Master Directions",
-    "collected_at": "2026-09-13T14:08:00.044711+00:00",
-    "source_document_sha256": "681b11804bd0fdc5edc06438f59ac5c1daed4d91e8980af9b6b1749ac5fcda18",
-    "source_text_path": "data/source_documents/681b11804bd0fdc5edc06438f59ac5c1daed4d91e8980af9b6b1749ac5fcda18.html",
-    "evidence": [
-      "Master Directions | Official Website of Reserve Bank of India Skip to main content Not Pressed Not Pressed Pressed Not Pressed Not Pressed Pressed Not Pressed Change Language हिंदी Search the Website Search Master Directions RBI/DOR/2025-26/225 DoR.HGG.GOV.No.144/29.67.001/2025-26 November 28, 2025 Reserve Bank of India (Local Area Banks - Governance) Directions, 2025 Table of Contents Chapter I - Preliminary A. Short title and commencement B. Applicability C. Definitions Chapter II – Constitution of Board and Appointment of Directors Chapter III – MD&CEO, Part-time Chairman and Whole-time Directors Chapter IV – Role of the Board and Individual Directors Chapter V – Calendar of Reviews and Board Meeting Procedures Chapter VI – Committees of the Board A. Nomination and Remuneration Committee B. Audit Committee of the Board Chapter VII – Remuneration of NEDs, WTDs, MD&CEO, Material Risk Takers, and Control Function staff Chapter VIII – Regulatory approvals and Reporting Chapter IX – Repe"
-    ],
-    "analysis_status": "withheld_no_validated_draft",
-    "field_evidence": {}
-  },
-  {
-    "id": "edb28ec3daaed1fc",
-    "title": "Reserve Bank of India (Local Area Banks – Digital Banking Channels Authorisation) Directions, 2025",
-    "regulatory_authority": "RBI",
-    "country": "India",
-    "region": "APAC",
-    "state": "National",
-    "law_area": "Corporate and secretarial",
-    "applicability": "Banks, NBFCs and regulated financial entities may be affected.",
-    "description": "Source document captured; no validated automatic draft was produced.",
-    "summary": "Not generated.",
-    "takeaway": "Read the exact primary source.",
-    "notification_date": "2026-09-11",
-    "effective_date": "Not stated — verify in source",
-    "update_type": "Notification",
-    "primary_source_link": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13083",
-    "source_name": "Reserve Bank of India — Master Directions",
-    "collected_at": "2026-09-13T14:08:04.390549+00:00",
-    "source_document_sha256": "7d96e3f16105f6a660cb8855baab1e6dbc29eb48e23a6c73a5a874cc0cbfd41c",
-    "source_text_path": "data/source_documents/7d96e3f16105f6a660cb8855baab1e6dbc29eb48e23a6c73a5a874cc0cbfd41c.html",
-    "evidence": [
-      "Master Directions | Official Website of Reserve Bank of India Skip to main content Not Pressed Not Pressed Pressed Not Pressed Not Pressed Pressed Not Pressed Change Language हिंदी Search the Website Search Master Directions RBI/DOR/2025-26/383 DOR.RAUG.AUT.REC.306/24.01.041/2025-26 November 28, 2025 Reserve Bank of India (Local Area Banks – Digital Banking Channels Authorisation) Directions, 2025 Table of Contents Chapter I – Preliminary Chapter II – Prudential Requirements Chapter III – Guidelines on Technological Issues in Digital Banking Chapter IV – General Guidelines Chapter V – Exemptions, Repeal and Other Provisions In exercise of the powers conferred under Section 35A of the Banking Regulation Act, 1949 (hereinafter called the Act), the Reserve Bank, being satisfied that it is necessary and expedient in the public interest so to do, hereby, issues the following directions. Chapter I – Preliminary 1. Short Title and Commencement These Directions shall be called the Reserve Bank"
-    ],
-    "analysis_status": "withheld_no_validated_draft",
-    "field_evidence": {}
-  },
-  {
-    "id": "d5f5ee7ccdf354a4",
-    "title": "Reserve Bank of India (Local Area Banks – Branch Authorisation) Directions, 2025",
-    "regulatory_authority": "RBI",
-    "country": "India",
-    "region": "APAC",
-    "state": "National",
-    "law_area": "Corporate and secretarial",
-    "applicability": "Banks, NBFCs and regulated financial entities may be affected.",
-    "description": "Source document captured; no validated automatic draft was produced.",
-    "summary": "Not generated.",
-    "takeaway": "Read the exact primary source.",
-    "notification_date": "2026-09-11",
-    "effective_date": "Not stated — verify in source",
-    "update_type": "Notification",
-    "primary_source_link": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13084",
-    "source_name": "Reserve Bank of India — Master Directions",
-    "collected_at": "2026-09-13T14:08:08.719897+00:00",
-    "source_document_sha256": "2a49366fa48f6e867b0eafcc30f946a5eacd0b60bb685b82c7627c4d6152c867",
-    "source_text_path": "data/source_documents/2a49366fa48f6e867b0eafcc30f946a5eacd0b60bb685b82c7627c4d6152c867.html",
-    "evidence": [
-      "Master Directions | Official Website of Reserve Bank of India Skip to main content Not Pressed Not Pressed Pressed Not Pressed Not Pressed Pressed Not Pressed Change Language हिंदी Search the Website Search Master Directions RBI/DOR/2025-26/224 DOR.LIC.REC.No.143/22-01-001/2025-26 November 28, 2025 Reserve Bank of India (Local Area Banks - Branch Authorisation) Directions, 2025 Table of Contents Chapter-I Preliminary A. Short Title and Commencement B. Applicability C. Definitions Chapter-II Role of Board of Directors A. Board Approved Policy B. Key responsibilities Chapter-III Banking Outlet Authorisation A. Opening of Banking Outlets B. Off-site / Mobile Automated Teller Machines (ATMs), Cash Deposit Machines (CDMs) / Bunch Note Acceptor Machines (BNAMs) Chapter-IV Business Facilitator / Business Correspondent Model A. Business Facilitator / Business Correspondent Model B. Guidelines for Engaging Business Facilitator C. Guidelines for engaging Business Correspondents (BCs) Chapter-V D"
-    ],
-    "analysis_status": "withheld_no_validated_draft",
-    "field_evidence": {}
-  },
-  {
-    "id": "c546557428620612",
-    "title": "Reserve Bank of India (Local Area Banks – Voluntary Amalgamation) Directions, 2025",
-    "regulatory_authority": "RBI",
-    "country": "India",
-    "region": "APAC",
-    "state": "National",
-    "law_area": "Corporate and secretarial",
-    "applicability": "Banks, NBFCs and regulated financial entities may be affected.",
-    "description": "Source document captured; no validated automatic draft was produced.",
-    "summary": "Not generated.",
-    "takeaway": "Read the exact primary source.",
-    "notification_date": "2026-09-11",
-    "effective_date": "Not stated — verify in source",
-    "update_type": "Notification",
-    "primary_source_link": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13085",
-    "source_name": "Reserve Bank of India — Master Directions",
-    "collected_at": "2026-09-13T14:08:14.219881+00:00",
-    "source_document_sha256": "7bafe56a7fff3c32566fc8dbf06ee0d413164feb27fd3323b30596adc9379d9d",
-    "source_text_path": "data/source_documents/7bafe56a7fff3c32566fc8dbf06ee0d413164feb27fd3323b30596adc9379d9d.html",
-    "evidence": [
-      "Master Directions | Official Website of Reserve Bank of India Skip to main content Not Pressed Not Pressed Pressed Not Pressed Not Pressed Pressed Not Pressed Change Language हिंदी Search the Website Search Master Directions RBI/DOR/2025-26/223 DoR.HOL.REC.No.142/16-13-100/2025-26 November 28, 2025 Reserve Bank of India (Local Area Banks - Voluntary Amalgamation) Directions, 2025 Table of Contents Chapter I - Preliminary A. Short Title and Commencement B. Applicability C. Definitions D. Scope Chapter II – Approval by Board of Directors and Shareholders A. Approval by Board of Directors B. Approval by Shareholders Chapter III – Approval or sanction by RBI Chapter IV – Entitlement of dissenting shareholders Chapter V – Norms for buying / selling of shares by promoters Chapter VI – Repeal and Other Provisions A. Repeal and saving B. Application of other laws not barred C. Interpretations Annex In exercise of the powers conferred by Section 44A and Section 35A of the Banking Regulation Act"
-    ],
-    "analysis_status": "withheld_no_validated_draft",
-    "field_evidence": {}
-  },
-  {
-    "id": "2062589b59d78331",
-    "title": "Reserve Bank of India (Local Area Banks – Acquisition and Holding of Shares or Voting Rights) Directions, 2025",
-    "regulatory_authority": "RBI",
-    "country": "India",
-    "region": "APAC",
-    "state": "National",
-    "law_area": "Corporate and secretarial",
-    "applicability": "Banks, NBFCs and regulated financial entities may be affected.",
-    "description": "Source document captured; no validated automatic draft was produced.",
-    "summary": "Not generated.",
-    "takeaway": "Read the exact primary source.",
-    "notification_date": "2026-09-11",
-    "effective_date": "Not stated — verify in source",
-    "update_type": "Notification",
-    "primary_source_link": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13086",
-    "source_name": "Reserve Bank of India — Master Directions",
-    "collected_at": "2026-09-13T14:08:17.144773+00:00",
-    "source_document_sha256": "90331a11231b330d0e38730436e5a1cf0ad6aa2eef352787df7196b5d28b8dc8",
-    "source_text_path": "data/source_documents/90331a11231b330d0e38730436e5a1cf0ad6aa2eef352787df7196b5d28b8dc8.html",
-    "evidence": [
-      "Master Directions | Official Website of Reserve Bank of India Skip to main content Not Pressed Not Pressed Pressed Not Pressed Not Pressed Pressed Not Pressed Change Language हिंदी Search the Website Search Master Directions RBI/DOR/2025-26/222 DOR.HOL.REC.141/16.13.100/2025-26 November 28, 2025 Reserve Bank of India (Local Area Banks – Acquisition and Holding of Shares or Voting Rights) Directions, 2025 Table of Contents Chapter I- Preliminary A. Short Title and Commencement B. Applicability C. Definitions Chapter II- Prior Approval for Acquisition A. Fit and Proper Criteria B. Procedure for prior approval Chapter III- Continuous Monitoring Arrangements A. Due diligence B. Detecting violation of Section 12B (1) of the B R Act, 1949 C. Reporting requirements Chapter IV- Repeal and Other Provisions A. Repeal and saving B. Application of other laws not barred C. Interpretations Form A1 Form A2 Annex I A. Prior approval for acquisition of shares or voting rights in a banking company B. In"
-    ],
-    "analysis_status": "withheld_no_validated_draft",
-    "field_evidence": {}
-  },
-  {
-    "id": "80a09f7db2e8a6ae",
-    "title": "Master Directions - Reserve Bank of India (Priority Sector Lending – Targets and Classification) Directions, 2025 ( Updated as on September 11, 2026 )",
-    "regulatory_authority": "RBI",
-    "country": "India",
-    "region": "APAC",
-    "state": "National",
-    "law_area": "Corporate and secretarial",
-    "applicability": "Banks, NBFCs and regulated financial entities may be affected.",
-    "description": "Source document captured; no validated automatic draft was produced.",
-    "summary": "Not generated.",
-    "takeaway": "Read the exact primary source.",
-    "notification_date": "2026-09-11",
-    "effective_date": "Not stated — verify in source",
-    "update_type": "Notification",
-    "primary_source_link": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=12799",
-    "source_name": "Reserve Bank of India — Master Directions",
-    "collected_at": "2026-09-13T14:09:24.747692+00:00",
-    "source_document_sha256": "bf86a9d113d699999b90a1345718cb0f22daada7344dc79c0517fab315a8f03b",
-    "source_text_path": "data/source_documents/bf86a9d113d699999b90a1345718cb0f22daada7344dc79c0517fab315a8f03b.html",
-    "evidence": [
-      "Master Directions | Official Website of Reserve Bank of India Skip to main content Not Pressed Not Pressed Pressed Not Pressed Not Pressed Pressed Not Pressed Change Language हिंदी Search the Website Search Master Directions RBI/FIDD/2024-25/128 Master Directions FIDD.CO.PSD.BC.13/04.09.001/2024-25 March 24, 2025 (Updated as on September 11, 2026) (Updated as on August 07, 2026) (Updated as on January 19, 2026) The Chairman / Managing Director/ Chief Executive Officer All Commercial Banks including Regional Rural Banks, Small Finance Banks, Local Area Banks and Primary (Urban) Co-operative Banks other than Salary Earners’ Banks Madam/Dear Sir, Master Directions - Reserve Bank of India (Priority Sector Lending – Targets and Classification) Directions, 2025 The Reserve Bank of India has, from time to time, issued a number of instructions/ guidelines to banks relating to Priority Sector Lending (PSL). The Master Directions enclosed incorporate the updated instructions/guidelines on the su"
-    ],
-    "analysis_status": "withheld_no_validated_draft",
-    "field_evidence": {}
-  },
-  {
-    "id": "2ac0bec72ea1b064",
-    "title": "Master Direction - External Commercial Borrowings, Trade Credits and Structured Obligations (Updated as on September 08, 2026) (Supersedes Master Direction - External Commercial Borrowings, Trade Credit, Borrowing and Lending in Foreign Currency by Authorised Dealers and Persons other than Authorised Dealers (Updated as on November 22, 2018))",
-    "regulatory_authority": "RBI",
-    "country": "India",
-    "region": "APAC",
-    "state": "National",
-    "law_area": "Corporate and secretarial",
-    "applicability": "Entities with cross-border transactions, ECBs or foreign investment may be affected.",
-    "description": "Source document captured; no validated automatic draft was produced.",
-    "summary": "Not generated.",
-    "takeaway": "Read the exact primary source.",
-    "notification_date": "2026-09-08",
-    "effective_date": "Not stated — verify in source",
-    "update_type": "Notification",
-    "primary_source_link": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=11510",
-    "source_name": "Reserve Bank of India — Master Directions",
-    "collected_at": "2026-09-13T14:09:43.919352+00:00",
-    "source_document_sha256": "a332a35684b6b593b94c73758d88e89a22ebac1eff756c721b2fe82f166e9943",
-    "source_text_path": "data/source_documents/a332a35684b6b593b94c73758d88e89a22ebac1eff756c721b2fe82f166e9943.html",
-    "evidence": [
-      "Master Directions | Official Website of Reserve Bank of India Skip to main content Not Pressed Not Pressed Pressed Not Pressed Not Pressed Pressed Not Pressed Change Language हिंदी Search the Website Search Master Directions RBI/FED/2018-19/67 FED Master Direction No.5/2018-19 March 26, 2019 ( Updated as on September 08, 2026 ) ( Updated as on February 16, 2026 ) ( Updated as on January 12, 2026 ) ( Updated as on December 22, 2023 ) ( Updated as on September 30, 2022 ) ( Updated as on August 01, 2022 ) ( Updated as on June 09, 2022 ) ( Updated as on December 10, 2021 ) ( Updated as on April 12, 2021 ) ( Updated as on August 08, 2019 ) To All Authorised Dealer Category – I banks and Authorised Banks Madam / Dear Sir, Master Direction - External Commercial Borrowings, Trade Credits and Structured Obligations Transactions on account of External Commercial Borrowings (ECB) and Trade Credit (TC) are governed by sub-section 2 of section 6 of the Foreign Exchange Management Act, 1999 (FEMA). "
-    ],
-    "analysis_status": "withheld_no_validated_draft",
-    "field_evidence": {}
-  },
-  {
-    "id": "78ea8be500f1c890",
-    "title": "RBI: Master Direction — Borrowing and Lending transactions in Indian Rupee between Persons Resident in India and Non-Resident Indians/ Persons of Indian Origin",
-    "regulatory_authority": "RBI",
-    "country": "India",
-    "region": "APAC",
-    "state": "National",
-    "law_area": "Foreign Exchange Management",
-    "applicability": "NBFCs",
-    "description": "RBI has issued a notification concerning Borrowing and Lending transactions in Indian Rupee between Persons Resident in India and Non-Resident Indians/ Persons of Indian Origin.",
-    "summary": "Compiles instructions issued in respect of borrowing and lending transactions in Indian Rupees between persons resident in India and Non-Resident Indians/Persons of Indian Origin, as well as instructions regarding overdraft in INR accounts maintained by a bank outside India with an authorised dealer in India.",
+    "law_area": "Banking and Financial Regulation",
+    "applicability": "Regional Rural Banks",
+    "description": "RBI has issued an amendment concerning the Reserve Bank of India (Regional Rural Banks – Know Your Customer) Amendment Directions, 2026.",
+    "summary": "The Amendment Directions extend the alternative facility of obtaining original certified copies to Foreign Portfolio Investors (FPIs) in paragraph 4(1)(v) of the KYC Directions, 2025.",
     "takeaway": "Review the official document to determine applicability and required action.",
-    "notification_date": "2026-09-08",
-    "effective_date": "January 1, 2016",
-    "update_type": "Notification",
-    "primary_source_link": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=10191",
-    "source_name": "Reserve Bank of India — Master Directions",
-    "collected_at": "2026-09-13T14:09:48.487972+00:00",
-    "source_document_sha256": "1a4ac85d8cf3fbffd6836a71cb10d7d5afefeb43ae525e6efc9c6bca2a8840f7",
-    "source_text_path": "data/source_documents/1a4ac85d8cf3fbffd6836a71cb10d7d5afefeb43ae525e6efc9c6bca2a8840f7.html",
-    "evidence": [
-      "Master Directions | Official Website of Reserve Bank of India Skip to main content Not Pressed Not Pressed Pressed Not Pressed Not Pressed Pressed Not Pressed Change Language हिंदी Search the Website Search Master Directions RBI/FED/2015-16/2 FED Master Direction No. 6/2015-16 January 1, 2016 ( Updated as on September 08, 2026 ) ( Updated as on February 16, 2026 ) To All Authorised Dealer Category – I banks and Authorised Banks Madam/ Dear Sir, Master Direction – Borrowing and Lending transactions in Indian Rupee between Persons Resident in India and Non-Resident Indians/ Persons of Indian Origin Borrowing and lending transactions in Indian Rupees (INR) between persons resident in India and Non-Resident Indians/Persons of Indian Origin are governed by clause (e) of sub-section 3 of section 6 of the Foreign Exchange Management Act, 1999 read with Foreign Exchange Management (Borrowing and Lending in Rupees) Regulations, 2000, notified vide Notification No. FEMA 4/2000-RB dated May 3, 20"
-    ],
-    "analysis_status": "published",
-    "field_evidence": {
-      "title": [
-        "Master Direction – Borrowing and Lending transactions in Indian Rupee between Persons Resident in India and Non-Resident Indians/ Persons of Indian Origin"
-      ],
-      "update_type": [
-        "Notified vide Notification No. FEMA 4/2000-RB dated May 3, 2000 ."
-      ],
-      "applicability": [
-        "To All Authorised Dealer Category – I banks and Authorised Banks"
-      ],
-      "description": [
-        "RBI/FED/2015-16/2 FED Master Direction No. 6/2015-16 January 1, 2016 ( Updated as on September 08, 2026 )",
-        "Master Direction – Borrowing and Lending transactions in Indian Rupee between Persons Resident in India and Non-Resident Indians/ Persons of Indian Origin"
-      ],
-      "summary": [
-        "3. Instructions issued in respect of aforesaid transactions have been compiled in this Master Direction as also instructions regarding overdraft in INR account maintained by a bank outside India with an authorised dealer in India since the latter set of instructions are also part of aforesaid Regulations."
-      ],
-      "takeaway": [
-        "To All Authorised Dealer Category – I banks and Authorised Banks"
-      ],
-      "effective_date": [
-        "January 1, 2016"
-      ]
-    }
-  },
-  {
-    "id": "a9547002966ecb04",
-    "title": "Relief Measures in Areas Affected by Natural Calamities - Reporting through Centralised Information Management System (CIMS) Portal - Introduction of Half-Yearly Return",
-    "regulatory_authority": "RBI",
-    "country": "India",
-    "region": "APAC",
-    "state": "National",
-    "law_area": "Corporate and secretarial",
-    "applicability": "Applicability requires review of the primary source.",
-    "description": "Source document captured; no validated automatic draft was produced.",
-    "summary": "Not generated.",
-    "takeaway": "Read the exact primary source.",
-    "notification_date": "2026-09-02",
-    "effective_date": "Not stated — verify in source",
-    "update_type": "Notification",
-    "primary_source_link": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13692&Mode=0",
-    "source_name": "Reserve Bank of India — Notifications",
-    "collected_at": "2026-09-13T14:06:06.201260+00:00",
-    "source_document_sha256": "0f344c0725147fc8ee4dd1a496676cff96e75e7589319ed73e88973f6ec7b665",
-    "source_text_path": "data/source_documents/0f344c0725147fc8ee4dd1a496676cff96e75e7589319ed73e88973f6ec7b665.html",
-    "evidence": [
-      "Notifications | Official Website of Reserve Bank of India Skip to main content Not Pressed Not Pressed Pressed Not Pressed Not Pressed Pressed Not Pressed Change Language हिंदी Search the Website Search Notifications RBI/2026-27/250 CO.FIDD.FSD.No.S544/05-10-001/2026-27 September 02, 2026 The Chief Executive Officer / Managing Director All Scheduled Commercial Banks (including Regional Rural Banks and Small Finance Banks) All Local Area Banks/ Urban Cooperative Banks/ Rural Cooperative Banks/ Non-Banking Financial Companies / AIFIs Madam / Dear Sir, Relief Measures in Areas Affected by Natural Calamities - Reporting through Centralised Information Management System (CIMS) Portal - Introduction of Half-Yearly Return The regulatory framework governing the relief measures to be extended by the Regulated Entities (REs) in areas affected by natural calamities has been revised vide the amendment directions on Resolution of Stressed Assets dated April 29, 2026 ( list enclosed ), which came in"
-    ],
-    "analysis_status": "withheld_no_validated_draft",
-    "field_evidence": {}
-  },
-  {
-    "id": "e060105ab4aa2b6d",
-    "title": "RBI: Amendment — Reserve Bank of India (Urban Co-operative Banks – Classification, Valuation, and Operation of Investment Portfolio) Second Amendment Directions, 2026",
-    "regulatory_authority": "RBI",
-    "country": "India",
-    "region": "APAC",
-    "state": "National",
-    "law_area": "Banking",
-    "applicability": "Banks",
-    "description": "RBI has issued a amendment concerning the Reserve Bank of India (Urban Co-operative Banks – Classification, Valuation, and Operation of Investment Portfolio) Second Amendment Directions, 2026.",
-    "summary": "The Reserve Bank of India has issued the Reserve Bank of India (Urban Co-operative Banks – Classification, Valuation, and Operation of Investment Portfolio) Second Amendment Directions, 2026, which amend Paragraph 101.(5) and Paragraph 107.(1) of the 2025 Directions to include the Indian Digital Payment Intelligence Corporation (IDPIC) for acquiring membership.",
-    "takeaway": "Review the official document to determine applicability and required action.",
-    "notification_date": "2026-09-02",
-    "effective_date": "September 2, 2026",
+    "notification_date": "2026-09-18",
+    "effective_date": "September 18, 2026",
     "update_type": "Amendment",
-    "primary_source_link": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13691&Mode=0",
+    "primary_source_link": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13702&Mode=0",
     "source_name": "Reserve Bank of India — Notifications",
-    "collected_at": "2026-09-13T14:06:09.830046+00:00",
-    "source_document_sha256": "21761e9171184363c4dff3f2ee29b58a87e05759a6fb2eca7924a9d62b168193",
-    "source_text_path": "data/source_documents/21761e9171184363c4dff3f2ee29b58a87e05759a6fb2eca7924a9d62b168193.html",
+    "collected_at": "2026-09-19T08:59:59.493030+00:00",
+    "source_document_sha256": "26c5b3d8db59ed2fd40d6991ba5b78a7eaa3a6c9737f9834f223a1b2b403986e",
+    "source_text_path": "data/source_documents/26c5b3d8db59ed2fd40d6991ba5b78a7eaa3a6c9737f9834f223a1b2b403986e.html",
     "evidence": [
-      "Notifications | Official Website of Reserve Bank of India Skip to main content Not Pressed Not Pressed Pressed Not Pressed Not Pressed Pressed Not Pressed Change Language हिंदी Search the Website Search Notifications RBI/2026-27/249 DOR.MRG.REC.No.217/00-00-011/2026-27 September 2, 2026 Reserve Bank of India (Urban Co-operative Banks – Classification, Valuation, and Operation of Investment Portfolio) Second Amendment Directions, 2026 Please refer to Chapter VIII of Reserve Bank of India (Urban Co-operative Banks - Classification, Valuation, and Operation of Investment Portfolio) Directions, 2025 dated November 28, 2025 , on Investment in non-SLR securities. In view of the establishment of Indian Digital Payment Intelligence Corporation (IDPIC) as the nation's central digital payment fraud intelligence platform and to enable UCBs to acquire its membership, there is a need to amend the extant instructions. 2. Accordingly, in exercise of the powers conferred by Section 35A of the Banking "
+      "Notifications | Official Website of Reserve Bank of India Skip to main content Not Pressed Not Pressed Pressed Not Pressed Not Pressed Pressed Not Pressed Change Language हिंदी Search the Website Search Notifications RBI/2026-27/260 DOR.AML.REC.222/14.01.004/2026-27 September 18, 2026 Reserve Bank of India (Regional Rural Banks – Know Your Customer) Amendment Directions, 2026 Reserve Bank has issued Reserve Bank of India (Regional Rural Banks – Know Your Customer) Directions, 2025 dated November 28, 2025 (hereinafter referred to as the Directions) in compliance with the provisions of the Prevention of Money Laundering Act, 2002, and the Prevention of Money Laundering (Maintenance of Records) Rules, 2005. The Directions in paragraph 4(1)(v) allow the banks to alternatively obtain the original certified copy which are certified by any one of the authorities / authorised officials mentioned therein in case of Non-Resident Indians (NRIs) and Persons of Indian Origin (PIOs), as defined in F"
     ],
     "analysis_status": "published",
     "field_evidence": {
       "title": [
-        "Reserve Bank of India (Urban Co-operative Banks – Classification, Valuation, and Operation of Investment Portfolio) Second Amendment Directions, 2026"
+        "Reserve Bank of India (Regional Rural Banks – Know Your Customer) Amendment Directions, 2026"
       ],
       "update_type": [
-        "Second Amendment Directions, 2026"
+        "Reserve Bank of India (Regional Rural Banks – Know Your Customer) Amendment Directions, 2026"
       ],
       "applicability": [
-        "Reserve Bank of India (Urban Co-operative Banks – Classification, Valuation, and Operation of Investment Portfolio) Second Amendment Directions, 2026"
+        "Reserve Bank of India (Regional Rural Banks – Know Your Customer) Amendment Directions, 2026"
       ],
       "description": [
-        "Reserve Bank of India (Urban Co-operative Banks – Classification, Valuation, and Operation of Investment Portfolio) Second Amendment Directions, 2026"
+        "Reserve Bank of India (Regional Rural Banks – Know Your Customer) Amendment Directions, 2026"
       ],
       "summary": [
-        "Reserve Bank of India (Urban Co-operative Banks – Classification, Valuation, and Operation of Investment Portfolio) Second Amendment Directions, 2026",
-        "Paragraph 101.(5) shall be substituted by the following, namely:- “101.(5) Equity shares of Umbrella Organization (UO) of UCB sector and Indian Digital Payment Intelligence Corporation (IDPIC) for acquiring membership;”.",
-        "Paragraph 107.(1) shall be substituted by the following, namely:- “107.(1) Equity shares of Market Infrastructure Companies (MICs), Umbrella Organization (UO) of UCB Sector, IDPIC, and CCBs / StCBs, if it becomes necessary to do so for acquiring membership of these entities;”."
-      ],
-      "takeaway": [
-        "Reserve Bank of India (Urban Co-operative Banks – Classification, Valuation, and Operation of Investment Portfolio) Second Amendment Directions, 2026"
-      ],
-      "effective_date": [
-        "September 2, 2026"
-      ]
-    }
-  },
-  {
-    "id": "de1bd3e47f8864bb",
-    "title": "Reserve Bank of India (Urban Co-operative Banks – Classification, Valuation and Operation of Investment Portfolio) Directions, 2025 (Updated as on September 2, 2026)",
-    "regulatory_authority": "RBI",
-    "country": "India",
-    "region": "APAC",
-    "state": "National",
-    "law_area": "Corporate and secretarial",
-    "applicability": "Banks, NBFCs and regulated financial entities may be affected.",
-    "description": "Source document captured; no validated automatic draft was produced.",
-    "summary": "Not generated.",
-    "takeaway": "Read the exact primary source.",
-    "notification_date": "2026-09-02",
-    "effective_date": "Not stated — verify in source",
-    "update_type": "Notification",
-    "primary_source_link": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13021",
-    "source_name": "Reserve Bank of India — Master Directions",
-    "collected_at": "2026-09-13T14:08:35.321579+00:00",
-    "source_document_sha256": "543bc79337d4d0507c50100e0166b2da040d3ddbe3c6b3219e8188b90891f351",
-    "source_text_path": "data/source_documents/543bc79337d4d0507c50100e0166b2da040d3ddbe3c6b3219e8188b90891f351.html",
-    "evidence": [
-      "Master Directions | Official Website of Reserve Bank of India Skip to main content Not Pressed Not Pressed Pressed Not Pressed Not Pressed Pressed Not Pressed Change Language हिंदी Search the Website Search Master Directions RBI/DOR/2025-26/284 DOR.MRG.REC.No.203/00-00-11/2025-26 November 28, 2025 Previous Versions Reserve Bank of India (Urban Co-operative Banks – Classification, Valuation and Operation of Investment Portfolio) Directions, 2025 (Updated as on September 2, 2026) Table of Contents Chapter I: Preliminary A. Short Title and Commencement B. Applicability C. Definitions Chapter II: Role of the Board Chapter III: General Guidelines A. Investment Policy B. General Instructions Chapter IV: Classification of Investments A. Categorization of Investments B. Held to Maturity (HTM) C. Held for Trading (HFT) and Available for Sale (AFS) D. Shifting Among Categories D.1 Shift to/from HTM D.2 Shift from AFS to HFT or Vice Versa Chapter V: Valuation of Investments A. Held to Maturity (H"
-    ],
-    "analysis_status": "withheld_no_validated_draft",
-    "field_evidence": {}
-  },
-  {
-    "id": "9c05ac14e2c6d0ca",
-    "title": "Reserve Bank of India (Urban Co-operative Banks – Interest Rates on Advances) Directions, 2025",
-    "regulatory_authority": "RBI",
-    "country": "India",
-    "region": "APAC",
-    "state": "National",
-    "law_area": "Corporate and secretarial",
-    "applicability": "Banks, NBFCs and regulated financial entities may be affected.",
-    "description": "Source document captured; no validated automatic draft was produced.",
-    "summary": "Not generated.",
-    "takeaway": "Read the exact primary source.",
-    "notification_date": "2026-09-02",
-    "effective_date": "Not stated — verify in source",
-    "update_type": "Notification",
-    "primary_source_link": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13022",
-    "source_name": "Reserve Bank of India — Master Directions",
-    "collected_at": "2026-09-13T14:08:40.921886+00:00",
-    "source_document_sha256": "7d0eeb9d358ec4e0b2487da88fa5d6d628d68f7e112c8819605f081376a3467a",
-    "source_text_path": "data/source_documents/7d0eeb9d358ec4e0b2487da88fa5d6d628d68f7e112c8819605f081376a3467a.html",
-    "evidence": [
-      "Master Directions | Official Website of Reserve Bank of India Skip to main content Not Pressed Not Pressed Pressed Not Pressed Not Pressed Pressed Not Pressed Change Language हिंदी Search the Website Search Master Directions RBI/DOR/2025-26/283 DOR.CRE.REC.202./13.03.000/2025-26 November 28, 2025 Reserve Bank of India (Urban Co-operative Banks - Interest Rates on Advances) Directions, 2025 Table of Contents Chapter I - Preliminary Chapter II - General guidelines Chapter III - Repeal and Other Provisions In exercise of the powers conferred by Sections 21 and 35A read with Section 56 of the Banking Regulation Act, 1949, and all other provisions / laws enabling the Reserve Bank of India (‘RBI’) in this regard, RBI being satisfied that it is necessary and expedient in the public interest so to do, hereby, issues the Directions hereinafter specified. Chapter I - Preliminary A. Short Title and Commencement 1. These Directions shall be called the Reserve Bank of India (Urban Co-operative Bank"
-    ],
-    "analysis_status": "withheld_no_validated_draft",
-    "field_evidence": {}
-  },
-  {
-    "id": "7b71a3ac8dca690d",
-    "title": "Reserve Bank of India (Urban Co-operative Banks – Transfer and Distribution of Credit Risk) Directions, 2025",
-    "regulatory_authority": "RBI",
-    "country": "India",
-    "region": "APAC",
-    "state": "National",
-    "law_area": "Corporate and secretarial",
-    "applicability": "Banks, NBFCs and regulated financial entities may be affected.",
-    "description": "Source document captured; no validated automatic draft was produced.",
-    "summary": "Not generated.",
-    "takeaway": "Read the exact primary source.",
-    "notification_date": "2026-09-02",
-    "effective_date": "Not stated — verify in source",
-    "update_type": "Notification",
-    "primary_source_link": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13023",
-    "source_name": "Reserve Bank of India — Master Directions",
-    "collected_at": "2026-09-13T14:08:44.742216+00:00",
-    "source_document_sha256": "22f3915af7fee54b50161ca630b817cbd45277f681bda837a7a1024a34d2e75b",
-    "source_text_path": "data/source_documents/22f3915af7fee54b50161ca630b817cbd45277f681bda837a7a1024a34d2e75b.html",
-    "evidence": [
-      "Master Directions | Official Website of Reserve Bank of India Skip to main content Not Pressed Not Pressed Pressed Not Pressed Not Pressed Pressed Not Pressed Change Language हिंदी Search the Website Search Master Directions RBI/DOR/2025-26/282 DOR.STR.REC.201/21.04.048/2025-26 November 28, 2025 Reserve Bank of India (Urban Co-operative Banks - Transfer and Distribution of Credit Risk) Directions, 2025 Table of Contents Chapter I - Preliminary PART A - TRANSFER OF LOAN EXPOSURES Chapter I - Scope and Definitions Chapter II - General Conditions applicable for all loan transfers Chapter III - Transfer of stressed loans PART B - OTHER TYPES OF LENDING AND RISK TRANSFER ARRANGEMENTS Chapter I - Lending under Consortium / Multiple Banking Arrangements PART C: REPEAL AND OTHER PROVISIONS Annex I Annex II Annex III Introduction Credit Risk Transfer and Distributions are resorted to by lending institutions for multitude of reasons ranging from liquidity management and rebalancing their exposur"
-    ],
-    "analysis_status": "withheld_no_validated_draft",
-    "field_evidence": {}
-  },
-  {
-    "id": "101162dce138d147",
-    "title": "Reserve Bank of India (Urban Co-operative Banks – Concentration Risk Management) Directions, 2025",
-    "regulatory_authority": "RBI",
-    "country": "India",
-    "region": "APAC",
-    "state": "National",
-    "law_area": "Corporate and secretarial",
-    "applicability": "Banks, NBFCs and regulated financial entities may be affected.",
-    "description": "Source document captured; no validated automatic draft was produced.",
-    "summary": "Not generated.",
-    "takeaway": "Read the exact primary source.",
-    "notification_date": "2026-09-02",
-    "effective_date": "Not stated — verify in source",
-    "update_type": "Notification",
-    "primary_source_link": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13024",
-    "source_name": "Reserve Bank of India — Master Directions",
-    "collected_at": "2026-09-13T14:08:49.167675+00:00",
-    "source_document_sha256": "d718728cea0721e70e52d87a312949657aa8d3c41b438651855885685c337dd4",
-    "source_text_path": "data/source_documents/d718728cea0721e70e52d87a312949657aa8d3c41b438651855885685c337dd4.html",
-    "evidence": [
-      "Master Directions | Official Website of Reserve Bank of India Skip to main content Not Pressed Not Pressed Pressed Not Pressed Not Pressed Pressed Not Pressed Change Language हिंदी Search the Website Search Master Directions RBI/DOR/2025-26/281 DOR.CRE.REC.200/07-03-005/2025-26 November 28, 2025 Reserve Bank of India (Urban Co-operative Banks - Concentration Risk Management) Directions, 2025 Table of Contents Chapter I - Preliminary Chapter II - Exposure Norms Chapter III - Repeal and other provisions Introduction The concentration of a bank’s exposures to a single counterparty or a group of connected counterparties poses significant risks. The Reserve Bank of India (RBI), recognizing the imperative of robust risk management, therefore introduced prudential exposure limits for Urban Co-operative Banks (UCBs) in May 1994 with reference to their demand and time liabilities (DTL). These norms were revised in January 1996 and exposure norms were redefined with reference to a bank’s Capital"
-    ],
-    "analysis_status": "withheld_no_validated_draft",
-    "field_evidence": {}
-  },
-  {
-    "id": "63b210abec28ea83",
-    "title": "Master Direction - Deposits and Accounts ( Updated as on September 02, 2026 )",
-    "regulatory_authority": "RBI",
-    "country": "India",
-    "region": "APAC",
-    "state": "National",
-    "law_area": "Corporate and secretarial",
-    "applicability": "Banks, NBFCs and regulated financial entities may be affected.",
-    "description": "Source document captured; no validated automatic draft was produced.",
-    "summary": "Not generated.",
-    "takeaway": "Read the exact primary source.",
-    "notification_date": "2026-09-02",
-    "effective_date": "Not stated — verify in source",
-    "update_type": "Notification",
-    "primary_source_link": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=10198",
-    "source_name": "Reserve Bank of India — Master Directions",
-    "collected_at": "2026-09-13T14:09:51.630282+00:00",
-    "source_document_sha256": "58da8ca9049d7bc92c2781922a067179ded2a84cbb46817e4cbad11f291f24b7",
-    "source_text_path": "data/source_documents/58da8ca9049d7bc92c2781922a067179ded2a84cbb46817e4cbad11f291f24b7.html",
-    "evidence": [
-      "Master Directions | Official Website of Reserve Bank of India Skip to main content Not Pressed Not Pressed Pressed Not Pressed Not Pressed Pressed Not Pressed Change Language हिंदी Search the Website Search Master Directions RBI/FED/2015-16/9 FED Master Direction No. 14/2015-16 January 1, 2016 ( Updated as on September 02, 2026 ) ( Updated as on June 29, 2026 ) ( Updated as on October 09, 2025 ) (Updated as on April 16, 2025 ) ( Updated as on January 16, 2025 ) (Updated as on January 09, 2020*) To, All Authorised Dealer Category – I banks and Authorised banks Madam / Sir, Master Direction - Deposits and Accounts Opening, holding and maintaining foreign currency accounts by a person resident in India is regulated in terms of section 9 of the Foreign Exchange Management Act, 1999 (FEMA) read with Foreign Exchange Management (Foreign Currency Accounts by a person resident in India) Regulations, 2015 issued vide 1 Notification No. FEMA 10(R)/2015-RB dated January 21, 2016 . Maintenance of "
-    ],
-    "analysis_status": "withheld_no_validated_draft",
-    "field_evidence": {}
-  },
-  {
-    "id": "8e5e6904acd2c610",
-    "title": "Reserve Bank of India (Commercial Banks – Interest Rate on Deposits) Directions, 2025 (Updated as on August 25, 2026)",
-    "regulatory_authority": "RBI",
-    "country": "India",
-    "region": "APAC",
-    "state": "National",
-    "law_area": "Corporate and secretarial",
-    "applicability": "Banks, NBFCs and regulated financial entities may be affected.",
-    "description": "Source document captured; no validated automatic draft was produced.",
-    "summary": "Not generated.",
-    "takeaway": "Read the exact primary source.",
-    "notification_date": "2026-08-25",
-    "effective_date": "Not stated — verify in source",
-    "update_type": "Notification",
-    "primary_source_link": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13157",
-    "source_name": "Reserve Bank of India — Master Directions",
-    "collected_at": "2026-09-13T14:06:26.080338+00:00",
-    "source_document_sha256": "7f67a2ca7dcb5180d3392ca37e94292884d03ff5eaa1015749560893ef2865e5",
-    "source_text_path": "data/source_documents/7f67a2ca7dcb5180d3392ca37e94292884d03ff5eaa1015749560893ef2865e5.html",
-    "evidence": [
-      "Master Directions | Official Website of Reserve Bank of India Skip to main content Not Pressed Not Pressed Pressed Not Pressed Not Pressed Pressed Not Pressed Change Language हिंदी Search the Website Search Master Directions RBI/DOR/2025-26/153 DOR.SOG(SPE).REC.72/13.03.00/2025-26 November 28, 2025 Previous Versions Reserve Bank of India (Commercial Banks – Interest Rate on Deposits) Directions, 2025 (Updated as on August 25, 2026) Table of Contents Chapter I: Preliminary A. Short Title and Commencement B. Objective C. Applicability D. Definitions Chapter II: General Guidelines (Interest Rate Framework) Chapter III: Domestic Rupee Deposits A. Interest Rate on Domestic Current Account B. Interest Rate on Domestic Savings Deposit C. Interest Rate on Domestic Term Deposits D. Payment of Additional Interest on Domestic Deposits E. Interest on Overdue Domestic Deposits F. Floating Rate Domestic Term Deposits G. Periodicity of Payment of Interest on Domestic Savings Deposit H. Interest Payab"
-    ],
-    "analysis_status": "withheld_no_validated_draft",
-    "field_evidence": {}
-  },
-  {
-    "id": "f2cbf87a0b79186b",
-    "title": "Reserve Bank of India (Commercial Banks – Resource Raising Norms) Directions, 2025",
-    "regulatory_authority": "RBI",
-    "country": "India",
-    "region": "APAC",
-    "state": "National",
-    "law_area": "Corporate and secretarial",
-    "applicability": "Banks, NBFCs and regulated financial entities may be affected.",
-    "description": "Source document captured; no validated automatic draft was produced.",
-    "summary": "Not generated.",
-    "takeaway": "Read the exact primary source.",
-    "notification_date": "2026-08-25",
-    "effective_date": "Not stated — verify in source",
-    "update_type": "Notification",
-    "primary_source_link": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13158",
-    "source_name": "Reserve Bank of India — Master Directions",
-    "collected_at": "2026-09-13T14:06:48.784042+00:00",
-    "source_document_sha256": "69b3ee3109c358deaafb1131cc72127dae104078a03ff33d2da59467cf7c88c3",
-    "source_text_path": "data/source_documents/69b3ee3109c358deaafb1131cc72127dae104078a03ff33d2da59467cf7c88c3.html",
-    "evidence": [
-      "Master Directions | Official Website of Reserve Bank of India Skip to main content Not Pressed Not Pressed Pressed Not Pressed Not Pressed Pressed Not Pressed Change Language हिंदी Search the Website Search Master Directions RBI/DoR/2025-26/152 DoR.CRE.REC.71/08.12.014/2025-26 November 28, 2025 Reserve Bank of India (Commercial Banks - Resource Raising Norms) Directions, 2025 Table of Contents Chapter I - Preliminary A. Short Title and Commencement B. Applicability Chapter II - Issue of Long-Term Bonds for Financing Infrastructure Sub-Sectors Chapter III - Repeal and Other Provisions A. Repeal and Saving B. Application of other laws not barred C. Interpretations In exercise of the powers conferred under Sections 35A of the Banking Regulation Act, 1949, the Reserve Bank of India, being satisfied that it is necessary and expedient in the public interest and in the interest of financial sector policy so to do, hereby, issues the Directions hereinafter specified. Chapter I - Preliminary A."
-    ],
-    "analysis_status": "withheld_no_validated_draft",
-    "field_evidence": {}
-  },
-  {
-    "id": "55c5e997fb55c2ff",
-    "title": "Reserve Bank of India (Commercial Banks – Cash Reserve Ratio and Statutory Liquidity Ratio) Directions, 2025 (Updated as on August 25, 2026)",
-    "regulatory_authority": "RBI",
-    "country": "India",
-    "region": "APAC",
-    "state": "National",
-    "law_area": "Corporate and secretarial",
-    "applicability": "Banks, NBFCs and regulated financial entities may be affected.",
-    "description": "Source document captured; no validated automatic draft was produced.",
-    "summary": "Not generated.",
-    "takeaway": "Read the exact primary source.",
-    "notification_date": "2026-08-25",
-    "effective_date": "Not stated — verify in source",
-    "update_type": "Notification",
-    "primary_source_link": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13160",
-    "source_name": "Reserve Bank of India — Master Directions",
-    "collected_at": "2026-09-13T14:06:52.448532+00:00",
-    "source_document_sha256": "49d3266beee4d9d2a95b3d168b32824618e0f0deffb3fffda6d04e7615d7f416",
-    "source_text_path": "data/source_documents/49d3266beee4d9d2a95b3d168b32824618e0f0deffb3fffda6d04e7615d7f416.html",
-    "evidence": [
-      "Master Directions | Official Website of Reserve Bank of India Skip to main content Not Pressed Not Pressed Pressed Not Pressed Not Pressed Pressed Not Pressed Change Language हिंदी Search the Website Search Master Directions RBI/DOR/2025-26/150 DOR.RET.REC.69/12-01-001/2025-26 November 28, 2025 Previous Versions Reserve Bank of India (Commercial Banks – Cash Reserve Ratio and Statutory Liquidity Ratio) Directions, 2025 (Updated as on August 25, 2026) Table of Contents Chapter I - Preliminary Chapter II - Cash Reserve Ratio (CRR) Chapter III - Statutory Liquidity Ratio (SLR) Chapter IV - Procedure for computation of SLR Chapter V - Reporting Chapter VI - Penalties Chapter VII - Repeal And Other Provisions Annex I Annex II In exercise of the powers conferred by Section 35A of the Banking Regulation Act, 1949 and pursuant to Section 42 of the Reserve Bank of India Act, 1934 and Sections 18 and 24 of Banking Regulation Act, 1949, as amended from time to time, and all other provisions / law"
-    ],
-    "analysis_status": "withheld_no_validated_draft",
-    "field_evidence": {}
-  },
-  {
-    "id": "e5dc794abba38951",
-    "title": "Reserve Bank of India (Commercial Banks - Governance) Directions, 2025",
-    "regulatory_authority": "RBI",
-    "country": "India",
-    "region": "APAC",
-    "state": "National",
-    "law_area": "Corporate and secretarial",
-    "applicability": "Banks, NBFCs and regulated financial entities may be affected.",
-    "description": "Source document captured; no validated automatic draft was produced.",
-    "summary": "Not generated.",
-    "takeaway": "Read the exact primary source.",
-    "notification_date": "2026-08-25",
-    "effective_date": "Not stated — verify in source",
-    "update_type": "Notification",
-    "primary_source_link": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13161",
-    "source_name": "Reserve Bank of India — Master Directions",
-    "collected_at": "2026-09-13T14:06:57.218957+00:00",
-    "source_document_sha256": "21547a7cd53553e421cff4b5a371d650b866ff05d21bbfd5d33c2ea373eb491b",
-    "source_text_path": "data/source_documents/21547a7cd53553e421cff4b5a371d650b866ff05d21bbfd5d33c2ea373eb491b.html",
-    "evidence": [
-      "Master Directions | Official Website of Reserve Bank of India Skip to main content Not Pressed Not Pressed Pressed Not Pressed Not Pressed Pressed Not Pressed Change Language हिंदी Search the Website Search Master Directions RBI/DOR/2025-26/149 DOR.HGG.GOV. No.68/29.67.001/2025-26 November 28, 2025 Reserve Bank of India (Commercial Banks - Governance) Directions, 2025 Table of Contents Chapter-I Preliminary A. Short title and commencement B. Applicability C. Definitions Chapter-II Public Sector Banks A. Role of the Board B. Board Structure and Practices C. Committees of the Board D. Fit and Proper’ Criteria for Elected Directors E. Appointment of Chief Risk Officer F. Appointment of Chief Vigilance Officer G. Appointment of Chief Financial Officer and Chief Technical Officer H. Appointment of Company Secretary I. Appointment of Nominee Directors on assisted companies Chapter-III Private Sector Banks A. Constitution of Board and Appointment of Directors B. MD&CEO / CEO, Part-time Chairm"
-    ],
-    "analysis_status": "withheld_no_validated_draft",
-    "field_evidence": {}
-  },
-  {
-    "id": "ec7ca6e7f49328fc",
-    "title": "Reserve Bank of India (Small Finance Banks – Interest Rate on Deposits) Directions, 2025 (Updated as on August 25, 2026)",
-    "regulatory_authority": "RBI",
-    "country": "India",
-    "region": "APAC",
-    "state": "National",
-    "law_area": "Corporate and secretarial",
-    "applicability": "Banks, NBFCs and regulated financial entities may be affected.",
-    "description": "Source document captured; no validated automatic draft was produced.",
-    "summary": "Not generated.",
-    "takeaway": "Read the exact primary source.",
-    "notification_date": "2026-08-25",
-    "effective_date": "Not stated — verify in source",
-    "update_type": "Notification",
-    "primary_source_link": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13125",
-    "source_name": "Reserve Bank of India — Master Directions",
-    "collected_at": "2026-09-13T14:07:02.750356+00:00",
-    "source_document_sha256": "976e83db2c2f0b23e71a8d00cd6733fef34fba335b2da8d629252b6aaabffd9d",
-    "source_text_path": "data/source_documents/976e83db2c2f0b23e71a8d00cd6733fef34fba335b2da8d629252b6aaabffd9d.html",
-    "evidence": [
-      "Master Directions | Official Website of Reserve Bank of India Skip to main content Not Pressed Not Pressed Pressed Not Pressed Not Pressed Pressed Not Pressed Change Language हिंदी Search the Website Search Master Directions RBI/DOR/2025-26/184 DOR.SOG(SPE).REC.103/13.03.00/2025-26 November 28, 2025 Previous Versions Reserve Bank of India (Small Finance Banks – Interest Rate on Deposits) Directions, 2025 (Updated as on August 25, 2026) Table of Contents Chapter I : Preliminary A. Short Title and Commencement B. Objective C. Applicability D. Definitions Chapter II : General Guidelines (Interest Rate Framework) Chapter III : Domestic Rupee Deposits A. Interest Rate on Domestic Current Account B. Interest Rate on Domestic Savings Deposit C. Interest Rate on Domestic Term Deposits D. Payment of Additional Interest on Domestic Deposits E. Interest on Overdue Domestic Deposits F. Floating Rate Domestic Term Deposits G. Periodicity of Payment of Interest on Domestic Savings Deposit H. Interes"
-    ],
-    "analysis_status": "withheld_no_validated_draft",
-    "field_evidence": {}
-  },
-  {
-    "id": "9b9059b451fb60d8",
-    "title": "Reserve Bank of India (Small Finance Banks - Resource Raising Norms) Directions, 2025",
-    "regulatory_authority": "RBI",
-    "country": "India",
-    "region": "APAC",
-    "state": "National",
-    "law_area": "Corporate and secretarial",
-    "applicability": "Banks, NBFCs and regulated financial entities may be affected.",
-    "description": "Source document captured; no validated automatic draft was produced.",
-    "summary": "Not generated.",
-    "takeaway": "Read the exact primary source.",
-    "notification_date": "2026-08-25",
-    "effective_date": "Not stated — verify in source",
-    "update_type": "Notification",
-    "primary_source_link": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13126",
-    "source_name": "Reserve Bank of India — Master Directions",
-    "collected_at": "2026-09-13T14:07:06.226460+00:00",
-    "source_document_sha256": "3b835237f5f562e019358936d7217b7145ac10f1b06a04d6bc78259973e45e83",
-    "source_text_path": "data/source_documents/3b835237f5f562e019358936d7217b7145ac10f1b06a04d6bc78259973e45e83.html",
-    "evidence": [
-      "Master Directions | Official Website of Reserve Bank of India Skip to main content Not Pressed Not Pressed Pressed Not Pressed Not Pressed Pressed Not Pressed Change Language हिंदी Search the Website Search Master Directions RBI/DoR/2025-26/183 DoR.CRE.REC.102/08.12.014/2025-26 November 28, 2025 Reserve Bank of India (Small Finance Banks - Resource Raising Norms) Directions, 2025 Table of Contents Chapter I - Preliminary A. Short Title and Commencement B. Applicability Chapter II - Issue of Long-Term Bonds for Financing Infrastructure Sub-Sectors Chapter III - Repeal and Other Provisions A. Repeal and Saving B. Application of other laws not barred C. Interpretations In exercise of the powers conferred under Sections 35A of the Banking Regulation Act, 1949, the Reserve Bank of India, being satisfied that it is necessary and expedient in the public interest and in the interest of financial sector policy so to do, hereby, issues the Directions hereinafter specified. Chapter I - Preliminar"
-    ],
-    "analysis_status": "withheld_no_validated_draft",
-    "field_evidence": {}
-  },
-  {
-    "id": "57cc2edd4c7a5ac4",
-    "title": "Reserve Bank of India (Small Finance Banks – Cash Reserve Ratio and Statutory Liquidity Ratio) Directions, 2025 (Updated as on August 25, 2026)",
-    "regulatory_authority": "RBI",
-    "country": "India",
-    "region": "APAC",
-    "state": "National",
-    "law_area": "Corporate and secretarial",
-    "applicability": "Banks, NBFCs and regulated financial entities may be affected.",
-    "description": "Source document captured; no validated automatic draft was produced.",
-    "summary": "Not generated.",
-    "takeaway": "Read the exact primary source.",
-    "notification_date": "2026-08-25",
-    "effective_date": "Not stated — verify in source",
-    "update_type": "Notification",
-    "primary_source_link": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13128",
-    "source_name": "Reserve Bank of India — Master Directions",
-    "collected_at": "2026-09-13T14:07:10.469579+00:00",
-    "source_document_sha256": "ac71980c39077c28c795de134593fe7a8fcfa80a6973c9c478ba79bbbc4eacda",
-    "source_text_path": "data/source_documents/ac71980c39077c28c795de134593fe7a8fcfa80a6973c9c478ba79bbbc4eacda.html",
-    "evidence": [
-      "Master Directions | Official Website of Reserve Bank of India Skip to main content Not Pressed Not Pressed Pressed Not Pressed Not Pressed Pressed Not Pressed Change Language हिंदी Search the Website Search Master Directions RBI/DOR/2025-26/181 DOR.RET.REC.100/12-01-001/2025-26 November 28, 2025 Previous Versions Reserve Bank of India (Small Finance Banks – Cash Reserve Ratio and Statutory Liquidity Ratio) Directions, 2025 (Updated as on August 25, 2026) Table of Contents Chapter I - Preliminary Chapter II - Cash Reserve Ratio (CRR) Chapter III - Statutory Liquidity Ratio (SLR) Chapter IV - Procedure for computation of SLR Chapter V - Reporting Chapter VI - Penalties Chapter VII - Repeal And Other Provisions Annex I Annex II In exercise of the powers conferred by Section 35A of the Banking Regulation Act, 1949 and pursuant to Section 42 of the Reserve Bank of India Act, 1934 and Sections 18 and 24 of Banking Regulation Act, 1949, as amended from time to time, and all other provisions /"
-    ],
-    "analysis_status": "withheld_no_validated_draft",
-    "field_evidence": {}
-  },
-  {
-    "id": "96b336d6e5d761e6",
-    "title": "Reserve Bank of India (Small Finance Banks – Governance) Directions, 2025",
-    "regulatory_authority": "RBI",
-    "country": "India",
-    "region": "APAC",
-    "state": "National",
-    "law_area": "Corporate and secretarial",
-    "applicability": "Banks, NBFCs and regulated financial entities may be affected.",
-    "description": "Source document captured; no validated automatic draft was produced.",
-    "summary": "Not generated.",
-    "takeaway": "Read the exact primary source.",
-    "notification_date": "2026-08-25",
-    "effective_date": "Not stated — verify in source",
-    "update_type": "Notification",
-    "primary_source_link": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13129",
-    "source_name": "Reserve Bank of India — Master Directions",
-    "collected_at": "2026-09-13T14:07:15.644103+00:00",
-    "source_document_sha256": "e29a8a599a5cae2b072d2d1c9fe6b77b61eaa34c1f0c67dec31eb236b14b27cd",
-    "source_text_path": "data/source_documents/e29a8a599a5cae2b072d2d1c9fe6b77b61eaa34c1f0c67dec31eb236b14b27cd.html",
-    "evidence": [
-      "Master Directions | Official Website of Reserve Bank of India Skip to main content Not Pressed Not Pressed Pressed Not Pressed Not Pressed Pressed Not Pressed Change Language हिंदी Search the Website Search Master Directions RBI/DOR/2025-26/180 DOR.HGG.GOV.No.99/29.67.001/2025-26 November 28, 2025 Reserve Bank of India (Small Finance Banks - Governance) Directions, 2025 Table of Contents Chapter I - Preliminary A. Short title and commencement B. Applicability C. Definitions Chapter II – Constitution of Board and Appointment of Directors Chapter III – MD&CEO, Part-time Chairman and Whole-time Directors Chapter IV – Role of the Board and Individual Directors Chapter V – Board Structure and Practices Chapter VI – Committees of the Board A. Audit Committee of the Board B. Risk Management Committee C. Nomination and Remuneration Committee Chapter VII – Appointment of Chief Risk Officer Chapter VIII – Appointment of Chief Financial Officer and Chief Technical Officer Chapter IX – Remuneratio"
-    ],
-    "analysis_status": "withheld_no_validated_draft",
-    "field_evidence": {}
-  },
-  {
-    "id": "90ed3b683d19ba7c",
-    "title": "Reserve Bank of India (Local Area Banks – Interest Rate on Deposits) Directions, 2025 (Updated as on August 25, 2026)",
-    "regulatory_authority": "RBI",
-    "country": "India",
-    "region": "APAC",
-    "state": "National",
-    "law_area": "Corporate and secretarial",
-    "applicability": "Banks, NBFCs and regulated financial entities may be affected.",
-    "description": "Source document captured; no validated automatic draft was produced.",
-    "summary": "Not generated.",
-    "takeaway": "Read the exact primary source.",
-    "notification_date": "2026-08-25",
-    "effective_date": "Not stated — verify in source",
-    "update_type": "Notification",
-    "primary_source_link": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13079",
-    "source_name": "Reserve Bank of India — Master Directions",
-    "collected_at": "2026-09-13T14:07:19.660834+00:00",
-    "source_document_sha256": "b1fa61ff84bce24edc0bf4568d23361dff126a40f4704352979a156a027c69f1",
-    "source_text_path": "data/source_documents/b1fa61ff84bce24edc0bf4568d23361dff126a40f4704352979a156a027c69f1.html",
-    "evidence": [
-      "Master Directions | Official Website of Reserve Bank of India Skip to main content Not Pressed Not Pressed Pressed Not Pressed Not Pressed Pressed Not Pressed Change Language हिंदी Search the Website Search Master Directions RBI/DOR/2025-26/228 DOR.SOG(SPE).REC.147/13.03.00/2025-26 November 28, 2025 Previous Versions Reserve Bank of India (Local Area Banks – Interest Rate on Deposits) Directions, 2025 (Updated as on August 25, 2026) Table of Contents Chapter I : Preliminary A. Short Title and Commencement B. Objective C. Applicability D. Definitions Chapter II : General Guidelines (Interest Rate Framework) Chapter III : Domestic Rupee Deposits A. Interest Rate on Domestic Current Account B. Interest Rate on Domestic Savings Deposit C. Interest Rate on Domestic Term Deposits D. Payment of Additional Interest on Domestic Deposits E. Interest on Overdue Domestic Deposits F. Floating Rate Domestic Term Deposits G. Periodicity of Payment of Interest on Domestic Savings Deposit H. Interest P"
-    ],
-    "analysis_status": "withheld_no_validated_draft",
-    "field_evidence": {}
-  },
-  {
-    "id": "00826d830fe95baf",
-    "title": "Reserve Bank of India (Local Area Banks – Prudential Norms on Capital Adequacy) Directions, 2025",
-    "regulatory_authority": "RBI",
-    "country": "India",
-    "region": "APAC",
-    "state": "National",
-    "law_area": "Corporate and secretarial",
-    "applicability": "Banks, NBFCs and regulated financial entities may be affected.",
-    "description": "Source document captured; no validated automatic draft was produced.",
-    "summary": "Not generated.",
-    "takeaway": "Read the exact primary source.",
-    "notification_date": "2026-08-25",
-    "effective_date": "Not stated — verify in source",
-    "update_type": "Notification",
-    "primary_source_link": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13080",
-    "source_name": "Reserve Bank of India — Master Directions",
-    "collected_at": "2026-09-13T14:07:51.055964+00:00",
-    "source_document_sha256": "4369955c2d7093104bf7e1cb48f00ba4378e8a1de7209d8fc0141e44276e460a",
-    "source_text_path": "data/source_documents/4369955c2d7093104bf7e1cb48f00ba4378e8a1de7209d8fc0141e44276e460a.html",
-    "evidence": [
-      "Master Directions | Official Website of Reserve Bank of India Skip to main content Not Pressed Not Pressed Pressed Not Pressed Not Pressed Pressed Not Pressed Change Language हिंदी Search the Website Search Master Directions RBI/DOR/2025-26/227 DOR.CAP.REC.146/21-01-002/2025-26 November 28, 2025 Reserve Bank of India (Local Area Banks - Prudential Norms on Capital Adequacy) Directions, 2025 Table of Contents Chapter I Preliminary A Short title and commencement B Applicability C Definitions Chapter II Regulatory capital A Minimum regulatory capital B Definition of capital funds C Tier 1 capital D Tier 2 capital E Deductions from computation of capital funds F Limit for Tier 2 elements G Norms on cross holdings H Capital for subsidiaries Chapter III Calculation of risk weighted assets (RWAs) A Capital charge for credit risk B Capital charge for market risk C Capital charge for interest rate derivatives D Calculation of total risk weighted assets (RWAs) and capital ratio Chapter IV Repeal"
-    ],
-    "analysis_status": "withheld_no_validated_draft",
-    "field_evidence": {}
-  },
-  {
-    "id": "eaadf927f473f0ac",
-    "title": "Reserve Bank of India (Regional Rural Banks – Interest Rate on Deposits) Directions, 2025 (Updated as on August 25, 2026)",
-    "regulatory_authority": "RBI",
-    "country": "India",
-    "region": "APAC",
-    "state": "National",
-    "law_area": "Corporate and secretarial",
-    "applicability": "Banks, NBFCs and regulated financial entities may be affected.",
-    "description": "Source document captured; no validated automatic draft was produced.",
-    "summary": "Not generated.",
-    "takeaway": "Read the exact primary source.",
-    "notification_date": "2026-08-25",
-    "effective_date": "Not stated — verify in source",
-    "update_type": "Notification",
-    "primary_source_link": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13054",
-    "source_name": "Reserve Bank of India — Master Directions",
-    "collected_at": "2026-09-13T14:08:22.330467+00:00",
-    "source_document_sha256": "6444084733cab2ac994439ca68f36bca3f609577b3635264b634eb7573463bbc",
-    "source_text_path": "data/source_documents/6444084733cab2ac994439ca68f36bca3f609577b3635264b634eb7573463bbc.html",
-    "evidence": [
-      "Master Directions | Official Website of Reserve Bank of India Skip to main content Not Pressed Not Pressed Pressed Not Pressed Not Pressed Pressed Not Pressed Change Language हिंदी Search the Website Search Master Directions RBI/DOR/2025-26/252 DOR.SOG(SPE).REC.171/13.03.00/2025-26 November 28, 2025 Previous Versions Reserve Bank of India (Regional Rural Banks – Interest Rate on Deposits) Directions, 2025 (Updated as on August 25, 2026) Table of Contents Chapter I: Preliminary A. Short Title and Commencement B. Objective C. Applicability D. Definitions Chapter II: General Guidelines (Interest Rate Framework) Chapter III: Domestic Rupee Deposits A. Interest Rate on Domestic Current Account B. Interest Rate on Domestic Savings Deposit C. Interest Rate on Domestic Term Deposits D. Payment of Additional Interest on Domestic Deposits E. Interest on Overdue Domestic Deposits F. Floating Rate Domestic Term Deposits G. Periodicity of Payment of Interest on Domestic Savings Deposit H. Interest "
-    ],
-    "analysis_status": "withheld_no_validated_draft",
-    "field_evidence": {}
-  },
-  {
-    "id": "cb09308bf670ec48",
-    "title": "Reserve Bank of India (Regional Rural Banks – Cash Reserve Ratio and Statutory Liquidity Ratio) Directions, 2025 (Updated as on August 25, 2026)",
-    "regulatory_authority": "RBI",
-    "country": "India",
-    "region": "APAC",
-    "state": "National",
-    "law_area": "Corporate and secretarial",
-    "applicability": "Banks, NBFCs and regulated financial entities may be affected.",
-    "description": "Source document captured; no validated automatic draft was produced.",
-    "summary": "Not generated.",
-    "takeaway": "Read the exact primary source.",
-    "notification_date": "2026-08-25",
-    "effective_date": "Not stated — verify in source",
-    "update_type": "Notification",
-    "primary_source_link": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13056",
-    "source_name": "Reserve Bank of India — Master Directions",
-    "collected_at": "2026-09-13T14:08:27.302720+00:00",
-    "source_document_sha256": "17f21e3f018e2aa8fee478058bc026d3f153f23b1161c920d8b3547773de9421",
-    "source_text_path": "data/source_documents/17f21e3f018e2aa8fee478058bc026d3f153f23b1161c920d8b3547773de9421.html",
-    "evidence": [
-      "Master Directions | Official Website of Reserve Bank of India Skip to main content Not Pressed Not Pressed Pressed Not Pressed Not Pressed Pressed Not Pressed Change Language हिंदी Search the Website Search Master Directions RBI/DOR/2025-26/250 DOR.RET.REC.169/12-01-001/2025-26 November 28, 2025 Previous Versions Reserve Bank of India (Regional Rural Banks – Cash Reserve Ratio and Statutory Liquidity Ratio) Directions, 2025 (Updated as on August 25, 2026) Table of Contents Chapter I - Preliminary Chapter II - Cash Reserve Ratio (CRR) Chapter III - Statutory Liquidity Ratio (SLR) Chapter IV - Procedure for computation of SLR Chapter V - Reporting Chapter VI - Penalties Chapter VII - Repeal And Other Provisions Annex I Annex II In exercise of the powers conferred by Section 35A of the Banking Regulation Act, 1949 and pursuant to Section 42 of the Reserve Bank of India Act, 1934 and Sections 18 and 24 of Banking Regulation Act, 1949, as amended from time to time, and all other provisions "
-    ],
-    "analysis_status": "withheld_no_validated_draft",
-    "field_evidence": {}
-  },
-  {
-    "id": "4e7cc5577eeaa01e",
-    "title": "Reserve Bank of India (Regional Rural Banks – Governance) Directions, 2025",
-    "regulatory_authority": "RBI",
-    "country": "India",
-    "region": "APAC",
-    "state": "National",
-    "law_area": "Corporate and secretarial",
-    "applicability": "Banks, NBFCs and regulated financial entities may be affected.",
-    "description": "Source document captured; no validated automatic draft was produced.",
-    "summary": "Not generated.",
-    "takeaway": "Read the exact primary source.",
-    "notification_date": "2026-08-25",
-    "effective_date": "Not stated — verify in source",
-    "update_type": "Notification",
-    "primary_source_link": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13057",
-    "source_name": "Reserve Bank of India — Master Directions",
-    "collected_at": "2026-09-13T14:08:30.578693+00:00",
-    "source_document_sha256": "d1e3af9748f24fd524ed6045ca7b858461831145d4b10c3c4693385d80319a9f",
-    "source_text_path": "data/source_documents/d1e3af9748f24fd524ed6045ca7b858461831145d4b10c3c4693385d80319a9f.html",
-    "evidence": [
-      "Master Directions | Official Website of Reserve Bank of India Skip to main content Not Pressed Not Pressed Pressed Not Pressed Not Pressed Pressed Not Pressed Change Language हिंदी Search the Website Search Master Directions RBI/DOR/2025-26/249 DOR.GOV.REC.No.168/29.67.001/2025-26 November 28, 2025 Reserve Bank of India (Regional Rural Banks - Governance) Directions Table of Contents Chapter I - Preliminary A. Short title and commencement B. Applicability C. Definitions Chapter II - Role of Nominee Directors and Non-Official Directors Chapter III – Board Meeting Procedures Chapter IV – Committees of the Board A. Audit Committee of the Board B. Risk Management Committee Chapter VI – Repeal and other provisions In exercise of the powers conferred by Section 35A of the Banking Regulation Act, 1949, and all other provisions / laws enabling the Reserve Bank of India (‘RBI’) in this regard, RBI being satisfied that it is necessary and expedient in the public interest so to do, hereby issues "
-    ],
-    "analysis_status": "withheld_no_validated_draft",
-    "field_evidence": {}
-  },
-  {
-    "id": "f554ddc62a4efa4d",
-    "title": "Reserve Bank of India (Urban Co-operative Banks – Interest Rate on Deposits) Directions, 2025 (Updated as on August 25, 2026)",
-    "regulatory_authority": "RBI",
-    "country": "India",
-    "region": "APAC",
-    "state": "National",
-    "law_area": "Corporate and secretarial",
-    "applicability": "Banks, NBFCs and regulated financial entities may be affected.",
-    "description": "Source document captured; no validated automatic draft was produced.",
-    "summary": "Not generated.",
-    "takeaway": "Read the exact primary source.",
-    "notification_date": "2026-08-25",
-    "effective_date": "Not stated — verify in source",
-    "update_type": "Notification",
-    "primary_source_link": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13029",
-    "source_name": "Reserve Bank of India — Master Directions",
-    "collected_at": "2026-09-13T14:09:01.298650+00:00",
-    "source_document_sha256": "e69b8d7dbffafa006a77fa017ed75e87c873721b00bca32ba937477b2be1bedd",
-    "source_text_path": "data/source_documents/e69b8d7dbffafa006a77fa017ed75e87c873721b00bca32ba937477b2be1bedd.html",
-    "evidence": [
-      "Master Directions | Official Website of Reserve Bank of India Skip to main content Not Pressed Not Pressed Pressed Not Pressed Not Pressed Pressed Not Pressed Change Language हिंदी Search the Website Search Master Directions RBI/DOR/2025-26/276 DOR.SOG(SPE).REC.195/13.03.00/2025-26 November 28, 2025 Previous Versions Reserve Bank of India (Urban Co-operative Banks – Interest Rate on Deposits) Directions, 2025 (Updated as on August 25, 2026) Table of Contents Chapter I : Preliminary A. Short Title and Commencement B. Objective C. Applicability D. Definitions Chapter II : General Guidelines (Interest Rate Framework) Chapter III : Domestic Rupee Deposits A. Interest Rate on Domestic Current Account B. Interest Rate on Domestic Savings Deposit C. Interest Rate on Domestic Term Deposits D. Payment of Additional Interest on Domestic Deposits E. Interest on Overdue Domestic Deposits F. Floating Rate Domestic Term Deposits G. Periodicity of Payment of Interest on Domestic Savings Deposit H. In"
-    ],
-    "analysis_status": "withheld_no_validated_draft",
-    "field_evidence": {}
-  },
-  {
-    "id": "286fd58b535d5882",
-    "title": "RBI: Notification — Reserve Bank of India (Urban Co-operative Banks – Cash Reserve Ratio and Statutory Liquidity Ratio) Directions, 2025",
-    "regulatory_authority": "RBI",
-    "country": "India",
-    "region": "APAC",
-    "state": "National",
-    "law_area": "Banking Regulation",
-    "applicability": "NBFCs",
-    "description": "RBI has issued a notification concerning Reserve Bank of India (Urban Co-operative Banks – Cash Reserve Ratio and Statutory Liquidity Ratio) Directions, 2025 (Updated as on August 25, 2026).",
-    "summary": "These Directions shall be called the Reserve Bank of India (Urban Co-operative Banks – Cash Reserve Ratio and Statutory Liquidity Ratio) Directions, 2025.",
-    "takeaway": "Review the official document to determine applicability and required action.",
-    "notification_date": "2026-08-25",
-    "effective_date": "November 28, 2025",
-    "update_type": "Notification",
-    "primary_source_link": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13031",
-    "source_name": "Reserve Bank of India — Master Directions",
-    "collected_at": "2026-09-13T14:09:04.902650+00:00",
-    "source_document_sha256": "c1def104830842622d3f7fcdff22c708dae9239486fd0f5949fa400ce9776ff3",
-    "source_text_path": "data/source_documents/c1def104830842622d3f7fcdff22c708dae9239486fd0f5949fa400ce9776ff3.html",
-    "evidence": [
-      "Master Directions | Official Website of Reserve Bank of India Skip to main content Not Pressed Not Pressed Pressed Not Pressed Not Pressed Pressed Not Pressed Change Language हिंदी Search the Website Search Master Directions RBI/DOR/2025-26/274 DOR.RET.REC.193/12-01-001/2025-26 November 28, 2025 Previous Versions Reserve Bank of India (Urban Co-operative Banks – Cash Reserve Ratio and Statutory Liquidity Ratio) Directions, 2025 (Updated as on August 25, 2026) Table of Contents Chapter I - Preliminary Chapter II - Cash Reserve Ratio (CRR) Chapter III - Statutory Liquidity Ratio (SLR) Chapter IV - Procedure for computation of SLR Chapter V - Reporting Chapter VI - Penalties Chapter VII - Repeal and Other Provisions Annex I Annex II Annex III In exercise of the powers conferred by Section 35A read with Section 56 of the Banking Regulation Act, 1949, and pursuant to Section 42 (1) of the Reserve Bank of India Act, 1934 and Sections 18, 24 and 56 of Banking Regulations Act, 1949, as amended"
-    ],
-    "analysis_status": "published",
-    "field_evidence": {
-      "title": [
-        "Reserve Bank of India (Urban Co-operative Banks – Cash Reserve Ratio and Statutory Liquidity Ratio) Directions, 2025 (Updated as on August 25, 2026)"
-      ],
-      "update_type": [
-        "RBI/DOR/2025-26/274"
-      ],
-      "applicability": [
-        "These Directions shall be applicable to Urban Co-operative Banks (hereinafter collectively referred to as ‘banks’ or ‘UCBs’ and individually as a ‘bank’ or ‘UCB’)."
-      ],
-      "description": [
-        "Reserve Bank of India (Urban Co-operative Banks – Cash Reserve Ratio and Statutory Liquidity Ratio) Directions, 2025 (Updated as on August 25, 2026)"
-      ],
-      "summary": [
-        "These Directions shall be called the Reserve Bank of India (Urban Co-operative Banks – Cash Reserve Ratio and Statutory Liquidity Ratio) Directions, 2025."
+        "it has been decided to extend the above facility in case of Foreign Portfolio Investors (FPIs)."
       ],
       "takeaway": [
         "These Directions shall come into force with immediate effect."
       ],
       "effective_date": [
-        "November 28, 2025"
+        "September 18, 2026"
       ]
     }
   },
   {
-    "id": "31c985169f9c1acd",
-    "title": "Reserve Bank of India (Rural Co-operative Banks – Interest Rate on Deposits) Directions, 2025 (Updated as on August 25, 2026)",
+    "id": "41358c91f4dcab24",
+    "title": "RBI: Amendment — Local Area Banks – Know Your Customer Amendment Directions, 2026",
+    "regulatory_authority": "RBI",
+    "country": "India",
+    "region": "APAC",
+    "state": "National",
+    "law_area": "Banking / KYC / Anti-Money Laundering",
+    "applicability": "Local Area Banks",
+    "description": "RBI has issued an amendment concerning Local Area Banks – Know Your Customer Directions.",
+    "summary": "The amendment extends the facility of alternatively obtaining original certified copies for Foreign Portfolio Investors (FPIs) in addition to Non-Resident Indians and Persons of Indian Origin through specified authorized entities.",
+    "takeaway": "Review the official document to determine applicability and required action.",
+    "notification_date": "2026-09-18",
+    "effective_date": "September 18, 2026",
+    "update_type": "Amendment",
+    "primary_source_link": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13701&Mode=0",
+    "source_name": "Reserve Bank of India — Notifications",
+    "collected_at": "2026-09-19T09:00:05.836163+00:00",
+    "source_document_sha256": "12d67ad11d9703f4397905bb9e8599f667dc7177cc62697b6722b7e47b134e37",
+    "source_text_path": "data/source_documents/12d67ad11d9703f4397905bb9e8599f667dc7177cc62697b6722b7e47b134e37.html",
+    "evidence": [
+      "Notifications | Official Website of Reserve Bank of India Skip to main content Not Pressed Not Pressed Pressed Not Pressed Not Pressed Pressed Not Pressed Change Language हिंदी Search the Website Search Notifications RBI/2026-27/259 DOR.AML.REC.221/14.01.008/2026-27 September 18, 2026 Reserve Bank of India (Local Area Banks – Know Your Customer) Amendment Directions, 2026 Reserve Bank has issued Reserve Bank of India (Local Area Banks – Know Your Customer) Directions, 2025 dated November 28, 2025 (hereinafter referred to as the Directions) in compliance with the provisions of the Prevention of Money Laundering Act, 2002, and the Prevention of Money Laundering (Maintenance of Records) Rules, 2005. The Directions in paragraph 4(1)(v) allow the banks to alternatively obtain the original certified copy which are certified by any one of the authorities / authorised officials mentioned therein in case of Non-Resident Indians (NRIs) and Persons of Indian Origin (PIOs), as defined in Foreign E"
+    ],
+    "analysis_status": "published",
+    "field_evidence": {
+      "title": [
+        "Reserve Bank of India (Local Area Banks – Know Your Customer) Amendment Directions, 2026"
+      ],
+      "update_type": [
+        "Reserve Bank of India (Local Area Banks – Know Your Customer) Amendment Directions, 2026"
+      ],
+      "applicability": [
+        "Reserve Bank of India (Local Area Banks – Know Your Customer) Amendment Directions, 2026"
+      ],
+      "description": [
+        "Reserve Bank has issued Reserve Bank of India (Local Area Banks – Know Your Customer) Directions, 2025"
+      ],
+      "summary": [
+        "it has been decided to extend the above facility in case of Foreign Portfolio Investors (FPIs)."
+      ],
+      "takeaway": [
+        "Reserve Bank of India (Local Area Banks – Know Your Customer) Amendment Directions, 2026"
+      ],
+      "effective_date": [
+        "September 18, 2026"
+      ]
+    }
+  },
+  {
+    "id": "7ec4afda29fa1b57",
+    "title": "RBI: Amendment — Small Finance Banks – Know Your Customer Directions, 2026",
+    "regulatory_authority": "RBI",
+    "country": "India",
+    "region": "APAC",
+    "state": "National",
+    "law_area": "Banking / KYC / Anti-Money Laundering",
+    "applicability": "Small Finance Banks",
+    "description": "RBI has issued an amendment concerning the Reserve Bank of India (Small Finance Banks – Know Your Customer) Directions, 2025 to extend the alternative certified copy facility to Foreign Portfolio Investors (FPIs).",
+    "summary": "The Reserve Bank of India amended paragraph 5(1)(v) of the Small Finance Banks – Know Your Customer Directions, 2025 to extend the alternative facility of obtaining original certified copies—previously applicable to Non-Resident Indians and Persons of Indian Origin—to Foreign Portfolio Investors (FPIs).",
+    "takeaway": "Review the official document to determine applicability and required action.",
+    "notification_date": "2026-09-18",
+    "effective_date": "September 18, 2026",
+    "update_type": "Amendment",
+    "primary_source_link": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13700&Mode=0",
+    "source_name": "Reserve Bank of India — Notifications",
+    "collected_at": "2026-09-19T09:00:09.998001+00:00",
+    "source_document_sha256": "e5ef09954f9194cd53ae6a214ac57645d4814848cb94ba3300be0b2a14bf2047",
+    "source_text_path": "data/source_documents/e5ef09954f9194cd53ae6a214ac57645d4814848cb94ba3300be0b2a14bf2047.html",
+    "evidence": [
+      "Notifications | Official Website of Reserve Bank of India Skip to main content Not Pressed Not Pressed Pressed Not Pressed Not Pressed Pressed Not Pressed Change Language हिंदी Search the Website Search Notifications RBI/2026-27/258 DOR.AML.REC.224/14.01.007/2026-27 September 18, 2026 Reserve Bank of India (Small Finance Banks – Know Your Customer) Amendment Directions, 2026 Reserve Bank had issued Reserve Bank of India (Small Finance Banks – Know Your Customer) Directions, 2025 dated November 28, 2025 (hereinafter referred to as the Directions) in compliance with the provisions of the Prevention of Money Laundering Act, 2002, and the Prevention of Money Laundering (Maintenance of Records) Rules, 2005. The Directions in paragraph 5(1)(v) allow the banks to alternatively obtain the original certified copy which are certified by any one of the authorities / authorised officials mentioned therein in case of Non-Resident Indians (NRIs) and Persons of Indian Origin (PIOs), as defined in For"
+    ],
+    "analysis_status": "published",
+    "field_evidence": {
+      "title": [
+        "Reserve Bank of India (Small Finance Banks – Know Your Customer) Amendment Directions, 2026"
+      ],
+      "update_type": [
+        "Reserve Bank of India (Small Finance Banks – Know Your Customer) Amendment Directions, 2026"
+      ],
+      "applicability": [
+        "Reserve Bank of India (Small Finance Banks – Know Your Customer) Amendment Directions, 2026"
+      ],
+      "description": [
+        "Reserve Bank of India (Small Finance Banks – Know Your Customer) Amendment Directions, 2026",
+        "The extant instructions have since been reviewed and it has been decided to extend the above facility in case of Foreign Portfolio Investors (FPIs)."
+      ],
+      "summary": [
+        "The extant instructions have since been reviewed and it has been decided to extend the above facility in case of Foreign Portfolio Investors (FPIs).",
+        "These Amendment Directions shall modify the Reserve Bank of India (Small Finance Banks – Know Your Customer) Directions, 2025 as under: (1) Paragraph 5(1)(v) shall be substituted by the following"
+      ],
+      "takeaway": [
+        "These Directions shall come into force with immediate effect."
+      ],
+      "effective_date": [
+        "September 18, 2026"
+      ]
+    }
+  },
+  {
+    "id": "a48098651a947d7b",
+    "title": "Reserve Bank of India (Commercial Banks – Know Your Customer) Directions, 2025 (Updated as on September 18, 2026)",
     "regulatory_authority": "RBI",
     "country": "India",
     "region": "APAC",
@@ -990,23 +261,23 @@
     "description": "Source document captured; no validated automatic draft was produced.",
     "summary": "Not generated.",
     "takeaway": "Read the exact primary source.",
-    "notification_date": "2026-08-25",
+    "notification_date": "2026-09-18",
     "effective_date": "Not stated — verify in source",
     "update_type": "Notification",
-    "primary_source_link": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13003",
+    "primary_source_link": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13141",
     "source_name": "Reserve Bank of India — Master Directions",
-    "collected_at": "2026-09-13T14:09:11.379579+00:00",
-    "source_document_sha256": "a4db7002588bb8b84662d1918e0d58f3f267b332b2a7667c58dad53124bbb4be",
-    "source_text_path": "data/source_documents/a4db7002588bb8b84662d1918e0d58f3f267b332b2a7667c58dad53124bbb4be.html",
+    "collected_at": "2026-09-19T09:01:46.053236+00:00",
+    "source_document_sha256": "e5d63e446a71918bc4b658d6413bc87585bc585725675811934293f2c03b5cc5",
+    "source_text_path": "data/source_documents/e5d63e446a71918bc4b658d6413bc87585bc585725675811934293f2c03b5cc5.html",
     "evidence": [
-      "Master Directions | Official Website of Reserve Bank of India Skip to main content Not Pressed Not Pressed Pressed Not Pressed Not Pressed Pressed Not Pressed Change Language हिंदी Search the Website Search Master Directions RBI/DOR/2025-26/301 DOR.SOG(SPE).REC.220/13.03.00/2025-26 November 28, 2025 Previous Versions Reserve Bank of India (Rural Co-operative Banks – Interest Rate on Deposits) Directions, 2025 (Updated as on August 25, 2026) Table of Contents Chapter I : Preliminary A. Short Title and Commencement B. Objective C. Applicability D. Definitions Chapter II : General Guidelines (Interest Rate Framework) Chapter III : Domestic Rupee Deposits A. Interest Rate on Domestic Current Account B. Interest Rate on Domestic Savings Deposit C. Interest Rate on Domestic Term Deposits D. Payment of Additional Interest on Domestic Deposits E. Interest on Overdue Domestic Deposits F. Floating Rate Domestic Term Deposits G. Periodicity of Payment of Interest on Domestic Savings Deposit H. In"
+      "Master Directions | Official Website of Reserve Bank of India Skip to main content Not Pressed Not Pressed Pressed Not Pressed Not Pressed Pressed Not Pressed Change Language हिंदी Search the Website Search Master Directions RBI/DOR/2025-26/169 DOR.AML.REC.No.88/14.01.002/2025-26 November 28, 2025 Previous Versions Reserve Bank of India (Commercial Banks – Know Your Customer) Directions, 2025 (Updated as on September 18, 2026) Table of Contents Chapter I – Preliminary A. Short Title and Commencement B. Applicability C. Definitions Chapter II – General A. Board of Directors / Policies related guidelines: B. Other General Guidelines: Chapter III – Customer Acceptance Policy Chapter IV – Risk Management Chapter V – Customer Identification Procedure (CIP) Chapter VI – Customer Due Diligence (CDD) Procedure A. CDD Procedure in case of Individuals B. CDD Measures for Sole Proprietary firms C. CDD Measures for Legal Entities D. Identification of Beneficial Owner E. On-going Due Diligence F. E"
     ],
     "analysis_status": "withheld_no_validated_draft",
     "field_evidence": {}
   },
   {
-    "id": "9cc0f712a3f5e1c4",
-    "title": "Reserve Bank of India (Rural Co-operative Banks – Cash Reserve Ratio and Statutory Liquidity Ratio) Directions, 2025 (Updated as on August 25, 2026)",
+    "id": "c775592c9dce644a",
+    "title": "Reserve Bank of India (Small Finance Banks – Know Your Customer) Directions, 2025 (Updated as on September 18, 2026)",
     "regulatory_authority": "RBI",
     "country": "India",
     "region": "APAC",
@@ -1016,44 +287,69 @@
     "description": "Source document captured; no validated automatic draft was produced.",
     "summary": "Not generated.",
     "takeaway": "Read the exact primary source.",
-    "notification_date": "2026-08-25",
+    "notification_date": "2026-09-18",
     "effective_date": "Not stated — verify in source",
     "update_type": "Notification",
-    "primary_source_link": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13005",
+    "primary_source_link": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13109",
     "source_name": "Reserve Bank of India — Master Directions",
-    "collected_at": "2026-09-13T14:09:13.905666+00:00",
-    "source_document_sha256": "95b41b736c6091ce4e79c5fee5c25955d02a5dc7ad600917e4c3b64d5ef639ce",
-    "source_text_path": "data/source_documents/95b41b736c6091ce4e79c5fee5c25955d02a5dc7ad600917e4c3b64d5ef639ce.html",
+    "collected_at": "2026-09-19T09:02:06.124026+00:00",
+    "source_document_sha256": "c393920b30a6109a92c7f1ef6927c5ada0e6514d8befc6fad61baa8c307bfef4",
+    "source_text_path": "data/source_documents/c393920b30a6109a92c7f1ef6927c5ada0e6514d8befc6fad61baa8c307bfef4.html",
     "evidence": [
-      "Master Directions | Official Website of Reserve Bank of India Skip to main content Not Pressed Not Pressed Pressed Not Pressed Not Pressed Pressed Not Pressed Change Language हिंदी Search the Website Search Master Directions RBI/DOR/2025-26/299 DOR.RET.REC.218/12-01-001/2025-26 November 28, 2025 Previous Versions Reserve Bank of India (Rural Co-operative Banks – Cash Reserve Ratio and Statutory Liquidity Ratio) Directions, 2025 (Updated as on August 25, 2026) Table of Contents Chapter I - Preliminary Chapter II - Cash Reserve Ratio (CRR) Chapter III - Statutory Liquidity Ratio (SLR) Chapter IV - Procedure for computation of SLR Chapter V - Reporting Chapter VI - Penalties Chapter VII - Repeal and Other Provisions Annex I Annex II Annex III In exercise of the powers conferred by Section 35A read with Section 56 of the Banking Regulation Act, 1949, and pursuant to Section 42 (1) of the Reserve Bank of India Act, 1934 and Sections 18, 24 and 56 of Banking Regulations Act, 1949, as amended"
+      "Master Directions - Reserve Bank of India Skip to main content Not Pressed Not Pressed Pressed Not Pressed Not Pressed Pressed Not Pressed Change Language हिंदी Search the Website Search Master Directions RBI/DOR/2025-26/200 DOR.AML.REC.No.119/14.01.007/2025-26 November 28, 2025 Previous Versions Reserve Bank of India (Small Finance Banks – Know Your Customer) Directions, 2025 (Updated as on September 18, 2026) Table of Contents Chatper I – Preliminary Chapter II – General Chapter III – Customer Acceptance Policy Chapter IV – Risk Management Chapter V – Customer Identification Procedure (CIP) Chapter VI – Customer Due Diligence (CDD) Procedure Chapter VII – Record Management Chapter VIII – Reporting Requirements to Financial Intelligence Unit – India Chapter IX – Requirements / obligations under International Agreements - Communications from International Agencies Chapter X – Other Instructions Chapter XI – Repeal and Other Provisions Annex I Annex II Introduction In order to prevent b"
     ],
     "analysis_status": "withheld_no_validated_draft",
     "field_evidence": {}
   },
   {
-    "id": "741da1eb3b4c578f",
-    "title": "Reserve Bank of India (Non-Banking Financial Companies - Concentration Risk Management) Directions, 2025 (Updated as on August 25, 2026)",
+    "id": "49b89d68078c4893",
+    "title": "RBI: Notification — Reserve Bank of India (Local Area Banks – Know Your Customer) Directions, 2025",
     "regulatory_authority": "RBI",
     "country": "India",
     "region": "APAC",
     "state": "National",
-    "law_area": "Corporate and secretarial",
-    "applicability": "Banks, NBFCs and regulated financial entities may be affected.",
-    "description": "Source document captured; no validated automatic draft was produced.",
-    "summary": "Not generated.",
-    "takeaway": "Read the exact primary source.",
-    "notification_date": "2026-08-25",
-    "effective_date": "Not stated — verify in source",
+    "law_area": "Banking / Anti-Money Laundering",
+    "applicability": "NBFCs",
+    "description": "RBI has issued a notification concerning Reserve Bank of India (Local Area Banks – Know Your Customer) Directions, 2025.",
+    "summary": "Reserve Bank of India has issued the Reserve Bank of India (Local Area Banks – Know Your Customer) Directions, 2025 applicable to Local Area Banks.",
+    "takeaway": "Review the official document to determine applicability and required action.",
+    "notification_date": "2026-09-18",
+    "effective_date": "November 28, 2025",
     "update_type": "Notification",
-    "primary_source_link": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=12953",
+    "primary_source_link": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13064",
     "source_name": "Reserve Bank of India — Master Directions",
-    "collected_at": "2026-09-13T14:09:19.185715+00:00",
-    "source_document_sha256": "8af9dc81c27b8db00343bd611b70b0f45bbc129278cd89e1b7851c051078f0f3",
-    "source_text_path": "data/source_documents/8af9dc81c27b8db00343bd611b70b0f45bbc129278cd89e1b7851c051078f0f3.html",
+    "collected_at": "2026-09-19T09:02:20.190143+00:00",
+    "source_document_sha256": "f1f22a5deed9194268a31fac534348691ef851b836e215adb5d6b868d303c860",
+    "source_text_path": "data/source_documents/f1f22a5deed9194268a31fac534348691ef851b836e215adb5d6b868d303c860.html",
     "evidence": [
-      "Master Directions | Official Website of Reserve Bank of India Skip to main content Not Pressed Not Pressed Pressed Not Pressed Not Pressed Pressed Not Pressed Change Language हिंदी Search the Website Search Master Directions RBI/DOR/2025-26/351 DOR.CRE.REC.270/07-03-008/2025-26 November 28, 2025 Previous Versions Reserve Bank of India (Non-Banking Financial Companies - Concentration Risk Management) Directions, 2025 (Updated as on August 25, 2026) Table of Contents Chapter I - Preliminary Chapter II - Guidelines Applicable to NBFC – Base Layer Chapter III - Guidelines Applicable to NBFC – Middle Layer Chapter IV - Guidelines Applicable to NBFC – Upper Layer Chapter V - Repeal and other provisions Annex - I Introduction The concentration of exposures to a single counterparty or a group of connected counterparties poses significant risks. The Reserve Bank of India (RBI), while adopting a proportionate approach, recognized the imperative of robust risk management and therefore advised app"
+      "617 Master Directions | Official Website of Reserve Bank of India Skip to main content Not Pressed Not Pressed Pressed Not Pressed Not Pressed Pressed Not Pressed Change Language हिंदी Search the Website Search Master Directions RBI/DOR/2025-26/243 DOR.AML.REC.No.162/14.01.008/2025-26 November 28, 2025 Previous Versions Reserve Bank of India (Local Area Banks – Know Your Customer) Directions, 2025 (Updated as on September 18, 2026) Table of Contents Chapter I – Preliminary A. Short Title and Commencement B. Applicability C. Definitions Chapter II – General A. Board of Directors / Policies related guidelines: B. Other General Guidelines: Chapter III – Customer Acceptance Policy Chapter IV – Risk Management Chapter V – Customer Identification Procedure (CIP) Chapter VI – Customer Due Diligence (CDD) Procedure A. CDD Procedure in case of Individuals B. CDD Measures for Sole Proprietary firms C. CDD Measures for Legal Entities D. Identification of Beneficial Owner E. On-going Due Diligence"
     ],
-    "analysis_status": "withheld_no_validated_draft",
-    "field_evidence": {}
+    "analysis_status": "published",
+    "field_evidence": {
+      "title": [
+        "RBI/DOR/2025-26/243 DOR.AML.REC.No.162/14.01.008/2025-26",
+        "Reserve Bank of India (Local Area Banks – Know Your Customer) Directions, 2025 (Updated as on September 18, 2026)"
+      ],
+      "update_type": [
+        "hereby issues the Directions hereinafter specified."
+      ],
+      "applicability": [
+        "3. These Directions shall be applicable to Local Area Banks (hereinafter collectively referred to as 'banks' and individually as a 'bank')."
+      ],
+      "description": [
+        "RBI/DOR/2025-26/243 DOR.AML.REC.No.162/14.01.008/2025-26",
+        "Reserve Bank of India (Local Area Banks – Know Your Customer) Directions, 2025 (Updated as on September 18, 2026)"
+      ],
+      "summary": [
+        "1. These Directions shall be called the Reserve Bank of India (Local Area Banks – Know Your Customer) Directions, 2025.",
+        "3. These Directions shall be applicable to Local Area Banks (hereinafter collectively referred to as 'banks' and individually as a 'bank')."
+      ],
+      "takeaway": [
+        "3. These Directions shall be applicable to Local Area Banks (hereinafter collectively referred to as 'banks' and individually as a 'bank')."
+      ],
+      "effective_date": [
+        "November 28, 2025"
+      ]
+    }
   }
 ]
