@@ -7,7 +7,7 @@
     "law_area": "Corporate and secretarial",
     "update_type": "Notification",
     "selector": "a",
-    "lookback_days": 7
+    "lookback_days": 21
   },
   {
     "id": "rbi_notifications",
@@ -17,7 +17,7 @@
     "law_area": "Corporate and secretarial",
     "update_type": "Notification",
     "selector": "table a",
-    "lookback_days": 7
+    "lookback_days": 21
   },
   {
     "id": "rbi_master_directions",
@@ -27,17 +27,7 @@
     "law_area": "Corporate and secretarial",
     "update_type": "Notification",
     "selector": "table a",
-    "lookback_days": 7
-  },
-  {
-    "id": "sebi_master_circulars",
-    "name": "Securities and Exchange Board of India — Master Circulars",
-    "authority": "SEBI",
-    "url": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=6&smid=0",
-    "law_area": "Securities and capital markets",
-    "update_type": "Circular",
-    "selector": "table a",
-    "lookback_days": 7
+    "lookback_days": 21
   },
   {
     "id": "sebi_circulars",
@@ -47,7 +37,7 @@
     "law_area": "Securities and capital markets",
     "update_type": "Circular",
     "selector": "table a",
-    "lookback_days": 7
+    "lookback_days": 21
   },
   {
     "id": "nse_circulars",
@@ -57,7 +47,7 @@
     "law_area": "Securities and capital markets",
     "update_type": "Circular",
     "selector": "table a",
-    "lookback_days": 7
+    "lookback_days": 21
   },
   {
     "id": "bse_circulars",
@@ -67,7 +57,17 @@
     "law_area": "Securities and capital markets",
     "update_type": "Circular",
     "selector": "table a",
-    "lookback_days": 7
+    "lookback_days": 21
+  },
+  {
+    "id": "ibbi_circulars",
+    "name": "Insolvency and Bankruptcy Board of India — Circulars",
+    "authority": "IBBI",
+    "url": "https://ibbi.gov.in/search/index/circulars",
+    "law_area": "Corporate and secretarial",
+    "update_type": "Circular",
+    "selector": "a",
+    "lookback_days": 21
   },
   {
     "id": "labour_gazette",
