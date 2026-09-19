@@ -7,7 +7,7 @@
     "law_area": "Corporate and secretarial",
     "update_type": "Notification",
     "selector": "a",
-    "lookback_days": 21
+    "lookback_days": 7
   },
   {
     "id": "rbi_notifications",
@@ -17,7 +17,7 @@
     "law_area": "Corporate and secretarial",
     "update_type": "Notification",
     "selector": "table a",
-    "lookback_days": 14
+    "lookback_days": 7
   },
   {
     "id": "rbi_master_directions",
@@ -27,7 +27,7 @@
     "law_area": "Corporate and secretarial",
     "update_type": "Notification",
     "selector": "table a",
-    "lookback_days": 30
+    "lookback_days": 7
   },
   {
     "id": "sebi_master_circulars",
@@ -37,7 +37,17 @@
     "law_area": "Securities and capital markets",
     "update_type": "Circular",
     "selector": "table a",
-    "lookback_days": 90
+    "lookback_days": 7
+  },
+  {
+    "id": "sebi_circulars",
+    "name": "Securities and Exchange Board of India — Circulars",
+    "authority": "SEBI",
+    "url": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=7&smid=0",
+    "law_area": "Securities and capital markets",
+    "update_type": "Circular",
+    "selector": "table a",
+    "lookback_days": 7
   },
   {
     "id": "nse_circulars",
@@ -47,7 +57,7 @@
     "law_area": "Securities and capital markets",
     "update_type": "Circular",
     "selector": "table a",
-    "lookback_days": 30
+    "lookback_days": 7
   },
   {
     "id": "bse_circulars",
@@ -57,7 +67,7 @@
     "law_area": "Securities and capital markets",
     "update_type": "Circular",
     "selector": "table a",
-    "lookback_days": 30
+    "lookback_days": 7
   },
   {
     "id": "labour_gazette",
@@ -67,6 +77,6 @@
     "law_area": "Labour and employment",
     "update_type": "Notification",
     "selector": "a",
-    "lookback_days": 45
+    "lookback_days": 7
   }
 ]
