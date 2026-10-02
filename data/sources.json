@@ -1,15 +1,5 @@
 [
   {
-    "id": "mca_notifications",
-    "name": "Ministry of Corporate Affairs — Notifications",
-    "authority": "MCA",
-    "url": "https://www.mca.gov.in/content/mca/global/en/acts-rules/notifications.html",
-    "law_area": "Corporate and secretarial",
-    "update_type": "Notification",
-    "selector": "a",
-    "lookback_days": 21
-  },
-  {
     "id": "rbi_notifications",
     "name": "Reserve Bank of India — Notifications",
     "authority": "RBI",
@@ -17,7 +7,7 @@
     "law_area": "Corporate and secretarial",
     "update_type": "Notification",
     "selector": "table a",
-    "lookback_days": 21
+    "lookback_days": 14
   },
   {
     "id": "rbi_master_directions",
@@ -27,37 +17,7 @@
     "law_area": "Corporate and secretarial",
     "update_type": "Notification",
     "selector": "table a",
-    "lookback_days": 21
-  },
-  {
-    "id": "sebi_circulars",
-    "name": "Securities and Exchange Board of India — Circulars",
-    "authority": "SEBI",
-    "url": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=7&smid=0",
-    "law_area": "Securities and capital markets",
-    "update_type": "Circular",
-    "selector": "table a",
-    "lookback_days": 21
-  },
-  {
-    "id": "nse_circulars",
-    "name": "National Stock Exchange — Circulars",
-    "authority": "NSE",
-    "url": "https://www.nseindia.com/regulations/listing-compliance/nse-circulars",
-    "law_area": "Securities and capital markets",
-    "update_type": "Circular",
-    "selector": "table a",
-    "lookback_days": 21
-  },
-  {
-    "id": "bse_circulars",
-    "name": "BSE Limited — Notices and Circulars",
-    "authority": "BSE",
-    "url": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars.aspx",
-    "law_area": "Securities and capital markets",
-    "update_type": "Circular",
-    "selector": "table a",
-    "lookback_days": 21
+    "lookback_days": 30
   },
   {
     "id": "ibbi_circulars",
@@ -70,6 +30,26 @@
     "lookback_days": 21
   },
   {
+    "id": "sebi_circulars",
+    "name": "Securities and Exchange Board of India — Circulars",
+    "authority": "SEBI",
+    "url": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=7&smid=0",
+    "law_area": "Securities and capital markets",
+    "update_type": "Circular",
+    "selector": "table a",
+    "lookback_days": 14
+  },
+  {
+    "id": "irdai_circulars",
+    "name": "Insurance Regulatory and Development Authority of India — Circulars",
+    "authority": "IRDAI",
+    "url": "https://policyholder.gov.in/en/web/guest/circulars",
+    "law_area": "Corporate and secretarial",
+    "update_type": "Circular",
+    "selector": "table a",
+    "lookback_days": 21
+  },
+  {
     "id": "labour_gazette",
     "name": "Ministry of Labour & Employment — Gazette Notifications",
     "authority": "Ministry of Labour & Employment",
@@ -77,6 +57,18 @@
     "law_area": "Labour and employment",
     "update_type": "Notification",
     "selector": "a",
-    "lookback_days": 7
+    "lookback_days": 45,
+    "render_js": true
+  },
+  {
+    "id": "mca_notifications",
+    "name": "Ministry of Corporate Affairs — Notifications",
+    "authority": "MCA",
+    "url": "https://www.mca.gov.in/content/mca/global/en/acts-rules/notifications.html",
+    "law_area": "Corporate and secretarial",
+    "update_type": "Notification",
+    "selector": "a",
+    "lookback_days": 21,
+    "render_js": true
   }
 ]
