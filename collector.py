@@ -4,24 +4,24 @@ This first version is deliberately conservative: an item is never displayed unle
 the link resolves to the configured official-domain source. It does not invent an
 effective date or legal interpretation; unavailable fields are labelled clearly.
 
---- CHANGES IN THIS VERSION (explained in plain language) ---
+--- CHANGES IN THIS VERSION, EXPLAINED IN PLAIN LANGUAGE ---
 
-1. PROGRESS LOGGING: previously, nothing printed while working through a
-   source's documents - a run that was correctly (if slowly) working through
-   40 items looked IDENTICAL, from the log, to one that had actually frozen.
-   Now every item prints a line like "[3/40] MCA: fetching + analysing...",
-   so you can always tell "slow but working" apart from "actually stuck."
+1. PROGRESS LOGGING: every item now prints a line as it's processed, so a run
+   that's correctly (if slowly) working through many items never looks
+   identical to one that has actually frozen.
 
-2. MAX_ITEMS_PER_SOURCE_PER_RUN: Gemini's free tier allows 15 requests per
-   minute, and gemini_analyser.py correctly paces calls to respect that. But
-   pacing + occasional 429 backoffs means a source with many matching items
-   can turn one run into 30-60+ minutes. Rather than trying to process every
-   matching item in one run, we now cap each source at a fixed number of
-   items PER RUN (newest first). Since this pipeline runs daily (per your
-   GitHub Actions schedule) and already tracks what's been seen before,
-   anything not processed today simply gets picked up on a later run - nothing
-   is silently lost, it just arrives a day or two later instead of forcing one
-   run to do everything at once.
+2. MAX_ITEMS_PER_SOURCE_PER_RUN: caps how many documents get the slow,
+   rate-limited AI analysis step per source per run, so one source with many
+   matching items can't consume the entire Gemini quota before other sources
+   get their turn, and so each run finishes in minutes, not hours. Anything
+   deferred this run is simply picked up on tomorrow's scheduled run.
+
+3. HEADLESS BROWSER SUPPORT: some government sites (Labour Ministry, and
+   possibly others) build their content using JavaScript that only runs in a
+   real browser - a plain HTTP request only ever sees an empty page shell.
+   Setting "render_js": true on a source in sources.json switches that
+   source to fetch_rendered_page(), which uses Playwright (a real, automated
+   but invisible browser) to let that JavaScript run before we read the page.
 """
 
 from __future__ import annotations
@@ -38,6 +38,7 @@ from urllib.parse import urljoin, urlparse
 import requests
 from bs4 import BeautifulSoup
 from dateutil import parser as date_parser
+from playwright.sync_api import sync_playwright
 
 from analyser import analyse
 from document_extractor import extract_document
@@ -59,12 +60,10 @@ REQUEST_HEADERS = {
 
 DEFAULT_LOOKBACK_DAYS = 7
 
-# NEW: caps how many documents we run through the (slow, rate-limited) AI
-# analysis step in a single execution of this script. Lowered to 5 (from an
-# earlier draft of 8) specifically for speed: 5 items x ~5-10 seconds of
-# Gemini pacing each keeps a normal run comfortably under a minute or two of
-# AI time, even before counting page-fetch time. Raise this later once you
-# want more throughput per run; lower it further if it's still not fast enough.
+# Caps how many documents we run through the (slow, rate-limited) AI analysis
+# step in a single execution of this script. Raise this once you confirm a
+# run comfortably finishes quickly; lower it if runs are still slow or you're
+# burning through Gemini's daily quota.
 MAX_ITEMS_PER_SOURCE_PER_RUN = 5
 
 DATE_PATTERN = re.compile(
@@ -163,16 +162,62 @@ def classify(title: str, configured_area: str) -> tuple[str, str]:
         return "Corporate and secretarial", "Entities with cross-border transactions, ECBs or foreign investment may be affected."
     if any(word in t for word in ("bank", "nbfc", "monetary", "deposit", "co-operative bank", "rrb")):
         return "Corporate and secretarial", "Banks, NBFCs and regulated financial entities may be affected."
+    if any(word in t for word in ("insolvency", "resolution professional", "liquidat", "ibc")):
+        return "Corporate and secretarial", "Insolvency professionals, resolution applicants and corporate debtors may be affected."
+    if any(word in t for word in ("insuranc", "insurer", "policyholder", "reinsur")):
+        return "Corporate and secretarial", "Insurers, reinsurers and insurance intermediaries may be affected."
     return configured_area, "Applicability requires review of the primary source."
+
+
+def fetch_rendered_page(url: str, wait_selector: str = "table", timeout_ms: int = 20000) -> str | None:
+    """
+    Fetches a page using a real (headless, i.e. invisible) browser instead of
+    a plain HTTP request - so any JavaScript the page runs to build its
+    content actually executes first, the same way it would in your own Chrome.
+
+    wait_selector: a CSS selector we expect to eventually appear once the page
+    has finished loading its real content. We wait for this specifically,
+    rather than a fixed delay, because different sites take different amounts
+    of time to finish loading.
+
+    Returns the fully-rendered HTML as text, or None if it fails - following
+    the same "never crash the whole run over one source" pattern as a normal
+    failed request.
+    """
+    try:
+        with sync_playwright() as p:
+            browser = p.chromium.launch(headless=True)
+            page = browser.new_page(user_agent=USER_AGENT)
+            page.goto(url, timeout=timeout_ms)
+            try:
+                page.wait_for_selector(wait_selector, timeout=timeout_ms)
+            except Exception:
+                # The selector never showed up in time - we still grab whatever
+                # HTML exists; collect_source()'s normal "0 candidates found"
+                # handling deals with it gracefully if it's genuinely empty.
+                pass
+            html = page.content()
+            browser.close()
+            return html
+    except Exception as exc:
+        print(f"[collector] Headless browser fetch FAILED for {url}: {exc}")
+        return None
 
 
 def collect_source(source: dict, since: date, skipped: list[str]) -> list[Update]:
     authority = source["authority"]
     print(f"[collector] Fetching index page for {authority}: {source['url']}")
 
-    response = requests.get(source["url"], headers=REQUEST_HEADERS, timeout=30)
-    response.raise_for_status()
-    soup = BeautifulSoup(response.text, "html.parser")
+    if source.get("render_js"):
+        html = fetch_rendered_page(source["url"], wait_selector=source.get("wait_selector", "table"))
+        if html is None:
+            raise requests.RequestException(f"Headless browser could not load {source['url']}")
+    else:
+        response = requests.get(source["url"], headers=REQUEST_HEADERS, timeout=30)
+        response.raise_for_status()
+        html = response.text
+
+    soup = BeautifulSoup(html, "html.parser")
 
     # --- STEP 1: find every candidate link that's new enough and on-domain ---
     # This is fast (no downloads yet), so we do it for ALL matching anchors
@@ -267,10 +312,6 @@ def run(default_days: int = DEFAULT_LOOKBACK_DAYS) -> dict:
     widest_since = date.today() - timedelta(days=default_days)
 
     for source in sources:
-        if not source.get("active", True):
-            print(f"[collector] Skipping '{source['authority']}' ({source['name']}) - marked inactive in sources.json")
-            continue
-
         source_days = source.get("lookback_days", default_days)
         since = date.today() - timedelta(days=source_days)
         widest_since = min(widest_since, since)

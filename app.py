@@ -3,37 +3,46 @@ from datetime import date, timedelta
 from pathlib import Path
 
 from dateutil import parser as date_parser
+import plotly.graph_objects as go
 import streamlit as st
 
 st.set_page_config(page_title="Regulatory Intelligence Dashboard", page_icon="⚖", layout="wide")
 DATA_FILE = Path(__file__).parent / "data" / "updates.json"
 
-# FIXED: the line for IBBI used a semicolon ("IBBI"; "...") instead of a colon
-# ("IBBI": "..."). In a Python dictionary, that's not a small style slip -
-# it's invalid syntax, so the entire app would fail to even start.
-STAKEHOLDER_GROUPS = {
+# Each authority maps to its OWN specific practice area now, instead of a
+# few broad buckets - so RBI (banking/FEMA/cross-border), IBBI (insolvency)
+# and MCA (corporate/secretarial) each get their own tab, as requested,
+# rather than being lumped together.
+PRACTICE_AREA = {
     "MCA": "Corporate & Secretarial",
-    "RBI": "Corporate & Secretarial",
-    "IBBI": "Corporate & Secretarial",
+    "RBI": "Banking & Exchange Regulations",
+    "IBBI": "Insolvency & Restructuring",
     "SEBI": "Securities & Listing",
     "NSE": "Securities & Listing",
     "BSE": "Securities & Listing",
-    "Ministry of Labour & Employment": "Employment Law",
+    "IRDAI": "Insurance Regulation",
+    "Ministry of Labour & Employment": "Employment & Labour",
 }
-GROUP_ORDER = ["Corporate & Secretarial", "Securities & Listing", "Employment Law"]
+GROUP_ORDER = [
+    "Corporate & Secretarial", "Banking & Exchange Regulations", "Insolvency & Restructuring",
+    "Securities & Listing", "Insurance Regulation", "Employment & Labour",
+]
 GROUP_BLURB = {
-    "Corporate & Secretarial": "MCA, RBI, IBBI and FEMA updates for company secretaries and compliance teams.",
+    "Corporate & Secretarial": "MCA updates on company law, incorporation, filings and secretarial compliance.",
+    "Banking & Exchange Regulations": "RBI notifications and master directions covering banking, NBFCs, KYC and cross-border regulations.",
+    "Insolvency & Restructuring": "IBBI circulars for insolvency professionals, resolution applicants and corporate debtors.",
     "Securities & Listing": "SEBI, NSE and BSE updates for listed entities and market intermediaries.",
-    "Employment Law": "Ministry of Labour & Employment updates for HR and employment-law teams.",
+    "Insurance Regulation": "IRDAI circulars for insurers, reinsurers and insurance intermediaries.",
+    "Employment & Labour": "Ministry of Labour & Employment updates for HR and employment-law teams.",
 }
-
-# --- Design tokens -----------------------------------------------------
-# A cohesive "aged metal / official seal" family: brass, bronze, sage,
-# slate - muted enough to sit quietly on a dark background together,
-# rather than a rainbow of unrelated hues per authority.
+GROUP_COLOR = {
+    "Corporate & Secretarial": "#5B84AC", "Banking & Exchange Regulations": "#6FA287",
+    "Insolvency & Restructuring": "#A67C52", "Securities & Listing": "#C9A24A",
+    "Insurance Regulation": "#6B9B9E", "Employment & Labour": "#8577A8",
+}
 AUTHORITY_SOLID = {
     "MCA": "#5B84AC", "RBI": "#6FA287", "IBBI": "#A67C52", "SEBI": "#C9A24A",
-    "NSE": "#B8763F", "BSE": "#9C5B45", "Ministry of Labour & Employment": "#8577A8",
+    "NSE": "#B8763F", "BSE": "#9C5B45", "IRDAI": "#6B9B9E", "Ministry of Labour & Employment": "#8577A8",
 }
 AUTHORITY_TINT = {a: (f"{c}26", c) for a, c in AUTHORITY_SOLID.items()}
 URGENCY_STYLE = {
@@ -80,7 +89,7 @@ st.markdown(
             radial-gradient(700px circle at 100% 10%, rgba(111,162,135,0.06), transparent 55%),
             var(--bg);
     }
-    .block-container { padding-top: 3rem; max-width: 1080px; color: var(--ink); }
+    .block-container { padding-top: 3rem; max-width: 1150px; color: var(--ink); }
     [data-testid="stHeader"] { background: transparent; }
     [data-testid="stMarkdownContainer"], [data-testid="stCaptionContainer"],
     [data-testid="stTabs"] p, .stMultiSelect label, .stMultiSelect span,
@@ -88,7 +97,6 @@ st.markdown(
         color: var(--ink);
     }
     [data-testid="stCaptionContainer"] { color: var(--muted) !important; }
-    /* ---- Header: one serif title carries the weight, no eyebrow label ---- */
     .brand-title {
         font-family: 'Source Serif 4', serif;
         font-size: 3.1rem; font-weight: 600; color: var(--ink);
@@ -96,10 +104,9 @@ st.markdown(
     }
     .brand-summary {
         color: var(--muted); font-size: 1rem; margin: 0.9rem 0 1.6rem 0;
-        max-width: 620px; line-height: 1.6;
+        max-width: 680px; line-height: 1.6;
     }
     .brand-summary b { color: var(--ink); font-weight: 600; }
-    /* ---- Sidebar ---- */
     section[data-testid="stSidebar"] > div {
         background: #101317;
         border-right: 1px solid var(--border);
@@ -116,13 +123,15 @@ st.markdown(
         background: var(--surface) !important; border: 1px solid var(--border) !important;
         color: var(--ink) !important;
     }
+    section[data-testid="stSidebar"] [data-baseweb="tag"] {
+        background: var(--surface-raised) !important; border: 1px solid var(--gold) !important;
+    }
     .sidebar-brand { display:flex; align-items:center; gap:0.55rem; margin-bottom:0.3rem; }
     .sidebar-brand-mark { font-size: 1.25rem; color: var(--gold) !important; }
     .sidebar-brand-name {
         font-family: 'Source Serif 4', serif; font-weight: 600; font-size: 1.05rem;
     }
     .sidebar-brand-sub { font-size: 0.78rem; color: #6E7178 !important; margin-bottom: 1.2rem; }
-    /* ---- Stats strip ---- */
     .stats-strip {
         display: flex; gap: 0; flex-wrap: wrap; background: var(--surface);
         border: 1px solid var(--border); border-radius: 10px;
@@ -139,11 +148,10 @@ st.markdown(
         font-family: 'Source Serif 4', serif; font-size: 1.25rem; font-weight: 600;
         color: var(--ink); margin: 0.2rem 0 0.8rem 0;
     }
-    .dist-row { display: flex; align-items: center; gap: 0.7rem; margin-bottom: 0.6rem; }
-    .dist-label { width: 190px; font-size: 0.86rem; color: var(--ink); flex-shrink: 0; }
-    .dist-track { flex: 1; height: 8px; border-radius: 999px; background: var(--surface-raised); overflow: hidden; }
-    .dist-fill { height: 100%; border-radius: 999px; }
-    .dist-count { width: 26px; text-align: right; font-size: 0.84rem; color: var(--muted); }
+    .chart-card {
+        background: var(--surface); border: 1px solid var(--border); border-radius: 10px;
+        padding: 1.2rem 1.3rem 0.4rem 1.3rem; margin-bottom: 1.4rem;
+    }
     .urgent-preview {
         display: flex; align-items: center; gap: 0.75rem; background: var(--surface);
         border: 1px solid var(--border); border-radius: 8px; padding: 0.7rem 1rem; margin-bottom: 0.5rem;
@@ -151,8 +159,6 @@ st.markdown(
     .urgent-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
     .urgent-text { font-size: 0.9rem; color: var(--ink); flex: 1; }
     .urgent-when { font-size: 0.78rem; color: var(--muted); }
-    /* ---- Update cards: a left accent bar encodes the authority - a
-       structural device that carries real information, not decoration ---- */
     div[data-testid="stVerticalBlockBorderWrapper"] {
         background: var(--surface) !important;
         border: 1px solid var(--border) !important;
@@ -198,7 +204,7 @@ st.markdown(
     """
     <p class="brand-title">Regulatory Intelligence</p>
     <p class="brand-summary">
-        <b>MCA, RBI, IBBI, SEBI, NSE, BSE and the Ministry of Labour</b>, checked daily.
+        <b>MCA, RBI, IBBI, SEBI, NSE, BSE, IRDAI and the Ministry of Labour</b>, checked daily.
         Every fact shown here is backed by a verbatim quote from the original document -
         nothing is guessed, and nothing here is legal advice.
     </p>
@@ -223,9 +229,14 @@ with st.sidebar:
     st.markdown("**Filters**")
     window_days = st.slider("Show updates from the last N days", min_value=7, max_value=45, value=30, step=1)
     search_term = st.text_input("Search title or summary", "")
+    urgency_options = ["Action required", "Upcoming", "For review"]
+    selected_urgency_labels = st.multiselect("Urgency", urgency_options, default=urgency_options)
     st.divider()
     st.caption("Country: India, Region: APAC")
     st.caption("National sources only in this prototype.")
+
+label_to_key = {"Action required": "urgent", "Upcoming": "pending", "For review": "review"}
+selected_urgency_keys = {label_to_key[label] for label in selected_urgency_labels}
 
 cutoff = (date.today() - timedelta(days=window_days)).isoformat()
 updates = [u for u in all_updates if u.get("notification_date", "") >= cutoff]
@@ -233,8 +244,9 @@ if search_term.strip():
     term = search_term.strip().lower()
     updates = [u for u in updates if term in u.get("title", "").lower() or term in u.get("summary", "").lower()]
 for u in updates:
-    u["_group"] = STAKEHOLDER_GROUPS.get(u.get("regulatory_authority", ""), "Other")
+    u["_group"] = PRACTICE_AREA.get(u.get("regulatory_authority", ""), "Other")
     u["_urgency"] = classify_urgency(u.get("effective_date", ""))
+updates = [u for u in updates if u["_urgency"] in selected_urgency_keys]
 
 strip_html = '<div class="stats-strip">'
 strip_html += f'<div class="stat-block"><div class="stat-num">{len(updates)}</div><div class="stat-label">Total updates</div></div>'
@@ -249,25 +261,33 @@ tab_labels = ["Overview"] + [f"{g} ({sum(1 for u in updates if u['_group'] == g)
 tabs = st.tabs(tab_labels)
 
 with tabs[0]:
-    st.markdown('<p class="section-title">Where updates are coming from</p>', unsafe_allow_html=True)
-    authority_counts = {}
-    for u in updates:
-        authority_counts[u["regulatory_authority"]] = authority_counts.get(u["regulatory_authority"], 0) + 1
-    max_count = max(authority_counts.values(), default=1)
-    if authority_counts:
-        for authority, count in sorted(authority_counts.items(), key=lambda kv: kv[1], reverse=True):
-            width_pct = int(100 * count / max_count) if max_count else 0
-            color = AUTHORITY_SOLID.get(authority, "#7A7E86")
-            st.markdown(
-                f'<div class="dist-row"><div class="dist-label">{authority}</div>'
-                f'<div class="dist-track"><div class="dist-fill" style="width:{width_pct}%;background:{color};"></div></div>'
-                f'<div class="dist-count">{count}</div></div>',
-                unsafe_allow_html=True,
-            )
-    else:
-        st.info("No updates in the selected window yet.")
+    st.markdown('<div class="chart-card">', unsafe_allow_html=True)
+    st.markdown('<p class="section-title">Updates by practice area</p>', unsafe_allow_html=True)
+    group_counts = {g: sum(1 for u in updates if u["_group"] == g) for g in GROUP_ORDER}
+    ordered_groups = sorted(group_counts, key=lambda g: group_counts[g])
+    fig = go.Figure(go.Bar(
+        x=[group_counts[g] for g in ordered_groups],
+        y=ordered_groups,
+        orientation="h",
+        marker_color=[GROUP_COLOR[g] for g in ordered_groups],
+        text=[group_counts[g] for g in ordered_groups],
+        textposition="outside",
+        textfont=dict(color="#EDE9E1"),
+    ))
+    fig.update_layout(
+        plot_bgcolor="rgba(0,0,0,0)",
+        paper_bgcolor="rgba(0,0,0,0)",
+        font=dict(color="#EDE9E1", family="IBM Plex Sans"),
+        margin=dict(l=0, r=30, t=10, b=10),
+        height=260,
+        xaxis=dict(showgrid=False, visible=False),
+        yaxis=dict(showgrid=False),
+    )
+    st.plotly_chart(fig, use_container_width=True, config={"displayModeBar": False})
+    st.caption("Use the tabs below to open any practice area directly.")
+    st.markdown('</div>', unsafe_allow_html=True)
 
-    st.markdown('<p class="section-title" style="margin-top:1.7rem;">Most urgent right now</p>', unsafe_allow_html=True)
+    st.markdown('<p class="section-title">Most urgent right now</p>', unsafe_allow_html=True)
     urgent_first = sorted(
         [u for u in updates if u["_urgency"] == "urgent"],
         key=lambda u: u.get("effective_date", ""),
@@ -284,9 +304,6 @@ with tabs[0]:
     else:
         st.caption("Nothing flagged as immediately action-required in the current window.")
 
-    st.markdown('<p class="section-title" style="margin-top:1.7rem;">Jump to a section</p>', unsafe_allow_html=True)
-    st.caption("Use the tabs above to browse by stakeholder group: Corporate & Secretarial, Securities & Listing, or Employment Law.")
-
 for tab, group in zip(tabs[1:], GROUP_ORDER):
     with tab:
         st.caption(GROUP_BLURB[group])
@@ -298,7 +315,7 @@ for tab, group in zip(tabs[1:], GROUP_ORDER):
         if not group_updates:
             st.info(
                 "No verified updates in this group within the selected window. "
-                "Widen the day range in the sidebar, or check back after the next collection run."
+                "Widen the day range or urgency filter in the sidebar, or check back after the next collection run."
             )
             continue
 
