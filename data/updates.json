@@ -16,11 +16,11 @@
     "update_type": "Notification",
     "primary_source_link": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13399",
     "source_name": "Reserve Bank of India — Master Directions",
-    "collected_at": "2026-09-19T20:36:31.290585+00:00",
-    "source_document_sha256": "4502a651d42c313cdf116c188ba1d0204919f9db4ade6574b2f30dfced8fa364",
-    "source_text_path": "data/source_documents/4502a651d42c313cdf116c188ba1d0204919f9db4ade6574b2f30dfced8fa364.html",
+    "collected_at": "2026-10-02T19:43:22.080897+00:00",
+    "source_document_sha256": "a72008de3186eb91a82843ed05e7593d06a30282c41516b28512fff36f75ab7c",
+    "source_text_path": "data/source_documents/a72008de3186eb91a82843ed05e7593d06a30282c41516b28512fff36f75ab7c.html",
     "evidence": [
-      "Master Directions - Reserve Bank of India Skip to main content Not Pressed Not Pressed Pressed Not Pressed Not Pressed Pressed Not Pressed Change Language हिंदी Search the Website Search Master Directions RBI/DOR/2026-27/397 DOR.CRE.REC 5/21.06.201/2026-27 April 27, 2026 Reserve Bank of India (Commercial Banks - Capital Charge for Credit Risk – Standardised Approach) Directions, 2026 (Effective from April 1, 2027) CONTENTS CHAPTER I – PRELIMINARY 1. Introduction 2. Powers Exercised and Commencement 3. Scope 4. Definitions CHAPTER II – GENERAL INSTRUCTIONS 5. General 6. Due diligence requirements CHAPTER III – EXPOSURE CLASSES AND RISK WEIGHTS 7. Exposures to Domestic Sovereigns 8. Exposures to Foreign Sovereigns and Foreign Central Banks 9. Exposures to Public Sector Entities (PSEs) 10. Exposures to MDBs, BIS and IMF 11. Exposures to Banks 12. Exposures to Corporates 13. Exposures to Subordinated debt, equity and other capital instruments 14. Retail Exposures 15. Exposure to Micro, Sma"
+      "617 Master Directions - Reserve Bank of India Skip to main content Not Pressed Change Language हिंदी Search the Website Search Master Directions RBI/DOR/2026-27/397 DOR.CRE.REC 5/21.06.201/2026-27 April 27, 2026 Reserve Bank of India (Commercial Banks - Capital Charge for Credit Risk – Standardised Approach) Directions, 2026 (Effective from April 1, 2027) CONTENTS CHAPTER I – PRELIMINARY 1. Introduction 2. Powers Exercised and Commencement 3. Scope 4. Definitions CHAPTER II – GENERAL INSTRUCTIONS 5. General 6. Due diligence requirements CHAPTER III – EXPOSURE CLASSES AND RISK WEIGHTS 7. Exposures to Domestic Sovereigns 8. Exposures to Foreign Sovereigns and Foreign Central Banks 9. Exposures to Public Sector Entities (PSEs) 10. Exposures to MDBs, BIS and IMF 11. Exposures to Banks 12. Exposures to Corporates 13. Exposures to Subordinated debt, equity and other capital instruments 14. Retail Exposures 15. Exposure to Micro, Small and Medium Enterprises (MSMEs) 16. Real Estate Exposures "
     ],
     "analysis_status": "withheld_no_validated_draft",
     "field_evidence": {}
@@ -42,225 +42,233 @@
     "update_type": "Notification",
     "primary_source_link": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13400",
     "source_name": "Reserve Bank of India — Master Directions",
-    "collected_at": "2026-09-19T20:36:35.575320+00:00",
-    "source_document_sha256": "42d10eda85e07038074a93961c9a8243e6a61b19f7c590988aba0dbcca1009b3",
-    "source_text_path": "data/source_documents/42d10eda85e07038074a93961c9a8243e6a61b19f7c590988aba0dbcca1009b3.html",
+    "collected_at": "2026-10-02T19:43:26.188168+00:00",
+    "source_document_sha256": "5bc5f6cb113c6538991086c49b983df9835dd938b0feb639fd3d3e519bd59d34",
+    "source_text_path": "data/source_documents/5bc5f6cb113c6538991086c49b983df9835dd938b0feb639fd3d3e519bd59d34.html",
     "evidence": [
-      "617 Master Directions - Reserve Bank of India Skip to main content Not Pressed Not Pressed Pressed Not Pressed Not Pressed Pressed Not Pressed Change Language हिंदी Search the Website Search Master Directions RBI/DOR/2026-27/398 DOR.STR.REC.No.6/21.06.011/2026-27 April 27, 2026 Reserve Bank of India (Commercial Banks - Asset Classification, Provisioning and Income Recognition) Directions, 2026 Table of Contents Introduction Chapter I: Preliminary A. Short title and commencement B. Applicability C. Definitions Chapter II: Classification as Non-Performing Asset A. Classification as Non-Performing Asset B. Other Prudential Norms applicable to a bank Chapter III: Expected Credit Loss (ECL) – based Provisioning A. The Methodological Framework for calculating ECL B. Fair Valuation on Transition C. Initial Recognition and subsequent measurement D. Determination of Significant Increase in Credit Risk (SICR) E. Measurement of ECL – Treatment of different Financial Instruments F. Determination o"
+      "617 Master Directions - Reserve Bank of India Skip to main content Not Pressed Change Language हिंदी Search the Website Search Master Directions RBI/DOR/2026-27/398 DOR.STR.REC.No.6/21.06.011/2026-27 April 27, 2026 Reserve Bank of India (Commercial Banks - Asset Classification, Provisioning and Income Recognition) Directions, 2026 Table of Contents Introduction Chapter I: Preliminary A. Short title and commencement B. Applicability C. Definitions Chapter II: Classification as Non-Performing Asset A. Classification as Non-Performing Asset B. Other Prudential Norms applicable to a bank Chapter III: Expected Credit Loss (ECL) – based Provisioning A. The Methodological Framework for calculating ECL B. Fair Valuation on Transition C. Initial Recognition and subsequent measurement D. Determination of Significant Increase in Credit Risk (SICR) E. Measurement of ECL – Treatment of different Financial Instruments F. Determination of the period over which Lifetime ECL is measured G. Probability-"
     ],
     "analysis_status": "withheld_no_validated_draft",
     "field_evidence": {}
   },
   {
-    "id": "512348dd7cacf97e",
-    "title": "Reserve Bank of India (Rural Co-operative Banks – Know Your Customer) Amendment Directions, 2026",
+    "id": "6d1b5d1fa5696529",
+    "title": "Master Direction on Note Sorting Machines",
     "regulatory_authority": "RBI",
     "country": "India",
     "region": "APAC",
     "state": "National",
     "law_area": "Corporate and secretarial",
-    "applicability": "Banks, NBFCs and regulated financial entities may be affected.",
+    "applicability": "Applicability requires review of the primary source.",
     "description": "Source document captured; no validated automatic draft was produced.",
     "summary": "Not generated.",
     "takeaway": "Read the exact primary source.",
-    "notification_date": "2026-09-18",
+    "notification_date": "2026-10-02",
     "effective_date": "Not stated — verify in source",
     "update_type": "Notification",
-    "primary_source_link": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13704&Mode=0",
+    "primary_source_link": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13723&Mode=0",
     "source_name": "Reserve Bank of India — Notifications",
-    "collected_at": "2026-09-19T20:36:05.672413+00:00",
-    "source_document_sha256": "89dcc70e70e93cb472d92879ea9e1f9c296113bc4396bee3a767dd96ffc80178",
-    "source_text_path": "data/source_documents/89dcc70e70e93cb472d92879ea9e1f9c296113bc4396bee3a767dd96ffc80178.html",
+    "collected_at": "2026-10-02T19:43:01.022024+00:00",
+    "source_document_sha256": "49db8ea620ce03c6d28b30e387fbff4ee5f87e7c4d77cc45ddd5761b1fad89ec",
+    "source_text_path": "data/source_documents/49db8ea620ce03c6d28b30e387fbff4ee5f87e7c4d77cc45ddd5761b1fad89ec.html",
     "evidence": [
-      "Notifications | Official Website of Reserve Bank of India Skip to main content Not Pressed Not Pressed Pressed Not Pressed Not Pressed Pressed Not Pressed Change Language हिंदी Search the Website Search Notifications RBI/2026-27/262 DOR.AML.REC.223/14.01.005/2026-27 September 18, 2026 Reserve Bank of India (Rural Co-operative Banks – Know Your Customer) Amendment Directions, 2026 Reserve Bank has issued Reserve Bank of India (Rural Co-operative Banks – Know Your Customer) Directions, 2025 dated November 28, 2025 (hereinafter referred to as the Directions) in compliance with the provisions of the Prevention of Money Laundering Act, 2002, and the Prevention of Money Laundering (Maintenance of Records) Rules, 2005. The Directions in paragraph 4(1)(v) allow the banks to alternatively obtain the original certified copy which are certified by any one of the authorities / authorised officials mentioned therein in case of Non-Resident Indians (NRIs) and Persons of Indian Origin (PIOs), as defi"
+      "Notifications | Official Website of Reserve Bank of India Skip to main content Not Pressed Change Language हिंदी Search the Website Search Notifications RBI/DCM/2026-27/473 DCM(NPD) No.S2154/18.00.014/2026-27 October 02, 2026 The Chairman / Managing Director / Chief Executive Officer All Banks Madam / Dear Sir, Master Direction on Note Sorting Machines In exercise of the powers conferred under Section 35A and Section 56 of the Banking Regulation Act, 1949, Reserve Bank of India (RBI), from time-to-time issues guidelines / circulars / directives to the banks on Note Sorting Machines. 2. A Master Direction incorporating and updating the extant guidelines / circulars / directives on the subject has been prepared to enable banks to have all current instructions on Note Sorting Machines at one place for reference and the same is enclosed. 3. The previous circulars issued on the subject ( Annexed ) stand withdrawn from the date of issuance of this Master Direction . Yours faithfully, (Sanjee"
     ],
     "analysis_status": "withheld_no_validated_draft",
     "field_evidence": {}
   },
   {
-    "id": "fcd8d777e1349fd4",
-    "title": "Reserve Bank of India (Urban Co-operative Banks – Know Your Customer) Amendment Directions, 2026",
+    "id": "f33ff302efe5d5b2",
+    "title": "Master Direction on Note Sorting Machines",
     "regulatory_authority": "RBI",
     "country": "India",
     "region": "APAC",
     "state": "National",
     "law_area": "Corporate and secretarial",
-    "applicability": "Banks, NBFCs and regulated financial entities may be affected.",
+    "applicability": "Applicability requires review of the primary source.",
     "description": "Source document captured; no validated automatic draft was produced.",
     "summary": "Not generated.",
     "takeaway": "Read the exact primary source.",
-    "notification_date": "2026-09-18",
+    "notification_date": "2026-10-02",
     "effective_date": "Not stated — verify in source",
     "update_type": "Notification",
-    "primary_source_link": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13703&Mode=0",
-    "source_name": "Reserve Bank of India — Notifications",
-    "collected_at": "2026-09-19T20:36:11.284259+00:00",
-    "source_document_sha256": "f2d30f2d9228e54d7d72b1d9bfe37f3a3b86ed073b77ec5d57ce5ff157285ad1",
-    "source_text_path": "data/source_documents/f2d30f2d9228e54d7d72b1d9bfe37f3a3b86ed073b77ec5d57ce5ff157285ad1.html",
+    "primary_source_link": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13723",
+    "source_name": "Reserve Bank of India — Master Directions",
+    "collected_at": "2026-10-02T19:43:30.651769+00:00",
+    "source_document_sha256": "638d1e612feb4b78673af8ab009b72d248796365ec0aa6b88a4cbd2bb68c1b8c",
+    "source_text_path": "data/source_documents/638d1e612feb4b78673af8ab009b72d248796365ec0aa6b88a4cbd2bb68c1b8c.html",
     "evidence": [
-      "Notifications | Official Website of Reserve Bank of India Skip to main content Not Pressed Not Pressed Pressed Not Pressed Not Pressed Pressed Not Pressed Change Language हिंदी Search the Website Search Notifications RBI/2026-27/261 DOR.AML.REC.225/14.01.006/2026-27 September 18, 2026 Reserve Bank of India (Urban Co-operative Banks – Know Your Customer) Amendment Directions, 2026 Reserve Bank had issued Reserve Bank of India (Urban Co-operative Banks – Know Your Customer) Directions, 2025 dated November 28, 2025 (hereinafter referred to as the Directions) in compliance with the provisions of the Prevention of Money Laundering Act, 2002, and the Prevention of Money Laundering (Maintenance of Records) Rules, 2005. The Directions in paragraph 4(1)(v) allow the banks to alternatively obtain the original certified copy which are certified by any one of the authorities / authorised officials mentioned therein in case of Non-Resident Indians (NRIs) and Persons of Indian Origin (PIOs), as defi"
+      "Master Directions | Official Website of Reserve Bank of India Skip to main content Not Pressed Change Language हिंदी Search the Website Search Master Directions RBI/DCM/2026-27/473 DCM(NPD) No.S2154/18.00.014/2026-27 October 02, 2026 The Chairman / Managing Director / Chief Executive Officer All Banks Madam / Dear Sir, Master Direction on Note Sorting Machines In exercise of the powers conferred under Section 35A and Section 56 of the Banking Regulation Act, 1949, Reserve Bank of India (RBI), from time-to-time issues guidelines / circulars / directives to the banks on Note Sorting Machines. 2. A Master Direction incorporating and updating the extant guidelines / circulars / directives on the subject has been prepared to enable banks to have all current instructions on Note Sorting Machines at one place for reference and the same is enclosed. 3. The previous circulars issued on the subject ( Annexed ) stand withdrawn from the date of issuance of this Master Direction . Yours faithfully,"
     ],
     "analysis_status": "withheld_no_validated_draft",
     "field_evidence": {}
   },
   {
-    "id": "cc48b05b36526f75",
-    "title": "RBI: Notification — Reserve Bank of India (Regional Rural Banks – Know Your Customer) Amendment Directions, 2026",
+    "id": "df00603bd5b062a9",
+    "title": "RBI: Circular — Non-Resident Deposits - Comprehensive Single Return (NRD-CSR)(R012): Submission under CIMS Sankalan Portal",
+    "regulatory_authority": "RBI",
+    "country": "India",
+    "region": "APAC",
+    "state": "National",
+    "law_area": "Foreign Exchange Management",
+    "applicability": "Banks maintaining Non-Resident Deposits (NRD) Accounts",
+    "description": "RBI has issued a circular concerning Non-Resident Deposits - Comprehensive Single Return (NRD-CSR)(R012): Submission under CIMS Sankalan Portal.",
+    "summary": "The Reserve Bank of India transitioned the Non-Resident Deposits - Comprehensive Single Return (NRD-CSR) reporting to the Centralised Information Management System (CIMS) Sankalan portal, assigning it the return code R012 and rationalising its formats for bank-wise consolidated data. This circular was issued in supersession of A.P. (DIR Series) Circular No. 19 dated August 07, 2013, to update reporting channels and administrative management of user access. In practice, the nodal office of banks must now submit the NRD-CSR (R012) report through one of three specific channels: system-to-system integration, file upload on the data portal, or a screen-based web form on the data collection portal.",
+    "takeaway": "Submit the NRD-CSR (R012) report on or before the 10th of the month following the month to which the NRD data pertains using one of the three permitted channels on the CIMS Sankalan portal.",
+    "notification_date": "2026-10-01",
+    "effective_date": "Not stated in source",
+    "update_type": "Circular",
+    "primary_source_link": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13725&Mode=0",
+    "source_name": "Reserve Bank of India — Notifications",
+    "collected_at": "2026-10-02T19:43:04.945081+00:00",
+    "source_document_sha256": "e0d0cf0be7b0b6a2431937ee1343f7fd462ec0af6e6035997473fa3675fe63aa",
+    "source_text_path": "data/source_documents/e0d0cf0be7b0b6a2431937ee1343f7fd462ec0af6e6035997473fa3675fe63aa.html",
+    "evidence": [
+      "Notifications | Official Website of Reserve Bank of India Skip to main content Not Pressed Change Language हिंदी Search the Website Search Notifications RBI/2026-27/280 A.P. (DIR Series) Circular No. 24 October 01, 2026 To All Authorised Dealers Madam / Sir, Non-Resident Deposits - Comprehensive Single Return (NRD-CSR)(R012): Submission under CIMS Sankalan Portal Attention of banks maintaining Non-Resident Deposits (NRD) Accounts is invited to A.P. (DIR Series) Circular No. 19 dated August 07, 2013 on monthly NRD-CSR return submission through XBRL platform to the Reserve Bank. 2. The NRD-CSR reporting has since moved to Centralised Information Management System (CIMS) Sankalan portal with the submission of March 2024 data in the month of April 2024. The return code of NRD-CSR on the CIMS is R012. The existing formats of NRD-CSR have also been recently rationalised for reporting bank-wise consolidated data under CIMS. The access to submit a return and reporting channel will be managed b"
+    ],
+    "analysis_status": "published",
+    "field_evidence": {
+      "title": [
+        "Non-Resident Deposits - Comprehensive Single Return (NRD-CSR)(R012): Submission under CIMS Sankalan Portal",
+        "A.P. (DIR Series) Circular No. 24"
+      ],
+      "update_type": [
+        "A.P. (DIR Series) Circular No. 24"
+      ],
+      "applicability": [
+        "To All Authorised Dealers",
+        "Attention of banks maintaining Non-Resident Deposits (NRD) Accounts"
+      ],
+      "description": [
+        "RBI/2026-27/280 A.P. (DIR Series) Circular No. 24",
+        "Non-Resident Deposits - Comprehensive Single Return (NRD-CSR)(R012): Submission under CIMS Sankalan Portal"
+      ],
+      "summary": [
+        "The NRD-CSR reporting has since moved to Centralised Information Management System (CIMS) Sankalan portal with the submission of March 2024 data in the month of April 2024.",
+        "The return code of NRD-CSR on the CIMS is R012.",
+        "The existing formats of NRD-CSR have also been recently rationalised for reporting bank-wise consolidated data under CIMS.",
+        "Accordingly, this circular is being issued in supersession of the A.P. (DIR Series) Circular No. 19 dated August 07, 2013 .",
+        "The NRD-CSR (R012) return can be submitted to RBI on CIMS through one of the three channels mentioned below: System-to-system integration: The returns will be collected directly from the reporting entities’ ADF server to RBI CIMS server. File upload on Data Portal: Reporting entities can login to CIMS Data collection portal, upload and submit the return specific file. Screen based web form on Data Collection Portal: Reporting entities can login to CIMS data collection portal and key in return specific information in the web form created for the return."
+      ],
+      "takeaway": [
+        "The NRD-CSR report may be submitted on or before 10th of the month following the month to which the NRD data pertains."
+      ],
+      "effective_date": [
+        "October 01, 2026"
+      ]
+    }
+  },
+  {
+    "id": "3c2b8d5fdda8bd85",
+    "title": "RBI: Amendment — Reserve Bank of India (Local Area Banks - Acquisition and Holding of Shares or Voting Rights) Amendment Directions, 2026",
+    "regulatory_authority": "RBI",
+    "country": "India",
+    "region": "APAC",
+    "state": "National",
+    "law_area": "Banking",
+    "applicability": "Mutual funds registered with the Securities and Exchange Board of India, pension funds registered with the Pension Fund Regulatory and Development Authority, and insurance companies registered with the Insurance Regulatory and Development Authority of India that do not belong to the promoter group of the investee banking company, as well as portfolio managers and local area banking companies.",
+    "description": "RBI has issued a amendment concerning Reserve Bank of India (Local Area Banks - Acquisition and Holding of Shares or Voting Rights) Amendment Directions, 2026.",
+    "summary": "The Reserve Bank of India has introduced the Reserve Bank of India (Local Area Banks - Acquisition and Holding of Shares or Voting Rights) Amendment Directions, 2026, which allow qualifying mutual funds, pension funds, and insurance companies to seek a one-time approval for subsequent major shareholding acquisitions up to 10 percent. This change was based on a review to streamline the approval process for specific institutional investors while maintaining regulatory oversight. In practice, qualifying persons must now submit applications through PRAVAAH along with Form A, banking companies must furnish comments in Form A1, and major shareholders with one-time approval must report holdings crossing below or above five percent within three working days.",
+    "takeaway": "Submit applications for one-time approval through PRAVAAH along with the declaration in Form A, and ensure that any decrease or increase of the aggregate holding to below or above five percent of total paid-up share capital or voting rights is reported to the Reserve Bank and the concerned banking company within three working days.",
+    "notification_date": "2026-10-01",
+    "effective_date": "With immediate effect",
+    "update_type": "Amendment",
+    "primary_source_link": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13722&Mode=0",
+    "source_name": "Reserve Bank of India — Notifications",
+    "collected_at": "2026-10-02T19:43:11.258296+00:00",
+    "source_document_sha256": "37c7fa6d46bed2f3527232e821a5fec9cf47ae95ae1aa39d006109a719094857",
+    "source_text_path": "data/source_documents/37c7fa6d46bed2f3527232e821a5fec9cf47ae95ae1aa39d006109a719094857.html",
+    "evidence": [
+      "Notifications | Official Website of Reserve Bank of India Skip to main content Not Pressed Change Language हिंदी Search the Website Search Notifications RBI/2026-27/278 DOR.HOL.REC.No.238/16.13.100/2026-27 October 1, 2026 Reserve Bank of India (Local Area Banks - Acquisition and Holding of Shares or Voting Rights) Amendment Directions, 2026 The Reserve Bank had issued the Reserve Bank of India (Local Area Banks – Acquisition and Holding of Shares or Voting Rights) Directions, 2025 (hereinafter referred as the ‘Master Direction’), on November 28, 2025, which mandates that any person seeking to make an initial acquisition of major shareholding in a banking company shall obtain prior approval of the Reserve Bank. Further, where such person’s aggregate shareholding, after the initial acquisition of major shareholding, falls below five percent at any point of time, prior approval of the Reserve Bank shall again be required before any subsequent acquisition of major shareholding. While obtai"
+    ],
+    "analysis_status": "published",
+    "field_evidence": {
+      "title": [
+        "Reserve Bank of India (Local Area Banks - Acquisition and Holding of Shares or Voting Rights) Amendment Directions, 2026"
+      ],
+      "update_type": [
+        "Amendment Directions"
+      ],
+      "applicability": [
+        "mutual fund registered with the Securities and Exchange Board of India, or a pension fund registered with the Pension Fund Regulatory and Development Authority, or an insurance company registered with the Insurance Regulatory and Development Authority of India",
+        "does not belong to the promoter group of the investee banking company",
+        "Acquisition by a client may not be treated as indirect acquisition by its portfolio manager",
+        "Local Area Banks"
+      ],
+      "description": [
+        "Reserve Bank of India (Local Area Banks - Acquisition and Holding of Shares or Voting Rights) Amendment Directions, 2026"
+      ],
+      "summary": [
+        "Reserve Bank of India (Local Area Banks - Acquisition and Holding of Shares or Voting Rights) Amendment Directions, 2026",
+        "it has now been decided to grant one-time approval for subsequent acquisitions of major shareholding in the same banking company by mutual funds, insurance companies and pension funds, subject to certain requirements.",
+        "Qualifying persons are required to make an application, through PRAVAAH , to the Reserve Bank along with the declaration in Form A.",
+        "The concerned banking company shall furnish its comments to the Reserve Bank in Form A1",
+        "major shareholders who have obtained one-time approval and qualifying persons with one-time approval shall report decrease or increase of the aggregate holding to below or above five per cent of total paid-up share capital or voting rights of the banking company, respectively, to the Reserve Bank and the concerned banking company within three working days of such an event."
+      ],
+      "takeaway": [
+        "Qualifying persons are required to make an application, through PRAVAAH , to the Reserve Bank along with the declaration in Form A.",
+        "major shareholders who have obtained one-time approval and qualifying persons with one-time approval shall report decrease or increase of the aggregate holding to below or above five per cent of total paid-up share capital or voting rights of the banking company, respectively, to the Reserve Bank and the concerned banking company within three working days of such an event."
+      ],
+      "effective_date": [
+        "These Directions shall come into force with immediate effect."
+      ]
+    }
+  },
+  {
+    "id": "50531adfdb51fc36",
+    "title": "RBI: Amendment — Payments Banks Acquisition and Holding of Shares or Voting Rights Directions",
     "regulatory_authority": "RBI",
     "country": "India",
     "region": "APAC",
     "state": "National",
     "law_area": "Banking Regulation",
-    "applicability": "Regional Rural Banks",
-    "description": "RBI has issued a notification concerning Reserve Bank of India (Regional Rural Banks – Know Your Customer) Amendment Directions, 2026.",
-    "summary": "Paragraph 4(1)(v) of the Regional Rural Banks - Know Your Customer Directions, 2025 has been substituted to extend alternative certified copy verification options to Foreign Portfolio Investors (FPIs). The Reserve Bank reviewed extant instructions and decided to extend this facility to FPIs in addition to Non-Resident Indians (NRIs) and Persons of Indian Origin (PIOs). In practice, compliance workflows for onboarding FPIs will now permit the acceptance of original certified copies issued by specified overseas authorities, branches, or officials rather than requiring direct comparison with originals by the bank in India.",
-    "takeaway": "Update the KYC verification procedures for Regional Rural Banks to accept original certified copies for Foreign Portfolio Investors (FPIs) certified by the authorized overseas authorities, branches, or officials listed in paragraph 4(1)(v) of the amended directions.",
-    "notification_date": "2026-09-18",
-    "effective_date": "September 18, 2026",
-    "update_type": "Notification",
-    "primary_source_link": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13702&Mode=0",
+    "applicability": "Mutual funds registered with SEBI, pension funds registered with PFRDA, and insurance companies registered with IRDAI qualifying as a 'qualifying person' or 'qualifying person with one-time approval' under the directions, as well as banking companies, portfolio managers, and banks applying on behalf of qualifying persons belonging to the promoter group or group of the bank.",
+    "description": "RBI has issued a amendment concerning Reserve Bank of India (Payments Banks - Acquisition and Holding of Shares or Voting Rights) Amendment Directions, 2026.",
+    "summary": "The Reserve Bank of India has introduced the Reserve Bank of India (Payments Banks - Acquisition and Holding of Shares or Voting Rights) Amendment Directions, 2026, which modify the Master Direction of 2025 by permitting mutual funds, insurance companies, and pension funds to obtain a one-time approval for subsequent acquisitions of major shareholding up to 10 percent. This change was based on a review to streamline shareholding acquisition rules for institutional investors while maintaining regulatory oversight. In practice, qualifying entities seeking one-time approval must now submit applications through PRAVAAH with Form A or Form A1, banks must furnish comments accordingly, and entities with one-time approval must report holding decreases or increases across the five percent threshold to the RBI and the banking company within three working days.",
+    "takeaway": "Submit applications for one-time approval through PRAVAAH along with Form A declarations, ensure banking companies furnish comments in Form A1, and report any decrease or increase of aggregate holdings crossing the five percent threshold to the Reserve Bank and the banking company within three working days.",
+    "notification_date": "2026-10-01",
+    "effective_date": "October 1, 2026",
+    "update_type": "Amendment",
+    "primary_source_link": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13721&Mode=0",
     "source_name": "Reserve Bank of India — Notifications",
-    "collected_at": "2026-09-19T20:36:15.731850+00:00",
-    "source_document_sha256": "d23f94547d3be543f1804d1e240d446dec6bb8951e4e807b3ae6b22e90185582",
-    "source_text_path": "data/source_documents/d23f94547d3be543f1804d1e240d446dec6bb8951e4e807b3ae6b22e90185582.html",
+    "collected_at": "2026-10-02T19:43:15.481176+00:00",
+    "source_document_sha256": "23300c094ba7d2cd002dd65c8847652c50cbb103e1b1ebf9ab1e4c357827ace8",
+    "source_text_path": "data/source_documents/23300c094ba7d2cd002dd65c8847652c50cbb103e1b1ebf9ab1e4c357827ace8.html",
     "evidence": [
-      "Notifications | Official Website of Reserve Bank of India Skip to main content Not Pressed Not Pressed Pressed Not Pressed Not Pressed Pressed Not Pressed Change Language हिंदी Search the Website Search Notifications RBI/2026-27/260 DOR.AML.REC.222/14.01.004/2026-27 September 18, 2026 Reserve Bank of India (Regional Rural Banks – Know Your Customer) Amendment Directions, 2026 Reserve Bank has issued Reserve Bank of India (Regional Rural Banks – Know Your Customer) Directions, 2025 dated November 28, 2025 (hereinafter referred to as the Directions) in compliance with the provisions of the Prevention of Money Laundering Act, 2002, and the Prevention of Money Laundering (Maintenance of Records) Rules, 2005. The Directions in paragraph 4(1)(v) allow the banks to alternatively obtain the original certified copy which are certified by any one of the authorities / authorised officials mentioned therein in case of Non-Resident Indians (NRIs) and Persons of Indian Origin (PIOs), as defined in F"
+      "Notifications | Official Website of Reserve Bank of India Skip to main content Not Pressed Change Language हिंदी Search the Website Search Notifications RBI/2026-27/277 DOR.HOL.REC.No.237/16.13.100/2026-27 October 1, 2026 Reserve Bank of India (Payments Banks - Acquisition and Holding of Shares or Voting Rights) Amendment Directions, 2026 The Reserve Bank had issued the Reserve Bank of India (Payments Banks – Acquisition and Holding of Shares or Voting Rights) Directions, 2025 (hereinafter referred as the ‘Master Direction’), on November 28, 2025, which mandates that any person seeking to make an initial acquisition of major shareholding in a banking company shall obtain prior approval of the Reserve Bank. Further, where such person’s aggregate shareholding, after the initial acquisition of major shareholding, falls below five percent at any point of time, prior approval of the Reserve Bank shall again be required before any subsequent acquisition of major shareholding. While obtaining"
     ],
     "analysis_status": "published",
     "field_evidence": {
       "title": [
-        "Reserve Bank of India (Regional Rural Banks – Know Your Customer) Amendment Directions, 2026"
+        "Reserve Bank of India (Payments Banks - Acquisition and Holding of Shares or Voting Rights) Amendment Directions, 2026"
       ],
       "update_type": [
-        "Notifications"
+        "Amendment Directions"
       ],
       "applicability": [
-        "Reserve Bank of India (Regional Rural Banks – Know Your Customer) Amendment Directions, 2026"
+        "qualifying persons, as defined at paragraph 6A of the directions, can seek one-time approval, either individually or collectively, from the Reserve Bank for subsequent acquisitions of major shareholding up to 10 per cent",
+        "mutual fund registered with the Securities and Exchange Board of India, or a pension fund registered with the Pension Fund Regulatory and Development Authority, or an insurance company registered with the Insurance Regulatory and Development Authority of India"
       ],
       "description": [
-        "Reserve Bank has issued",
-        "Reserve Bank of India (Regional Rural Banks – Know Your Customer) Amendment Directions, 2026"
+        "Reserve Bank of India (Payments Banks - Acquisition and Holding of Shares or Voting Rights) Amendment Directions, 2026"
       ],
       "summary": [
-        "Paragraph 4(1)(v) shall be substituted by the following, namely:",
-        "The extant instructions have since been reviewed and it has been decided to extend the above facility in case of Foreign Portfolio Investors (FPIs).",
-        "Provided that in case of Non-Resident Indians (NRIs) and Persons of Indian Origin (PIOs), as defined in Foreign Exchange Management (Deposit) Regulations, 2016 {FEMA 5(R)}, and Foreign Portfolio Investors (FPIs), the bank may alternatively obtain the original certified copy, certified by any one of the following:"
+        "it has now been decided to grant one-time approval for subsequent acquisitions of major shareholding in the same banking company by mutual funds, insurance companies and pension funds, subject to certain requirements.",
+        "Qualifying persons are required to make an application, through PRAVAAH , to the Reserve Bank along with the declaration in Form A.",
+        "major shareholders who have obtained one-time approval and qualifying persons with one-time approval shall report decrease or increase of the aggregate holding to below or above five per cent of total paid-up share capital or voting rights of the banking company, respectively, to the Reserve Bank and the concerned banking company within three working days of such an event."
       ],
       "takeaway": [
-        "Provided that in case of Non-Resident Indians (NRIs) and Persons of Indian Origin (PIOs), as defined in Foreign Exchange Management (Deposit) Regulations, 2016 {FEMA 5(R)}, and Foreign Portfolio Investors (FPIs), the bank may alternatively obtain the original certified copy, certified by any one of the following:"
+        "Qualifying persons are required to make an application, through PRAVAAH , to the Reserve Bank along with the declaration in Form A.",
+        "major shareholders who have obtained one-time approval and qualifying persons with one-time approval shall report decrease or increase of the aggregate holding to below or above five per cent of total paid-up share capital or voting rights of the banking company, respectively, to the Reserve Bank and the concerned banking company within three working days of such an event."
       ],
       "effective_date": [
-        "September 18, 2026"
+        "October 1, 2026"
       ]
     }
   },
   {
-    "id": "41358c91f4dcab24",
-    "title": "RBI: Notification — Reserve Bank of India (Local Area Banks – Know Your Customer) Amendment Directions, 2026",
-    "regulatory_authority": "RBI",
-    "country": "India",
-    "region": "APAC",
-    "state": "National",
-    "law_area": "Banking and Financial Regulation",
-    "applicability": "Local Area Banks dealing with Foreign Portfolio Investors (FPIs)",
-    "description": "RBI has issued a notification concerning Reserve Bank of India (Local Area Banks – Know Your Customer) Amendment Directions, 2026.",
-    "summary": "The Reserve Bank of India has substituted paragraph 4(1)(v) of the Reserve Bank of India (Local Area Banks – Know Your Customer) Directions, 2025 to extend an alternative verification facility to Foreign Portfolio Investors (FPIs). This change was made after reviewing extant instructions to allow FPIs, alongside Non-Resident Indians and Persons of Indian Origin, to provide original certified copies of documents certified by specified overseas authorities or officials. In practice, compliance workflows for onboarding FPIs will now accept these alternatively certified documents instead of requiring local comparison with originals by the bank.",
-    "takeaway": "Update the bank's KYC verification procedures for Foreign Portfolio Investors (FPIs) to accept original certified copies certified by authorized overseas officials, notary publics abroad, court magistrates, judges, or Indian Embassies/Consulates General.",
-    "notification_date": "2026-09-18",
-    "effective_date": "September 18, 2026",
-    "update_type": "Notification",
-    "primary_source_link": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13701&Mode=0",
-    "source_name": "Reserve Bank of India — Notifications",
-    "collected_at": "2026-09-19T20:36:19.367724+00:00",
-    "source_document_sha256": "0f4f907dceeb0fb19d642d20ef0b6b77fe24922be61a605a36303694e4a4bde9",
-    "source_text_path": "data/source_documents/0f4f907dceeb0fb19d642d20ef0b6b77fe24922be61a605a36303694e4a4bde9.html",
-    "evidence": [
-      "Notifications | Official Website of Reserve Bank of India Skip to main content Not Pressed Not Pressed Pressed Not Pressed Not Pressed Pressed Not Pressed Change Language हिंदी Search the Website Search Notifications RBI/2026-27/259 DOR.AML.REC.221/14.01.008/2026-27 September 18, 2026 Reserve Bank of India (Local Area Banks – Know Your Customer) Amendment Directions, 2026 Reserve Bank has issued Reserve Bank of India (Local Area Banks – Know Your Customer) Directions, 2025 dated November 28, 2025 (hereinafter referred to as the Directions) in compliance with the provisions of the Prevention of Money Laundering Act, 2002, and the Prevention of Money Laundering (Maintenance of Records) Rules, 2005. The Directions in paragraph 4(1)(v) allow the banks to alternatively obtain the original certified copy which are certified by any one of the authorities / authorised officials mentioned therein in case of Non-Resident Indians (NRIs) and Persons of Indian Origin (PIOs), as defined in Foreign E"
-    ],
-    "analysis_status": "published",
-    "field_evidence": {
-      "title": [
-        "Reserve Bank of India (Local Area Banks – Know Your Customer) Amendment Directions, 2026"
-      ],
-      "update_type": [
-        "Notifications"
-      ],
-      "applicability": [
-        "Reserve Bank of India (Local Area Banks – Know Your Customer) Amendment Directions, 2026",
-        "and Foreign Portfolio Investors (FPIs), the bank may alternatively obtain the original certified copy"
-      ],
-      "description": [
-        "Reserve Bank has issued",
-        "Reserve Bank of India (Local Area Banks – Know Your Customer) Amendment Directions, 2026"
-      ],
-      "summary": [
-        "Paragraph 4(1)(v) shall be substituted by the following, namely",
-        "The extant instructions have since been reviewed and it has been decided to extend the above facility in case of Foreign Portfolio Investors (FPIs).",
-        "Provided that in case of Non-Resident Indians (NRIs) and Persons of Indian Origin (PIOs), as defined in Foreign Exchange Management (Deposit) Regulations, 2016 {FEMA 5(R)}, and Foreign Portfolio Investors (FPIs), the bank may alternatively obtain the original certified copy, certified by any one of the following"
-      ],
-      "takeaway": [
-        "Provided that in case of Non-Resident Indians (NRIs) and Persons of Indian Origin (PIOs), as defined in Foreign Exchange Management (Deposit) Regulations, 2016 {FEMA 5(R)}, and Foreign Portfolio Investors (FPIs), the bank may alternatively obtain the original certified copy, certified by any one of the following: (a) authorised officials of overseas branches of Scheduled Commercial Banks registered in India, (b) branches of overseas banks with whom Indian banks have relationships, (c) Notary Public abroad, (d) Court Magistrate, (e) Judge, (f) Indian Embassy / Consulate General in the country where the non-resident customer resides."
-      ],
-      "effective_date": [
-        "September 18, 2026"
-      ]
-    }
-  },
-  {
-    "id": "7ec4afda29fa1b57",
-    "title": "RBI: Notification — Reserve Bank of India (Small Finance Banks – Know Your Customer) Amendment Directions, 2026",
-    "regulatory_authority": "RBI",
-    "country": "India",
-    "region": "APAC",
-    "state": "National",
-    "law_area": "Banking / KYC / Anti-Money Laundering",
-    "applicability": "Small Finance Banks dealing with Foreign Portfolio Investors (FPIs)",
-    "description": "RBI has issued a notification concerning Reserve Bank of India (Small Finance Banks – Know Your Customer) Amendment Directions, 2026.",
-    "summary": "The Reserve Bank of India has amended paragraph 5(1)(v) of the Reserve Bank of India (Small Finance Banks – Know Your Customer) Directions, 2025. This change was introduced to extend the alternative certification facility for customer documents to Foreign Portfolio Investors (FPIs), following a review of extant instructions. In practice, compliance workflows will now allow small finance banks to accept original certified copies of officially valid documents for FPIs certified by specified overseas authorities, branches, or officials rather than requiring local verification.",
-    "takeaway": "Update the bank's KYC onboarding procedures for Foreign Portfolio Investors (FPIs) to accept alternatively certified original documents from the specified overseas authorities, branches, or officials.",
-    "notification_date": "2026-09-18",
-    "effective_date": "September 18, 2026",
-    "update_type": "Notification",
-    "primary_source_link": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13700&Mode=0",
-    "source_name": "Reserve Bank of India — Notifications",
-    "collected_at": "2026-09-19T20:36:24.395268+00:00",
-    "source_document_sha256": "6b56bae8c499ff973968721d2cac20b214d91a3d3d089d6d2277b5deb2f4cb7a",
-    "source_text_path": "data/source_documents/6b56bae8c499ff973968721d2cac20b214d91a3d3d089d6d2277b5deb2f4cb7a.html",
-    "evidence": [
-      "Notifications | Official Website of Reserve Bank of India Skip to main content Not Pressed Not Pressed Pressed Not Pressed Not Pressed Pressed Not Pressed Change Language हिंदी Search the Website Search Notifications RBI/2026-27/258 DOR.AML.REC.224/14.01.007/2026-27 September 18, 2026 Reserve Bank of India (Small Finance Banks – Know Your Customer) Amendment Directions, 2026 Reserve Bank had issued Reserve Bank of India (Small Finance Banks – Know Your Customer) Directions, 2025 dated November 28, 2025 (hereinafter referred to as the Directions) in compliance with the provisions of the Prevention of Money Laundering Act, 2002, and the Prevention of Money Laundering (Maintenance of Records) Rules, 2005. The Directions in paragraph 5(1)(v) allow the banks to alternatively obtain the original certified copy which are certified by any one of the authorities / authorised officials mentioned therein in case of Non-Resident Indians (NRIs) and Persons of Indian Origin (PIOs), as defined in For"
-    ],
-    "analysis_status": "published",
-    "field_evidence": {
-      "title": [
-        "Reserve Bank of India (Small Finance Banks – Know Your Customer) Amendment Directions, 2026"
-      ],
-      "update_type": [
-        "Notifications"
-      ],
-      "applicability": [
-        "Reserve Bank of India (Small Finance Banks – Know Your Customer) Amendment Directions, 2026",
-        "Foreign Portfolio Investors (FPIs)"
-      ],
-      "description": [
-        "RBI/2026-27/258",
-        "Reserve Bank of India (Small Finance Banks – Know Your Customer) Amendment Directions, 2026"
-      ],
-      "summary": [
-        "Paragraph 5(1)(v) shall be substituted by the following, namely",
-        "The extant instructions have since been reviewed and it has been decided to extend the above facility in case of Foreign Portfolio Investors (FPIs).",
-        "Provided that in case of Non-Resident Indians (NRIs) and Persons of Indian Origin (PIOs), as defined in Foreign Exchange Management (Deposit) Regulations, 2016 {FEMA 5(R)}, and Foreign Portfolio Investors (FPIs) , the bank may alternatively obtain the original certified copy, certified by any one of the following:"
-      ],
-      "takeaway": [
-        "Provided that in case of Non-Resident Indians (NRIs) and Persons of Indian Origin (PIOs), as defined in Foreign Exchange Management (Deposit) Regulations, 2016 {FEMA 5(R)}, and Foreign Portfolio Investors (FPIs) , the bank may alternatively obtain the original certified copy, certified by any one of the following:"
-      ],
-      "effective_date": [
-        "September 18, 2026"
-      ]
-    }
-  },
-  {
-    "id": "a48098651a947d7b",
-    "title": "Reserve Bank of India (Commercial Banks – Know Your Customer) Directions, 2025 (Updated as on September 18, 2026)",
+    "id": "0ebc7c233bdf95d6",
+    "title": "Reserve Bank of India (Commercial Banks – Forthcoming Instructions) Directions, 2025",
     "regulatory_authority": "RBI",
     "country": "India",
     "region": "APAC",
@@ -270,181 +278,144 @@
     "description": "Source document captured; no validated automatic draft was produced.",
     "summary": "Not generated.",
     "takeaway": "Read the exact primary source.",
-    "notification_date": "2026-09-18",
+    "notification_date": "2026-10-01",
     "effective_date": "Not stated — verify in source",
     "update_type": "Notification",
-    "primary_source_link": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13141",
+    "primary_source_link": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13137",
     "source_name": "Reserve Bank of India — Master Directions",
-    "collected_at": "2026-09-19T20:36:40.263928+00:00",
-    "source_document_sha256": "09786250abeda7a8c22ccc07a8eae1ec15f09a6604edfe1290ca03982757f7cb",
-    "source_text_path": "data/source_documents/09786250abeda7a8c22ccc07a8eae1ec15f09a6604edfe1290ca03982757f7cb.html",
+    "collected_at": "2026-10-02T19:43:36.342494+00:00",
+    "source_document_sha256": "0f3b20569733a61551d51c16dc076a8760c72d7bddc1f5a17d5c5bdc257f73a7",
+    "source_text_path": "data/source_documents/0f3b20569733a61551d51c16dc076a8760c72d7bddc1f5a17d5c5bdc257f73a7.html",
     "evidence": [
-      "617 Master Directions | Official Website of Reserve Bank of India Skip to main content Not Pressed Not Pressed Pressed Not Pressed Not Pressed Pressed Not Pressed Change Language हिंदी Search the Website Search Master Directions RBI/DOR/2025-26/169 DOR.AML.REC.No.88/14.01.002/2025-26 November 28, 2025 Previous Versions Reserve Bank of India (Commercial Banks – Know Your Customer) Directions, 2025 (Updated as on September 18, 2026) Table of Contents Chapter I – Preliminary A. Short Title and Commencement B. Applicability C. Definitions Chapter II – General A. Board of Directors / Policies related guidelines: B. Other General Guidelines: Chapter III – Customer Acceptance Policy Chapter IV – Risk Management Chapter V – Customer Identification Procedure (CIP) Chapter VI – Customer Due Diligence (CDD) Procedure A. CDD Procedure in case of Individuals B. CDD Measures for Sole Proprietary firms C. CDD Measures for Legal Entities D. Identification of Beneficial Owner E. On-going Due Diligence "
+      "617 Master Directions - Reserve Bank of India Skip to main content Not Pressed Change Language हिंदी Search the Website Search Master Directions RBI/DoR/2025-26/173 DoR.MRG.REC.92/00-00-003/2025-26 November 28, 2025 Reserve Bank of India (Commercial Banks – Forthcoming Instructions) Directions, 2025 Table of Contents Chapter I - Preliminary A. Short title and commencement B. Applicability C. Definitions D. Scope Chapter II - Computing Exposure for Counterparty Credit Risk arising from Derivative Transactions A. Standardised Approach for Counterparty Credit Risk (SA-CCR) for computing default risk capital charge Chapter III – Capital Requirement for Exposures to Central Counterparties (CCPs) A. Scope of Application B. Exposures to QCCPs C. Exposures to non-qualifying CCPs D. Requirements for Recognition of Net Replacement Cost in Close-out Netting Sets Chapter IV – Minimum Capital Requirements for Operational Risk A. Interim arrangement B. Scope C. Definitions D. Components of Basel III"
     ],
     "analysis_status": "withheld_no_validated_draft",
     "field_evidence": {}
   },
   {
-    "id": "c775592c9dce644a",
-    "title": "Reserve Bank of India (Small Finance Banks – Know Your Customer) Directions, 2025 (Updated as on September 18, 2026)",
-    "regulatory_authority": "RBI",
-    "country": "India",
-    "region": "APAC",
-    "state": "National",
-    "law_area": "Corporate and secretarial",
-    "applicability": "Banks, NBFCs and regulated financial entities may be affected.",
-    "description": "Source document captured; no validated automatic draft was produced.",
-    "summary": "Not generated.",
-    "takeaway": "Read the exact primary source.",
-    "notification_date": "2026-09-18",
-    "effective_date": "Not stated — verify in source",
-    "update_type": "Notification",
-    "primary_source_link": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13109",
-    "source_name": "Reserve Bank of India — Master Directions",
-    "collected_at": "2026-09-19T20:36:44.833538+00:00",
-    "source_document_sha256": "cb04ad577ab52b5e74239d9da8e7bad47c4dd544e758f62b8b5d37c1ce27f606",
-    "source_text_path": "data/source_documents/cb04ad577ab52b5e74239d9da8e7bad47c4dd544e758f62b8b5d37c1ce27f606.html",
-    "evidence": [
-      "617 Master Directions | Official Website of Reserve Bank of India Skip to main content Not Pressed Not Pressed Pressed Not Pressed Not Pressed Pressed Not Pressed Change Language हिंदी Search the Website Search Master Directions RBI/DOR/2025-26/200 DOR.AML.REC.No.119/14.01.007/2025-26 November 28, 2025 Previous Versions Reserve Bank of India (Small Finance Banks – Know Your Customer) Directions, 2025 (Updated as on September 18, 2026) Table of Contents Chatper I – Preliminary Chapter II – General Chapter III – Customer Acceptance Policy Chapter IV – Risk Management Chapter V – Customer Identification Procedure (CIP) Chapter VI – Customer Due Diligence (CDD) Procedure Chapter VII – Record Management Chapter VIII – Reporting Requirements to Financial Intelligence Unit – India Chapter IX – Requirements / obligations under International Agreements - Communications from International Agencies Chapter X – Other Instructions Chapter XI – Repeal and Other Provisions Annex I Annex II Introducti"
-    ],
-    "analysis_status": "withheld_no_validated_draft",
-    "field_evidence": {}
-  },
-  {
-    "id": "49b89d68078c4893",
-    "title": "Reserve Bank of India (Local Area Banks – Know Your Customer) Directions, 2025 (Updated as on September 18, 2026)",
-    "regulatory_authority": "RBI",
-    "country": "India",
-    "region": "APAC",
-    "state": "National",
-    "law_area": "Corporate and secretarial",
-    "applicability": "Banks, NBFCs and regulated financial entities may be affected.",
-    "description": "Source document captured; no validated automatic draft was produced.",
-    "summary": "Not generated.",
-    "takeaway": "Read the exact primary source.",
-    "notification_date": "2026-09-18",
-    "effective_date": "Not stated — verify in source",
-    "update_type": "Notification",
-    "primary_source_link": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13064",
-    "source_name": "Reserve Bank of India — Master Directions",
-    "collected_at": "2026-09-19T20:36:49.743686+00:00",
-    "source_document_sha256": "df089a5e5284406d93d7ff9d36bbb8c8c4201bf9ecc7c7c54fda4ec1c912b349",
-    "source_text_path": "data/source_documents/df089a5e5284406d93d7ff9d36bbb8c8c4201bf9ecc7c7c54fda4ec1c912b349.html",
-    "evidence": [
-      "Master Directions - Reserve Bank of India Skip to main content Not Pressed Not Pressed Pressed Not Pressed Not Pressed Pressed Not Pressed Change Language हिंदी Search the Website Search Master Directions RBI/DOR/2025-26/243 DOR.AML.REC.No.162/14.01.008/2025-26 November 28, 2025 Previous Versions Reserve Bank of India (Local Area Banks – Know Your Customer) Directions, 2025 (Updated as on September 18, 2026) Table of Contents Chapter I – Preliminary A. Short Title and Commencement B. Applicability C. Definitions Chapter II – General A. Board of Directors / Policies related guidelines: B. Other General Guidelines: Chapter III – Customer Acceptance Policy Chapter IV – Risk Management Chapter V – Customer Identification Procedure (CIP) Chapter VI – Customer Due Diligence (CDD) Procedure A. CDD Procedure in case of Individuals B. CDD Measures for Sole Proprietary firms C. CDD Measures for Legal Entities D. Identification of Beneficial Owner E. On-going Due Diligence F. Enhanced and Simplif"
-    ],
-    "analysis_status": "withheld_no_validated_draft",
-    "field_evidence": {}
-  },
-  {
-    "id": "fcba9b3327527686",
-    "title": "IBBI: Circular — Due diligence by Insolvency Professionals regarding misuse of IBC framework",
+    "id": "262154a3403d282b",
+    "title": "(1) Commencement of levy of fee for delayed filing of Forms under Regulation 47B of the Liquidation Process Regulations",
     "regulatory_authority": "IBBI",
     "country": "India",
     "region": "APAC",
     "state": "National",
-    "law_area": "Insolvency and Bankruptcy",
-    "applicability": "All Registered Insolvency Professionals, All Insolvency Professional Entities, and All Insolvency Professional Agencies",
-    "description": "IBBI has issued a circular concerning Due diligence by Insolvency Professionals regarding misuse of IBC framework.",
-    "summary": "IBBI has introduced specific due diligence requirements and illustrative indicators for Insolvency Professionals to detect potential misuse of the Insolvency and Bankruptcy Code framework for purposes other than resolution or liquidation. The regulator issued this circular after receiving information from law enforcement and regulatory agencies regarding cases where the framework was misused to mitigate tax liabilities, close or merge companies without scrutiny, or avoid investigations and penalties. In practice, compliance workflows will require Insolvency Professionals to remain vigilant to six listed illustrative indicators during the CIRP or liquidation process, conduct further holistic enquiries upon noticing them, and apply to the Adjudicating Authority if they form a view that the process serves a fraudulent or malicious purpose.",
-    "takeaway": "Review the official document to determine applicability and required action.",
-    "notification_date": "2026-09-09",
-    "effective_date": "Not stated in source",
+    "law_area": "Corporate and secretarial",
+    "applicability": "Insolvency professionals, resolution applicants and corporate debtors may be affected.",
+    "description": "Source document captured; no validated automatic draft was produced.",
+    "summary": "Not generated.",
+    "takeaway": "Read the exact primary source.",
+    "notification_date": "2026-09-24",
+    "effective_date": "Not stated — verify in source",
     "update_type": "Circular",
-    "primary_source_link": "https://ibbi.gov.in//uploads/legalframwork/832e58d2371048cebf5c2a43a55e7dfc.pdf",
+    "primary_source_link": "https://ibbi.gov.in//uploads/legalframwork/a207bc1032e33472c1175e676e204742.pdf",
     "source_name": "Insolvency and Bankruptcy Board of India — Circulars",
-    "collected_at": "2026-09-19T20:37:18.543502+00:00",
-    "source_document_sha256": "650722ad4cc33e5a9db87776ab1f8369ee7dc97101465620a40fca19eb156a0b",
-    "source_text_path": "data/source_documents/650722ad4cc33e5a9db87776ab1f8369ee7dc97101465620a40fca19eb156a0b.pdf",
+    "collected_at": "2026-10-02T19:43:43.697387+00:00",
+    "source_document_sha256": "ead4cd40496ab1307354a391dc29d72811d7e5f19dae985e721652131255a2a4",
+    "source_text_path": "data/source_documents/ead4cd40496ab1307354a391dc29d72811d7e5f19dae985e721652131255a2a4.pdf",
     "evidence": [
-      "Page 1 of 2 ",
-      " ",
-      "Insolvency and Bankruptcy Board of India "
+      "INSOLVENCY AND BANKRUPTCY BOARD OF INDIA ",
+      "7th Floor, Mayur Bhawan, Connaught Place, New Delhi–110001 ",
+      "CIRCULAR "
     ],
-    "analysis_status": "published",
-    "field_evidence": {
-      "title": [
-        "Subject: Due diligence by Insolvency Professionals regarding misuse of IBC framework"
-      ],
-      "update_type": [
-        "CIRCULAR"
-      ],
-      "applicability": [
-        "All Registered Insolvency Professionals",
-        "All Insolvency Professional Entities",
-        "All Insolvency Professional Agencies"
-      ],
-      "description": [
-        "Subject: Due diligence by Insolvency Professionals regarding misuse of IBC framework"
-      ],
-      "summary": [
-        "The Insolvency and Bankruptcy Board of India (IBBI / Board) has received information from law enforcement and regulatory agencies that , in certain cases, the framework under the Insolvency and Bankruptcy Code, 2016 (Code / IBC) is being misused for purposes other than insolvency resolution or liquidation of the corporate debtor (CD).",
-        "Such instances include, inter alia, mitigating tax liabilities, clos ure/merger of companies without regulatory scrutiny, mitigat ing investigations, prosecution and penalties under various statutes, monetising and ring-fencing assets etc.",
-        "Insolvency Professionals (IPs) should remain vigilant to circumstances that may indicate misuse of the insolvency process."
-      ],
-      "takeaway": [
-        "Subject: Due diligence by Insolvency Professionals regarding misuse of IBC framework"
-      ],
-      "effective_date": [
-        "No: IBBI/CIRP/105/2026 Date: 09th September, 2026"
-      ]
-    }
+    "analysis_status": "withheld_no_validated_draft",
+    "field_evidence": {}
   },
   {
-    "id": "34f511feb7da9e0e",
-    "title": "IBBI: Circular — Extension of time for filing Forms to monitor insolvency resolution processes for Personal Guarantors to Corporate Debtors",
+    "id": "919bccaf2c40fa21",
+    "title": "(2) Further Extension of time for filing Forms to monitor insolvency resolution processes for Personal Guarantors to Corporate Debtors.",
     "regulatory_authority": "IBBI",
     "country": "India",
     "region": "APAC",
     "state": "National",
-    "law_area": "Insolvency and Bankruptcy",
-    "applicability": "All Registered Insolvency Professionals, All Recognised Insolvency Professional Entities, and All Registered Insolvency Professional Agencies",
-    "description": "IBBI has issued a circular concerning extension of time for filing Forms to monitor insolvency resolution processes for Personal Guarantors to Corporate Debtors.",
-    "summary": "The Board has extended the last date for submission of all applicable PGIRP forms (PGIRP-1 to PGIRP-6) to 30th September 2026, alongside shifting the enforcement date for penalties on delayed submissions or modifications to the same date. This extension was granted in response to representations from Insolvency Professionals and Insolvency Professional Agencies citing technicalities, difficulties, and transitional time required to familiarize themselves with the electronic platform. In practice, compliance workflows will allow submissions and corrections without penalty until 30th September 2026, while workflows must also incorporate stricter accuracy checks to prevent the submission of incorrect or incomplete information.",
-    "takeaway": "Ensure that all PGIRP forms are accurately submitted by the extended deadline of 30th September 2026 to avoid the levying of penalties, and verify that all information entered is truthful and consistent with attached supporting documents rather than using placeholder or zero values.",
-    "notification_date": "2026-09-07",
-    "effective_date": "09th July 2026",
+    "law_area": "Corporate and secretarial",
+    "applicability": "Insolvency professionals, resolution applicants and corporate debtors may be affected.",
+    "description": "Source document captured; no validated automatic draft was produced.",
+    "summary": "Not generated.",
+    "takeaway": "Read the exact primary source.",
+    "notification_date": "2026-09-24",
+    "effective_date": "Not stated — verify in source",
     "update_type": "Circular",
-    "primary_source_link": "https://ibbi.gov.in//uploads/legalframwork/c5b6fc2780e54cba89916c008a5f6982.pdf",
+    "primary_source_link": "https://ibbi.gov.in//uploads/legalframwork/67d6969ee8c81b22d63aa09ea06e000b.pdf",
     "source_name": "Insolvency and Bankruptcy Board of India — Circulars",
-    "collected_at": "2026-09-19T20:37:22.866755+00:00",
-    "source_document_sha256": "5bde2859c7901b5637e115be39057a1b6e0fa08d27344e21e646794d8fb6dbcf",
-    "source_text_path": "data/source_documents/5bde2859c7901b5637e115be39057a1b6e0fa08d27344e21e646794d8fb6dbcf.pdf",
+    "collected_at": "2026-10-02T19:43:47.591601+00:00",
+    "source_document_sha256": "9dff5aa395754ddbf8775f95cebd5fae23c45bc480478e0d8068d332955884bf",
+    "source_text_path": "data/source_documents/9dff5aa395754ddbf8775f95cebd5fae23c45bc480478e0d8068d332955884bf.pdf",
     "evidence": [
-      "Insolvency and Bankruptcy Board of India ",
+      "INSOLVENCY AND BANKRUPTCY BOARD OF INDIA ",
       "7th Floor, Mayur Bhawan, Connaught Place, New Delhi-110001 ",
-      " "
+      "CIRCULAR "
+    ],
+    "analysis_status": "withheld_no_validated_draft",
+    "field_evidence": {}
+  },
+  {
+    "id": "648425b2bb79a0b5",
+    "title": "IBBI: Circular — Judgments of Hon'ble High Courts on Cessation of Interim Moratorium in Respect of Personal Guarantors to Corporate Debtors",
+    "regulatory_authority": "IBBI",
+    "country": "India",
+    "region": "APAC",
+    "state": "National",
+    "law_area": "Insolvency and Bankruptcy",
+    "applicability": "Registered Insolvency Professionals, Recognised Insolvency Professional Entities, and Registered Insolvency Professional Agencies",
+    "description": "IBBI has issued a circular concerning judgments of the Hon'ble Bombay High Court and Delhi High Court on cessation of interim moratorium in respect of personal guarantors to corporate debtors.",
+    "summary": "The Insolvency and Bankruptcy Code (Amendment) Act, 2026 inserted sub-section (4) in sections 96 and 124 of the Insolvency and Bankruptcy Code, 2016, providing that the interim moratorium shall not apply in respect of a personal guarantor to a corporate debtor with effect from May 26, 2026. This was issued following judgments from the Hon'ble Bombay High Court and Delhi High Court confirming that this retroactive provision applies to applications that were filed and pending before the Adjudicating Authority as of that date. In practice, compliance workflows and ongoing proceedings will treat the interim moratorium as having ceased to operate for pending applications as of May 26, 2026.",
+    "takeaway": "Review active insolvency proceedings involving personal guarantors to corporate debtors to account for the cessation of the interim moratorium effective from May 26, 2026, for pending applications.",
+    "notification_date": "2026-09-21",
+    "effective_date": "21st September 2026",
+    "update_type": "Circular",
+    "primary_source_link": "https://ibbi.gov.in//uploads/legalframwork/778e13b82df050c20c0c13dfa3e8ea16.pdf",
+    "source_name": "Insolvency and Bankruptcy Board of India — Circulars",
+    "collected_at": "2026-10-02T19:43:52.477455+00:00",
+    "source_document_sha256": "51e4717a38f5c2793e4b4095a5c9b34269136b1d270363630387657e900cb346",
+    "source_text_path": "data/source_documents/51e4717a38f5c2793e4b4095a5c9b34269136b1d270363630387657e900cb346.pdf",
+    "evidence": [
+      "INSOLVENCY AND BANKRUPTCY BOARD OF INDIA ",
+      "7th Floor, Mayur Bhawan, Connaught Place, New Delhi – 110 001 ",
+      "CIRCULAR "
     ],
     "analysis_status": "published",
     "field_evidence": {
       "title": [
-        "Subject: Extension of time for filing Forms to monitor insolvency resolution processes for Personal Guarantors to Corporate Debtors under the Insolvency and Bankruptcy Code, 2016, and the regulations made thereunder."
+        "Subject: Judgments of the Hon'ble Bombay High Court and Delhi High Court on",
+        "CIRCULAR"
       ],
       "update_type": [
         "CIRCULAR"
       ],
       "applicability": [
+        "To",
         "All Registered Insolvency Professionals",
-        "All Recognised Insolvency Professional Entities, and",
+        "All Recognised Insolvency Professional Entities",
         "All Registered Insolvency Professional Agencies"
       ],
       "description": [
         "CIRCULAR",
-        "Subject: Extension of time for filing Forms to monitor insolvency resolution processes for Personal Guarantors to Corporate Debtors under the Insolvency and Bankruptcy Code, 2016, and the regulations made thereunder."
+        "Subject: Judgments of the Hon'ble Bombay High Court and Delhi High Court on",
+        "cessation of interim moratorium in respect of personal guarantors to corporate debtors."
       ],
       "summary": [
-        "The last date for submission of all applicable PGIRP forms as per paragraph 9 of Circular No. IBBI/II/92/2026 is hereby extended till 30th September 2026.",
-        "In line with this extension, penalties for delayed submission or modification of these forms shall now be levied only after 30th September 2026.",
-        "representations have been received from Insolvency Professionals (IPs) and Insolvency Professional Agencies (IPAs) requesting an extension of the deadline, citing technicalities, difficulties, and the transitional time required to familiarize themselves with the electronic platform and submission of the forms.",
-        "some IPs have been submitting incorrect or incomplete information in electronic forms filed with the Board, such as entering zero values across mandatory fields simply to complete the submission."
+        "The Insolvency and Bankruptcy Code (Amendment) Act, 2026 inserted sub-section (4) in",
+        "sections 96 and 124 of the Insolvency and Bankruptcy Code, 2016, providing that the interim",
+        "moratorium shall not apply in respect of a personal guarantor to a corporate debtor, with effect",
+        "from 26th May, 2026.",
+        "2. In this regard, the Hon'ble Bombay High Court, in Tata Capital Financial Services Limited",
+        "v. Neel Motors LLP and others (Commercial Arbitration Petition No. 620 of 2021), by",
+        "judgment dated 24th July, 2026",
+        "3. Further, the Hon'ble Delhi High Court in IDBI Trusteeship Services Ltd. v. Manish Jain and",
+        "Ors. (CS(COMM) 800/2025), by judgment dated 19th August 2026",
+        "4. Accordingly, it may be noted that the interim moratorium under section 96 (and,",
+        "correspondingly, section 124) of the Code, in respect of a personal guarantor to a corporate",
+        "debtor, has ceased to operate with effect from 26th May, 2026 in respect of applications pending",
+        "before Adjudicating Authority as on that date."
       ],
       "takeaway": [
-        "The last date for submission of all applicable PGIRP forms as per paragraph 9 of Circular No. IBBI/II/92/2026 is hereby extended till 30th September 2026.",
-        "penalties for delayed submission or modification of these forms shall now be levied only after 30th September 2026.",
-        "IPs shall ensure all information submitted via the PGIRP forms is accurate, truthful, and entirely consistent with the supporting documents attached thereto."
+        "4. Accordingly, it may be noted that the interim moratorium under section 96 (and,",
+        "correspondingly, section 124) of the Code, in respect of a personal guarantor to a corporate",
+        "debtor, has ceased to operate with effect from 26th May, 2026 in respect of applications pending",
+        "before Adjudicating Authority as on that date."
       ],
       "effective_date": [
-        "No: IBBI/II/104/2026 Date: 09th July 2026"
+        "Date:21st September 2026"
       ]
     }
   }
