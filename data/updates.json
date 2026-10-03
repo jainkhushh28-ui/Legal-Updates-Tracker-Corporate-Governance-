@@ -16,11 +16,11 @@
     "update_type": "Notification",
     "primary_source_link": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13399",
     "source_name": "Reserve Bank of India — Master Directions",
-    "collected_at": "2026-10-03T07:50:37.167732+00:00",
-    "source_document_sha256": "9169a2f390ce2fa39593a05a242c999892dc912a0fbc9e3533eaf4bc16105a16",
-    "source_text_path": "data/source_documents/9169a2f390ce2fa39593a05a242c999892dc912a0fbc9e3533eaf4bc16105a16.html",
+    "collected_at": "2026-10-03T08:15:17.830795+00:00",
+    "source_document_sha256": "a69b1767e0a14ab5c3657c369686df6b3c28c9a2b1a354701d55826f4d0630ed",
+    "source_text_path": "data/source_documents/a69b1767e0a14ab5c3657c369686df6b3c28c9a2b1a354701d55826f4d0630ed.html",
     "evidence": [
-      "617 Master Directions - Reserve Bank of India Skip to main content Not Pressed Change Language हिंदी Search the Website Search Master Directions RBI/DOR/2026-27/397 DOR.CRE.REC 5/21.06.201/2026-27 April 27, 2026 Reserve Bank of India (Commercial Banks - Capital Charge for Credit Risk – Standardised Approach) Directions, 2026 (Effective from April 1, 2027) CONTENTS CHAPTER I – PRELIMINARY 1. Introduction 2. Powers Exercised and Commencement 3. Scope 4. Definitions CHAPTER II – GENERAL INSTRUCTIONS 5. General 6. Due diligence requirements CHAPTER III – EXPOSURE CLASSES AND RISK WEIGHTS 7. Exposures to Domestic Sovereigns 8. Exposures to Foreign Sovereigns and Foreign Central Banks 9. Exposures to Public Sector Entities (PSEs) 10. Exposures to MDBs, BIS and IMF 11. Exposures to Banks 12. Exposures to Corporates 13. Exposures to Subordinated debt, equity and other capital instruments 14. Retail Exposures 15. Exposure to Micro, Small and Medium Enterprises (MSMEs) 16. Real Estate Exposures "
+      "Master Directions - Reserve Bank of India Skip to main content Not Pressed Change Language हिंदी Search the Website Search Master Directions RBI/DOR/2026-27/397 DOR.CRE.REC 5/21.06.201/2026-27 April 27, 2026 Reserve Bank of India (Commercial Banks - Capital Charge for Credit Risk – Standardised Approach) Directions, 2026 (Effective from April 1, 2027) CONTENTS CHAPTER I – PRELIMINARY 1. Introduction 2. Powers Exercised and Commencement 3. Scope 4. Definitions CHAPTER II – GENERAL INSTRUCTIONS 5. General 6. Due diligence requirements CHAPTER III – EXPOSURE CLASSES AND RISK WEIGHTS 7. Exposures to Domestic Sovereigns 8. Exposures to Foreign Sovereigns and Foreign Central Banks 9. Exposures to Public Sector Entities (PSEs) 10. Exposures to MDBs, BIS and IMF 11. Exposures to Banks 12. Exposures to Corporates 13. Exposures to Subordinated debt, equity and other capital instruments 14. Retail Exposures 15. Exposure to Micro, Small and Medium Enterprises (MSMEs) 16. Real Estate Exposures 17. "
     ],
     "analysis_status": "withheld_no_validated_draft",
     "field_evidence": {}
@@ -42,9 +42,9 @@
     "update_type": "Notification",
     "primary_source_link": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13400",
     "source_name": "Reserve Bank of India — Master Directions",
-    "collected_at": "2026-10-03T07:50:43.201375+00:00",
-    "source_document_sha256": "6c25d09e47b26ccbb610462df98327d2042a5debff4fa60d16d6852a8f96c005",
-    "source_text_path": "data/source_documents/6c25d09e47b26ccbb610462df98327d2042a5debff4fa60d16d6852a8f96c005.html",
+    "collected_at": "2026-10-03T08:15:22.755496+00:00",
+    "source_document_sha256": "8dad8a8560c76beeb17efdc87e3bf4b0a13c125a765763742d9ea9ba898f7ec9",
+    "source_text_path": "data/source_documents/8dad8a8560c76beeb17efdc87e3bf4b0a13c125a765763742d9ea9ba898f7ec9.html",
     "evidence": [
       "617 Master Directions | Official Website of Reserve Bank of India Skip to main content Not Pressed Change Language हिंदी Search the Website Search Master Directions RBI/DOR/2026-27/398 DOR.STR.REC.No.6/21.06.011/2026-27 April 27, 2026 Reserve Bank of India (Commercial Banks - Asset Classification, Provisioning and Income Recognition) Directions, 2026 Table of Contents Introduction Chapter I: Preliminary A. Short title and commencement B. Applicability C. Definitions Chapter II: Classification as Non-Performing Asset A. Classification as Non-Performing Asset B. Other Prudential Norms applicable to a bank Chapter III: Expected Credit Loss (ECL) – based Provisioning A. The Methodological Framework for calculating ECL B. Fair Valuation on Transition C. Initial Recognition and subsequent measurement D. Determination of Significant Increase in Credit Risk (SICR) E. Measurement of ECL – Treatment of different Financial Instruments F. Determination of the period over which Lifetime ECL is meas"
     ],
@@ -53,29 +53,58 @@
   },
   {
     "id": "6d1b5d1fa5696529",
-    "title": "Master Direction on Note Sorting Machines",
+    "title": "RBI: Notification — Master Direction on Note Sorting Machines",
     "regulatory_authority": "RBI",
     "country": "India",
     "region": "APAC",
     "state": "National",
-    "law_area": "Corporate and secretarial",
-    "applicability": "Applicability requires review of the primary source.",
-    "description": "Source document captured; no validated automatic draft was produced.",
-    "summary": "Not generated.",
-    "takeaway": "Read the exact primary source.",
+    "law_area": "Banking Regulation",
+    "applicability": "Machines operated by banks, either directly by their staff or indirectly by their agents",
+    "description": "RBI has issued a notification concerning Master Direction on Note Sorting Machines.",
+    "summary": "This Master Direction incorporates and updates extant guidelines, circulars, and directives on Note Sorting Machines, establishing comprehensive minimum standards for note authentication and fitness sorting parameters. It was issued to enable banks to have all current instructions on Note Sorting Machines at one place for reference while withdrawing previous circulars on the subject. In practice, compliance workflows will require banks to evaluate machine sorting against detailed criteria for soiling, limpness, dog-ears, tears, holes, stains, graffiti, crumples/folds, decolouration, and repairs, conduct quarterly testing and calibration, and ensure discontinued models are phased out by June 30, 2027.",
+    "takeaway": "Ensure that Note Sorting Machines are tested for accuracy and consistency on a quarterly basis, maintain signed certificates for records, phase out discontinued NSM models on or before June 30, 2027, and exclusively procure BIS certified Note Sorting Machines going forward.",
     "notification_date": "2026-10-02",
-    "effective_date": "Not stated — verify in source",
+    "effective_date": "October 02, 2026",
     "update_type": "Notification",
     "primary_source_link": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13723&Mode=0",
     "source_name": "Reserve Bank of India — Notifications",
-    "collected_at": "2026-10-03T07:50:14.331930+00:00",
-    "source_document_sha256": "a89ea506ad47e4a3ff73e01827fc58dbf3eeea15b79fcc6277b33c4af11c3c66",
-    "source_text_path": "data/source_documents/a89ea506ad47e4a3ff73e01827fc58dbf3eeea15b79fcc6277b33c4af11c3c66.html",
+    "collected_at": "2026-10-03T08:14:56.205420+00:00",
+    "source_document_sha256": "c6d71a2748f72847141dcbe9a31235065a71b2e5342640d2f0704b3684f488d6",
+    "source_text_path": "data/source_documents/c6d71a2748f72847141dcbe9a31235065a71b2e5342640d2f0704b3684f488d6.html",
     "evidence": [
       "Notifications | Official Website of Reserve Bank of India Skip to main content Not Pressed Change Language हिंदी Search the Website Search Notifications RBI/DCM/2026-27/473 DCM(NPD) No.S2154/18.00.014/2026-27 October 02, 2026 The Chairman / Managing Director / Chief Executive Officer All Banks Madam / Dear Sir, Master Direction on Note Sorting Machines In exercise of the powers conferred under Section 35A and Section 56 of the Banking Regulation Act, 1949, Reserve Bank of India (RBI), from time-to-time issues guidelines / circulars / directives to the banks on Note Sorting Machines. 2. A Master Direction incorporating and updating the extant guidelines / circulars / directives on the subject has been prepared to enable banks to have all current instructions on Note Sorting Machines at one place for reference and the same is enclosed. 3. The previous circulars issued on the subject ( Annexed ) stand withdrawn from the date of issuance of this Master Direction . Yours faithfully, (Sanjee"
     ],
-    "analysis_status": "withheld_no_validated_draft",
-    "field_evidence": {}
+    "analysis_status": "published",
+    "field_evidence": {
+      "title": [
+        "Master Direction on Note Sorting Machines"
+      ],
+      "update_type": [
+        "Notifications"
+      ],
+      "applicability": [
+        "These parameters are applicable to machines operated by banks, either directly by their staff or indirectly by their agents."
+      ],
+      "description": [
+        "Reserve Bank of India (RBI), from time-to-time issues guidelines / circulars / directives to the banks on Note Sorting Machines.",
+        "A Master Direction incorporating and updating the extant guidelines / circulars / directives on the subject has been prepared"
+      ],
+      "summary": [
+        "A Master Direction incorporating and updating the extant guidelines / circulars / directives on the subject has been prepared to enable banks to have all current instructions on Note Sorting Machines at one place for reference and the same is enclosed.",
+        "The previous circulars issued on the subject ( Annexed ) stand withdrawn from the date of issuance of this Master Direction .",
+        "Banks shall ensure that the Note Sorting machines are tested for accuracy and consistency on a quarterly basis and recalibrated, if required.",
+        "NSM models deployed at banks which have been discontinued from production, shall be phased out on or before June 30, 2027."
+      ],
+      "takeaway": [
+        "Banks shall ensure that the Note Sorting machines are tested for accuracy and consistency on a quarterly basis and recalibrated, if required.",
+        "A certificate (signed by Bank Officials) to this effect shall be maintained for records.",
+        "NSM models deployed at banks which have been discontinued from production, shall be phased out on or before June 30, 2027.",
+        "Going forward, banks shall only procure the BIS certified Note Sorting Machines (NSMs)."
+      ],
+      "effective_date": [
+        "October 02, 2026"
+      ]
+    }
   },
   {
     "id": "f33ff302efe5d5b2",
@@ -85,20 +114,20 @@
     "region": "APAC",
     "state": "National",
     "law_area": "Banking Regulation",
-    "applicability": "Machines operated by banks, either directly by their staff or indirectly by their agents",
+    "applicability": "Machines operated by banks, either directly by their staff or indirectly by their agents, including note processing machines, note sorting machines, and note authentication machines.",
     "description": "RBI has issued a notification concerning Note Sorting Machines.",
-    "summary": "The Reserve Bank of India has issued an updated Master Direction incorporating and updating extant guidelines on Note Sorting Machines, establishing comprehensive standards for note authentication, fitness sorting parameters, and machine calibration. This was issued to consolidate all current instructions on Note Sorting Machines at one place for reference and to update previous guidelines in the backdrop of new series banknotes and BIS standards. In practice, banks must ensure cash handling machines evaluate notes against specific criteria for soiling, limpness, tears, holes, stains, and repairs, test machines quarterly, and phase out discontinued NSM models by June 30, 2027.",
-    "takeaway": "Ensure that Note Sorting Machines are tested for accuracy and consistency on a quarterly basis, maintain a signed certificate of testing for records, and phase out any discontinued NSM models on or before June 30, 2027.",
+    "summary": "This Master Direction incorporates and updates extant guidelines, circulars, and directives on Note Sorting Machines to provide banks with current instructions in one reference place, while withdrawing previous circulars on the subject. It was issued to consolidate guidelines on note authentication and fitness sorting parameters, as well as standards for note sorting machines. In practice, banks must ensure that note sorting and authentication machines comply with the specified authenticity check and fitness sorting criteria, test machines quarterly for accuracy and consistency, maintain records of certificates, and phase out discontinued NSM models on or before June 30, 2027.",
+    "takeaway": "Ensure that all note sorting and authentication machines are tested for accuracy and consistency on a quarterly basis, maintain signed test certificates for records, and phase out any deployed NSM models that have been discontinued from production on or before June 30, 2027.",
     "notification_date": "2026-10-02",
     "effective_date": "October 02, 2026",
     "update_type": "Notification",
     "primary_source_link": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13723",
     "source_name": "Reserve Bank of India — Master Directions",
-    "collected_at": "2026-10-03T07:50:47.322575+00:00",
-    "source_document_sha256": "6fbe0aad389877ff0072794f94ab2ee9381283bb3c4644e9797a4d180ea3a609",
-    "source_text_path": "data/source_documents/6fbe0aad389877ff0072794f94ab2ee9381283bb3c4644e9797a4d180ea3a609.html",
+    "collected_at": "2026-10-03T08:15:27.178914+00:00",
+    "source_document_sha256": "b70b4d6fd518593d9bd5f5aae869a28d539c8dcfbfedfa060526536366645123",
+    "source_text_path": "data/source_documents/b70b4d6fd518593d9bd5f5aae869a28d539c8dcfbfedfa060526536366645123.html",
     "evidence": [
-      "Master Directions - Reserve Bank of India Skip to main content Not Pressed Change Language हिंदी Search the Website Search Master Directions RBI/DCM/2026-27/473 DCM(NPD) No.S2154/18.00.014/2026-27 October 02, 2026 The Chairman / Managing Director / Chief Executive Officer All Banks Madam / Dear Sir, Master Direction on Note Sorting Machines In exercise of the powers conferred under Section 35A and Section 56 of the Banking Regulation Act, 1949, Reserve Bank of India (RBI), from time-to-time issues guidelines / circulars / directives to the banks on Note Sorting Machines. 2. A Master Direction incorporating and updating the extant guidelines / circulars / directives on the subject has been prepared to enable banks to have all current instructions on Note Sorting Machines at one place for reference and the same is enclosed. 3. The previous circulars issued on the subject ( Annexed ) stand withdrawn from the date of issuance of this Master Direction . Yours faithfully, (Sanjeev Prakash) C"
+      "Master Directions | Official Website of Reserve Bank of India Skip to main content Not Pressed Change Language हिंदी Search the Website Search Master Directions RBI/DCM/2026-27/473 DCM(NPD) No.S2154/18.00.014/2026-27 October 02, 2026 The Chairman / Managing Director / Chief Executive Officer All Banks Madam / Dear Sir, Master Direction on Note Sorting Machines In exercise of the powers conferred under Section 35A and Section 56 of the Banking Regulation Act, 1949, Reserve Bank of India (RBI), from time-to-time issues guidelines / circulars / directives to the banks on Note Sorting Machines. 2. A Master Direction incorporating and updating the extant guidelines / circulars / directives on the subject has been prepared to enable banks to have all current instructions on Note Sorting Machines at one place for reference and the same is enclosed. 3. The previous circulars issued on the subject ( Annexed ) stand withdrawn from the date of issuance of this Master Direction . Yours faithfully,"
     ],
     "analysis_status": "published",
     "field_evidence": {
@@ -106,18 +135,18 @@
         "Master Direction on Note Sorting Machines"
       ],
       "update_type": [
-        "In exercise of the powers conferred under Section 35A and Section 56 of the Banking Regulation Act, 1949, Reserve Bank of India (RBI), from time-to-time issues guidelines / circulars / directives to the banks on Note Sorting Machines."
+        "Master Directions | Official Website of Reserve Bank of India"
       ],
       "applicability": [
         "These parameters are applicable to machines operated by banks, either directly by their staff or indirectly by their agents."
       ],
       "description": [
-        "Master Direction on Note Sorting Machines",
-        "Reserve Bank of India (RBI)"
+        "Reserve Bank of India (RBI), from time-to-time issues guidelines / circulars / directives to the banks on Note Sorting Machines.",
+        "A Master Direction incorporating and updating the extant guidelines / circulars / directives on the subject has been prepared to enable banks to have all current instructions on Note Sorting Machines at one place for reference and the same is enclosed."
       ],
       "summary": [
         "A Master Direction incorporating and updating the extant guidelines / circulars / directives on the subject has been prepared to enable banks to have all current instructions on Note Sorting Machines at one place for reference and the same is enclosed.",
-        "All the fitness parameters laid down in this document are to be evaluated individually.",
+        "The previous circulars issued on the subject ( Annexed ) stand withdrawn from the date of issuance of this Master Direction .",
         "Banks shall ensure that the Note Sorting machines are tested for accuracy and consistency on a quarterly basis and recalibrated, if required.",
         "NSM models deployed at banks which have been discontinued from production, shall be phased out on or before June 30, 2027."
       ],
@@ -148,9 +177,9 @@
     "update_type": "Notification",
     "primary_source_link": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13725&Mode=0",
     "source_name": "Reserve Bank of India — Notifications",
-    "collected_at": "2026-10-03T07:50:19.696097+00:00",
-    "source_document_sha256": "2faac0d6608ec3fbb6f7050d7402f05093e03453b9e3c4ef3046abaa59a8fb1f",
-    "source_text_path": "data/source_documents/2faac0d6608ec3fbb6f7050d7402f05093e03453b9e3c4ef3046abaa59a8fb1f.html",
+    "collected_at": "2026-10-03T08:15:01.146777+00:00",
+    "source_document_sha256": "c156f1f1ca0428dc4fd6b95e884e3dfb596f2c590fee1d23e6899b045d6478f5",
+    "source_text_path": "data/source_documents/c156f1f1ca0428dc4fd6b95e884e3dfb596f2c590fee1d23e6899b045d6478f5.html",
     "evidence": [
       "Notifications | Official Website of Reserve Bank of India Skip to main content Not Pressed Change Language हिंदी Search the Website Search Notifications RBI/2026-27/280 A.P. (DIR Series) Circular No. 24 October 01, 2026 To All Authorised Dealers Madam / Sir, Non-Resident Deposits - Comprehensive Single Return (NRD-CSR)(R012): Submission under CIMS Sankalan Portal Attention of banks maintaining Non-Resident Deposits (NRD) Accounts is invited to A.P. (DIR Series) Circular No. 19 dated August 07, 2013 on monthly NRD-CSR return submission through XBRL platform to the Reserve Bank. 2. The NRD-CSR reporting has since moved to Centralised Information Management System (CIMS) Sankalan portal with the submission of March 2024 data in the month of April 2024. The return code of NRD-CSR on the CIMS is R012. The existing formats of NRD-CSR have also been recently rationalised for reporting bank-wise consolidated data under CIMS. The access to submit a return and reporting channel will be managed b"
     ],
@@ -159,24 +188,24 @@
   },
   {
     "id": "3c2b8d5fdda8bd85",
-    "title": "RBI: Amendment — Reserve Bank of India (Local Area Banks - Acquisition and Holding of Shares or Voting Rights) Amendment Directions, 2026",
+    "title": "RBI: Amendment — Local Area Banks Acquisition and Holding of Shares or Voting Rights Amendment Directions 2026",
     "regulatory_authority": "RBI",
     "country": "India",
     "region": "APAC",
     "state": "National",
-    "law_area": "Banking",
-    "applicability": "Mutual funds registered with the Securities and Exchange Board of India, pension funds registered with the Pension Fund Regulatory and Development Authority, and insurance companies registered with the Insurance Regulatory and Development Authority of India that do not belong to the promoter group of the investee banking company, as well as portfolio managers and local area banks",
-    "description": "RBI has issued a amendment concerning Reserve Bank of India (Local Area Banks - Acquisition and Holding of Shares or Voting Rights) Amendment Directions, 2026.",
-    "summary": "The Reserve Bank of India has introduced the Reserve Bank of India (Local Area Banks - Acquisition and Holding of Shares or Voting Rights) Amendment Directions, 2026, which allow qualifying institutional investors such as mutual funds, pension funds, and insurance companies to obtain one-time approval for subsequent acquisitions of major shareholding up to 10 percent of the paid-up share capital or voting rights of a banking company. This was decided based on a review to streamline the prior approval process for specific institutional investors while maintaining regulatory oversight. In practice, qualifying persons must now submit applications through PRAVAAH along with Form A, banking companies must furnish comments in Form A1, and major shareholders or qualifying persons with one-time approval must report any decrease or increase of aggregate holding to below or above five percent within three working days.",
-    "takeaway": "Submit applications for one-time approval through PRAVAAH along with Form A, ensure the concerned banking company furnishes its comments in Form A1, and report any decrease or increase of aggregate holding to below or above five percent to the Reserve Bank and the concerned banking company within three working days of such an event.",
+    "law_area": "Banking Regulation",
+    "applicability": "Mutual funds registered with SEBI, pension funds registered with PFRDA, and insurance companies registered with IRDAI, who are seeking or have obtained one-time approval for subsequent acquisitions of major shareholding up to 10 per cent of the paid-up share capital or voting rights of a local area banking company.",
+    "description": "RBI has issued a amendment concerning the Reserve Bank of India (Local Area Banks - Acquisition and Holding of Shares or Voting Rights) Amendment Directions, 2026.",
+    "summary": "The Reserve Bank of India has introduced the Reserve Bank of India (Local Area Banks - Acquisition and Holding of Shares or Voting Rights) Amendment Directions, 2026, which allow qualifying mutual funds, insurance companies, and pension funds to obtain a one-time approval for subsequent acquisitions of major shareholding up to 10 percent of a banking company's paid-up share capital or voting rights. This regulatory change was initiated based on a review to streamline approvals while continuing to ensure oversight of major shareholdings in banking companies. In practice, qualifying persons must now submit applications through PRAVAAH along with Form A, banks must furnish comments in Form A1, and approved entities must report any aggregate holding decreases or increases crossing the five percent threshold to the RBI and the banking company within three working days.",
+    "takeaway": "Submit applications for one-time approval through PRAVAAH along with Form A, and report any decrease or increase of the aggregate holding to below or above five per cent of the total paid-up share capital or voting rights of the banking company to the Reserve Bank and the concerned banking company within three working days of such an event.",
     "notification_date": "2026-10-01",
     "effective_date": "Not stated in source",
     "update_type": "Amendment",
     "primary_source_link": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13722&Mode=0",
     "source_name": "Reserve Bank of India — Notifications",
-    "collected_at": "2026-10-03T07:50:25.732458+00:00",
-    "source_document_sha256": "ceeede72bc880fdf83a54af1103dda1c383c9a1c66a79b4477618ec4defe65c7",
-    "source_text_path": "data/source_documents/ceeede72bc880fdf83a54af1103dda1c383c9a1c66a79b4477618ec4defe65c7.html",
+    "collected_at": "2026-10-03T08:15:06.503885+00:00",
+    "source_document_sha256": "66254ee50fa2d630f8801a0a2b0a7b5d348bae96dba3218663bac7825da7de3e",
+    "source_text_path": "data/source_documents/66254ee50fa2d630f8801a0a2b0a7b5d348bae96dba3218663bac7825da7de3e.html",
     "evidence": [
       "Notifications | Official Website of Reserve Bank of India Skip to main content Not Pressed Change Language हिंदी Search the Website Search Notifications RBI/2026-27/278 DOR.HOL.REC.No.238/16.13.100/2026-27 October 1, 2026 Reserve Bank of India (Local Area Banks - Acquisition and Holding of Shares or Voting Rights) Amendment Directions, 2026 The Reserve Bank had issued the Reserve Bank of India (Local Area Banks – Acquisition and Holding of Shares or Voting Rights) Directions, 2025 (hereinafter referred as the ‘Master Direction’), on November 28, 2025, which mandates that any person seeking to make an initial acquisition of major shareholding in a banking company shall obtain prior approval of the Reserve Bank. Further, where such person’s aggregate shareholding, after the initial acquisition of major shareholding, falls below five percent at any point of time, prior approval of the Reserve Bank shall again be required before any subsequent acquisition of major shareholding. While obtai"
     ],
@@ -189,21 +218,20 @@
         "Amendment Directions"
       ],
       "applicability": [
-        "(i) the person is a mutual fund registered with the Securities and Exchange Board of India, or a pension fund registered with the Pension Fund Regulatory and Development Authority, or an insurance company registered with the Insurance Regulatory and Development Authority of India; and (ii) the person does not belong to the promoter group of the investee banking company."
+        "the person is a mutual fund registered with the Securities and Exchange Board of India, or a pension fund registered with the Pension Fund Regulatory and Development Authority, or an insurance company registered with the Insurance Regulatory and Development Authority of India",
+        "qualifying persons, as defined at paragraph 6A of the directions, can seek one-time approval, either individually or collectively, from the Reserve Bank for subsequent acquisitions of major shareholding up to 10 per cent of the paid-up share capital or voting rights of a banking company"
       ],
       "description": [
         "Reserve Bank of India (Local Area Banks - Acquisition and Holding of Shares or Voting Rights) Amendment Directions, 2026"
       ],
       "summary": [
-        "grant one-time approval for subsequent acquisitions of major shareholding in the same banking company by mutual funds, insurance companies and pension funds, subject to certain requirements.",
         "based on a review, it has now been decided to grant one-time approval for subsequent acquisitions of major shareholding in the same banking company by mutual funds, insurance companies and pension funds",
-        "Qualifying persons are required to make an application, through PRAVAAH , to the Reserve Bank along with the declaration in Form A.",
+        "Qualifying persons are required to make an application, through PRAVAAH , to the Reserve Bank along with the declaration in Form A",
         "The concerned banking company shall furnish its comments to the Reserve Bank in Form A1",
-        "major shareholders who have obtained one-time approval and qualifying persons with one-time approval shall report decrease or increase of the aggregate holding to below or above five per cent of total paid-up share capital or voting rights of the banking company, respectively, to the Reserve Bank and the concerned banking company within three working days of such an event."
+        "major shareholders who have obtained one-time approval and qualifying persons with one-time approval shall report decrease or increase of the aggregate holding to below or above five per cent of total paid-up share capital or voting rights of the banking company, respectively, to the Reserve Bank and the concerned banking company within three working days of such an event"
       ],
       "takeaway": [
         "Qualifying persons are required to make an application, through PRAVAAH , to the Reserve Bank along with the declaration in Form A.",
-        "The concerned banking company shall furnish its comments to the Reserve Bank in Form A1 in the same manner as specified in paragraph 10 above.",
         "major shareholders who have obtained one-time approval and qualifying persons with one-time approval shall report decrease or increase of the aggregate holding to below or above five per cent of total paid-up share capital or voting rights of the banking company, respectively, to the Reserve Bank and the concerned banking company within three working days of such an event."
       ],
       "effective_date": [
@@ -213,24 +241,24 @@
   },
   {
     "id": "50531adfdb51fc36",
-    "title": "RBI: Amendment — Acquisition and Holding of Shares or Voting Rights in Payments Banks",
+    "title": "RBI: Amendment — Payments Banks - Acquisition and Holding of Shares or Voting Rights",
     "regulatory_authority": "RBI",
     "country": "India",
     "region": "APAC",
     "state": "National",
     "law_area": "Banking Regulation",
-    "applicability": "Mutual funds registered with SEBI, pension funds registered with PFRDA, and insurance companies registered with IRDAI (qualifying persons) seeking one-time approval for subsequent acquisitions of major shareholding up to 10 per cent of the paid-up share capital or voting rights of a banking company.",
-    "description": "Reserve Bank of India has issued a amendment concerning the acquisition and holding of shares or voting rights in payments banks.",
-    "summary": "The Reserve Bank of India has introduced the Reserve Bank of India (Payments Banks - Acquisition and Holding of Shares or Voting Rights) Amendment Directions, 2026, which modify the Master Direction of November 28, 2025. This amendment allows qualifying entities such as mutual funds, insurance companies, and pension funds to apply for a one-time approval through PRAVAAH for subsequent acquisitions of major shareholding up to 10 percent. The Reserve Bank issued these directions based on a review to streamline shareholding acquisition rules while maintaining regulatory oversight and fit-and-proper criteria. In practice, qualifying entities must submit applications via PRAVAAH with Form A, banking companies must furnish comments in Form A1, and approved entities must report changes in aggregate holdings crossing five percent within three working days.",
-    "takeaway": "Submit applications for one-time approval through the PRAVAAH portal along with Form A, and report any decrease or increase of aggregate holding below or above five percent to the Reserve Bank and the concerned banking company within three working days.",
+    "applicability": "Mutual funds registered with the Securities and Exchange Board of India, pension funds registered with the Pension Fund Regulatory and Development Authority, and insurance companies registered with the Insurance Regulatory and Development Authority of India that do not belong to the promoter group of the investee banking company.",
+    "description": "RBI has issued a amendment concerning the acquisition and holding of shares or voting rights in payments banks.",
+    "summary": "The Reserve Bank of India introduced amendment directions allowing mutual funds, pension funds, and insurance companies meeting specific criteria to seek a one-time approval for subsequent acquisitions of major shareholding up to 10 per cent in payments banks. This change was based on a review of existing master directions to streamline major shareholding approvals for qualifying institutional entities. Consequently, qualifying persons with one-time approval must now report decreases or increases of aggregate holdings across the five per cent threshold within three working days, and apply via PRAVAAH using Form A.",
+    "takeaway": "Submit an application through PRAVAAH along with the declaration in Form A to seek one-time approval for subsequent acquisitions, and report any aggregate holding changes crossing five percent within three working days.",
     "notification_date": "2026-10-01",
     "effective_date": "October 1, 2026",
     "update_type": "Amendment",
     "primary_source_link": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13721&Mode=0",
     "source_name": "Reserve Bank of India — Notifications",
-    "collected_at": "2026-10-03T07:50:30.404361+00:00",
-    "source_document_sha256": "3cd6fec082d4579f1db08e61f7b9c2d69cfdbc05ea87ecf37ed6038dfc7c4024",
-    "source_text_path": "data/source_documents/3cd6fec082d4579f1db08e61f7b9c2d69cfdbc05ea87ecf37ed6038dfc7c4024.html",
+    "collected_at": "2026-10-03T08:15:10.780975+00:00",
+    "source_document_sha256": "24c0ede1f59cbbd1a9a370573b3c4cf450796f2450ff1155db29d038b94c4a00",
+    "source_text_path": "data/source_documents/24c0ede1f59cbbd1a9a370573b3c4cf450796f2450ff1155db29d038b94c4a00.html",
     "evidence": [
       "Notifications | Official Website of Reserve Bank of India Skip to main content Not Pressed Change Language हिंदी Search the Website Search Notifications RBI/2026-27/277 DOR.HOL.REC.No.237/16.13.100/2026-27 October 1, 2026 Reserve Bank of India (Payments Banks - Acquisition and Holding of Shares or Voting Rights) Amendment Directions, 2026 The Reserve Bank had issued the Reserve Bank of India (Payments Banks – Acquisition and Holding of Shares or Voting Rights) Directions, 2025 (hereinafter referred as the ‘Master Direction’), on November 28, 2025, which mandates that any person seeking to make an initial acquisition of major shareholding in a banking company shall obtain prior approval of the Reserve Bank. Further, where such person’s aggregate shareholding, after the initial acquisition of major shareholding, falls below five percent at any point of time, prior approval of the Reserve Bank shall again be required before any subsequent acquisition of major shareholding. While obtaining"
     ],
@@ -240,23 +268,22 @@
         "Reserve Bank of India (Payments Banks - Acquisition and Holding of Shares or Voting Rights) Amendment Directions, 2026"
       ],
       "update_type": [
-        "Reserve Bank of India (Payments Banks - Acquisition and Holding of Shares or Voting Rights) Amendment Directions, 2026"
+        "Amendment Directions"
       ],
       "applicability": [
-        "qualifying persons, as defined at paragraph 6A of the directions, can seek one-time approval, either individually or collectively, from the Reserve Bank for subsequent acquisitions of major shareholding up to 10 per cent of the paid-up share capital or voting rights of a banking company"
+        "the person is a mutual fund registered with the Securities and Exchange Board of India, or a pension fund registered with the Pension Fund Regulatory and Development Authority, or an insurance company registered with the Insurance Regulatory and Development Authority of India; and (ii) the person does not belong to the promoter group of the investee banking company."
       ],
       "description": [
         "Reserve Bank of India (Payments Banks - Acquisition and Holding of Shares or Voting Rights) Amendment Directions, 2026"
       ],
       "summary": [
-        "These Amendment Directions modify the Master Direction as under",
-        "grant one-time approval for subsequent acquisitions of major shareholding in the same banking company by mutual funds, insurance companies and pension funds",
-        "Qualifying persons are required to make an application, through PRAVAAH , to the Reserve Bank along with the declaration in Form A",
-        "major shareholders who have obtained one-time approval and qualifying persons with one-time approval shall report decrease or increase of the aggregate holding to below or above five per cent of total paid-up share capital or voting rights of the banking company, respectively, to the Reserve Bank and the concerned banking company within three working days of such an event"
+        "based on a review, it has now been decided to grant one-time approval for subsequent acquisitions of major shareholding in the same banking company by mutual funds, insurance companies and pension funds, subject to certain requirements.",
+        "grant one-time approval to qualifying persons, either individually or collectively, for subsequent acquisitions of major shareholding up to 10 per cent of the paid-up share capital or voting rights of a banking company",
+        "major shareholders who have obtained one-time approval and qualifying persons with one-time approval shall report decrease or increase of the aggregate holding to below or above five per cent of total paid-up share capital or voting rights of the banking company, respectively, to the Reserve Bank and the concerned banking company within three working days of such an event."
       ],
       "takeaway": [
-        "Qualifying persons are required to make an application, through PRAVAAH , to the Reserve Bank along with the declaration in Form A",
-        "major shareholders who have obtained one-time approval and qualifying persons with one-time approval shall report decrease or increase of the aggregate holding to below or above five per cent of total paid-up share capital or voting rights of the banking company, respectively, to the Reserve Bank and the concerned banking company within three working days of such an event"
+        "Qualifying persons are required to make an application, through PRAVAAH , to the Reserve Bank along with the declaration in Form A.",
+        "major shareholders who have obtained one-time approval and qualifying persons with one-time approval shall report decrease or increase of the aggregate holding to below or above five per cent of total paid-up share capital or voting rights of the banking company, respectively, to the Reserve Bank and the concerned banking company within three working days of such an event."
       ],
       "effective_date": [
         "October 1, 2026"
@@ -280,33 +307,33 @@
     "update_type": "Notification",
     "primary_source_link": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13137",
     "source_name": "Reserve Bank of India — Master Directions",
-    "collected_at": "2026-10-03T07:50:53.534280+00:00",
-    "source_document_sha256": "276c6e73efb6cba2e81bd54cbf7254993be199793a50d8df60b045705a1994c8",
-    "source_text_path": "data/source_documents/276c6e73efb6cba2e81bd54cbf7254993be199793a50d8df60b045705a1994c8.html",
+    "collected_at": "2026-10-03T08:15:32.829966+00:00",
+    "source_document_sha256": "77b9b01740fcefe6f8fe7f1f40691d8003dcb8e9c41098ac1a3b81253e69aaa1",
+    "source_text_path": "data/source_documents/77b9b01740fcefe6f8fe7f1f40691d8003dcb8e9c41098ac1a3b81253e69aaa1.html",
     "evidence": [
-      "Master Directions | Official Website of Reserve Bank of India Skip to main content Not Pressed Change Language हिंदी Search the Website Search Master Directions RBI/DoR/2025-26/173 DoR.MRG.REC.92/00-00-003/2025-26 November 28, 2025 Reserve Bank of India (Commercial Banks – Forthcoming Instructions) Directions, 2025 Table of Contents Chapter I - Preliminary A. Short title and commencement B. Applicability C. Definitions D. Scope Chapter II - Computing Exposure for Counterparty Credit Risk arising from Derivative Transactions A. Standardised Approach for Counterparty Credit Risk (SA-CCR) for computing default risk capital charge Chapter III – Capital Requirement for Exposures to Central Counterparties (CCPs) A. Scope of Application B. Exposures to QCCPs C. Exposures to non-qualifying CCPs D. Requirements for Recognition of Net Replacement Cost in Close-out Netting Sets Chapter IV – Minimum Capital Requirements for Operational Risk A. Interim arrangement B. Scope C. Definitions D. Compone"
+      "617 Master Directions | Official Website of Reserve Bank of India Skip to main content Not Pressed Change Language हिंदी Search the Website Search Master Directions RBI/DoR/2025-26/173 DoR.MRG.REC.92/00-00-003/2025-26 November 28, 2025 Reserve Bank of India (Commercial Banks – Forthcoming Instructions) Directions, 2025 Table of Contents Chapter I - Preliminary A. Short title and commencement B. Applicability C. Definitions D. Scope Chapter II - Computing Exposure for Counterparty Credit Risk arising from Derivative Transactions A. Standardised Approach for Counterparty Credit Risk (SA-CCR) for computing default risk capital charge Chapter III – Capital Requirement for Exposures to Central Counterparties (CCPs) A. Scope of Application B. Exposures to QCCPs C. Exposures to non-qualifying CCPs D. Requirements for Recognition of Net Replacement Cost in Close-out Netting Sets Chapter IV – Minimum Capital Requirements for Operational Risk A. Interim arrangement B. Scope C. Definitions D. Com"
     ],
     "analysis_status": "withheld_no_validated_draft",
     "field_evidence": {}
   },
   {
     "id": "262154a3403d282b",
-    "title": "IBBI: Circular — Commencement of levy of fee for delayed filing of Forms under Regulation 47B of the Liquidation Process Regulations",
+    "title": "(1) Commencement of levy of fee for delayed filing of Forms under Regulation 47B of the Liquidation Process Regulations",
     "regulatory_authority": "IBBI",
     "country": "India",
     "region": "APAC",
     "state": "National",
-    "law_area": "Insolvency and Bankruptcy",
-    "applicability": "Registered Insolvency Professionals, Recognised Insolvency Professional Entities, and Registered Insolvency Professional Agencies",
-    "description": "IBBI has issued a circular concerning commencement of levy of fee for delayed filing of Forms under Regulation 47B of the Liquidation Process Regulations.",
-    "summary": "This circular commences the levy of a fee for delayed filing of forms under Regulation 47B of the Liquidation Process Regulations. It is issued in continuation of Circular No. IBBI/LIQ/91/2026 dated 05.01.2026 regarding revised liquidation forms and in exercise of powers under section 196 of the Insolvency and Bankruptcy Code, 2016. In practice, any form due on or before 30.09.2026 that is submitted after the due date must be accompanied by a fee of ₹500/- with applicable GST per month for the period of delay.",
-    "takeaway": "Ensure that any form due on or before 30.09.2026 submitted after the due date includes the required fee of ₹500/- with applicable GST per month for the period of delayed filing.",
+    "law_area": "Corporate and secretarial",
+    "applicability": "Insolvency professionals, resolution applicants and corporate debtors may be affected.",
+    "description": "Source document captured; no validated automatic draft was produced.",
+    "summary": "Not generated.",
+    "takeaway": "Read the exact primary source.",
     "notification_date": "2026-09-24",
-    "effective_date": "24th September 2026",
+    "effective_date": "Not stated — verify in source",
     "update_type": "Circular",
     "primary_source_link": "https://ibbi.gov.in//uploads/legalframwork/a207bc1032e33472c1175e676e204742.pdf",
     "source_name": "Insolvency and Bankruptcy Board of India — Circulars",
-    "collected_at": "2026-10-03T07:50:59.640481+00:00",
+    "collected_at": "2026-10-03T08:15:40.607856+00:00",
     "source_document_sha256": "ead4cd40496ab1307354a391dc29d72811d7e5f19dae985e721652131255a2a4",
     "source_text_path": "data/source_documents/ead4cd40496ab1307354a391dc29d72811d7e5f19dae985e721652131255a2a4.pdf",
     "evidence": [
@@ -314,51 +341,27 @@
       "7th Floor, Mayur Bhawan, Connaught Place, New Delhi–110001 ",
       "CIRCULAR "
     ],
-    "analysis_status": "published",
-    "field_evidence": {
-      "title": [
-        "Subject: Commencement of levy of fee for delayed filing of Forms under Regulation 47B \nof the Liquidation Process Regulations"
-      ],
-      "update_type": [
-        "CIRCULAR"
-      ],
-      "applicability": [
-        "To \n All Registered Insolvency Professionals \nAll Recognised Insolvency Professional Entities \nAll Registered Insolvency Professional Agencies"
-      ],
-      "description": [
-        "CIRCULAR",
-        "Subject: Commencement of levy of fee for delayed filing of Forms under Regulation 47B \nof the Liquidation Process Regulations"
-      ],
-      "summary": [
-        "In continuation of Circular No. IBBI/LIQ/91/2026 dated 05.01.2026 regarding the revised \nliquidation forms and in accordance with the provisions of Regulation 47B of the Insolvency \nand Bankruptcy Board of India (Liquidation Process) Regulations, 2016, it is hereby notified \nthat each form which is due on or before 30.09.2026 and are submitted after the due date, \nwhether by correction, updation, or otherwise, shall be accompanied by a fee of ₹500/- (Rupees \nfive hundred only) with applicable GST per month for the period of delayed filing.",
-        "3. This circular is issued in exercise of the powers under section 196 of the Insolvency and \nBankruptcy Code, 2016."
-      ],
-      "takeaway": [
-        "each form which is due on or before 30.09.2026 and are submitted after the due date, \nwhether by correction, updation, or otherwise, shall be accompanied by a fee of ₹500/- (Rupees \nfive hundred only) with applicable GST per month for the period of delayed filing."
-      ],
-      "effective_date": [
-        "Date:24th September 2026"
-      ]
-    }
+    "analysis_status": "withheld_no_validated_draft",
+    "field_evidence": {}
   },
   {
     "id": "919bccaf2c40fa21",
-    "title": "IBBI: Circular — Further extension of time for filing electronic forms to monitor insolvency resolution processes for Personal Guarantors to Corporate Debtors",
+    "title": "IBBI: Circular — Further extension of time for filing Forms to monitor insolvency resolution processes for Personal Guarantors to Corporate Debtors",
     "regulatory_authority": "IBBI",
     "country": "India",
     "region": "APAC",
     "state": "National",
-    "law_area": "Insolvency and Bankruptcy",
-    "applicability": "Registered Insolvency Professionals, Recognised Insolvency Professional Entities, and Registered Insolvency Professional Agencies",
-    "description": "IBBI has issued a circular concerning further extension of time for filing electronic forms to monitor insolvency resolution processes for Personal Guarantors to Corporate Debtors.",
-    "summary": "The Board has further extended the deadline for filing electronic forms PGIRP-1 to PGIRP-6 for monitoring insolvency resolution processes concerning personal guarantors to corporate debtors. This extension was issued in response to feedback received from Insolvency Professionals and Insolvency Professional Agencies seeking more time due to practical difficulties. In practice, compliance workflows are adjusted such that penalties for delayed submission or modification of these forms will now be levied only after the new deadline.",
-    "takeaway": "Update internal filing schedules to submit all applicable PGIRP-1 to PGIRP-6 forms by the extended deadline of 31st December 2026, noting that penalties for delayed submission or modification will only be levied after this date.",
+    "law_area": "Insolvency Law",
+    "applicability": "All Registered Insolvency Professionals, All Recognised Insolvency Professional Entities, and All Registered Insolvency Professional Agencies",
+    "description": "IBBI has issued a circular concerning further extension of time for filing Forms to monitor insolvency resolution processes for Personal Guarantors to Corporate Debtors under the Insolvency and Bankruptcy Code, 2016.",
+    "summary": "The Board has further extended the last date for submission of all applicable electronic forms PGIRP-1 to PGIRP-6, along with postponing the levy of penalties for delayed submission or modification. This extension is granted in response to feedback and requests received from Insolvency Professionals and Insolvency Professional Agencies seeking additional time to file the forms. In practice, compliance officers now have until the revised deadline to complete filings without incurring penalties for delayed submission.",
+    "takeaway": "Ensure all applicable PGIRP-1 to PGIRP-6 forms are submitted by 31st December 2026 to avoid penalties for delayed submission or modification.",
     "notification_date": "2026-09-24",
     "effective_date": "31st December 2026",
     "update_type": "Circular",
     "primary_source_link": "https://ibbi.gov.in//uploads/legalframwork/67d6969ee8c81b22d63aa09ea06e000b.pdf",
     "source_name": "Insolvency and Bankruptcy Board of India — Circulars",
-    "collected_at": "2026-10-03T07:51:03.979280+00:00",
+    "collected_at": "2026-10-03T08:15:45.224172+00:00",
     "source_document_sha256": "9dff5aa395754ddbf8775f95cebd5fae23c45bc480478e0d8068d332955884bf",
     "source_text_path": "data/source_documents/9dff5aa395754ddbf8775f95cebd5fae23c45bc480478e0d8068d332955884bf.pdf",
     "evidence": [
@@ -369,53 +372,52 @@
     "analysis_status": "published",
     "field_evidence": {
       "title": [
-        "Subject: Further extension of time for filing Forms to monitor insolvency resolution processes for Personal Guarantors to Corporate Debtors under the Insolvency and Bankruptcy Code, 2016, and the regulations made thereunder."
+        "Subject: Further extension of time for filing Forms to monitor insolvency resolution \nprocesses for Personal Guarantors to Corporate Debtors under the Insolvency and \nBankruptcy Code, 2016, and the regulations made thereunder.",
+        "CIRCULAR"
       ],
       "update_type": [
         "CIRCULAR"
       ],
       "applicability": [
-        "All Registered Insolvency Professionals",
-        "All Recognised Insolvency Professional Entities, and",
-        "All Registered Insolvency Professional Agencies"
+        "All Registered Insolvency Professionals \nAll Recognised Insolvency Professional Entities, and \nAll Registered Insolvency Professional Agencies"
       ],
       "description": [
+        "INSOLVENCY AND BANKRUPTCY BOARD OF INDIA",
         "CIRCULAR",
-        "Subject: Further extension of time for filing Forms to monitor insolvency resolution processes for Personal Guarantors to Corporate Debtors under the Insolvency and Bankruptcy Code, 2016, and the regulations made thereunder."
+        "Subject: Further extension of time for filing Forms to monitor insolvency resolution \nprocesses for Personal Guarantors to Corporate Debtors under the Insolvency and \nBankruptcy Code, 2016, and the regulations made thereunder."
       ],
       "summary": [
-        "the Board has mandated the filing of electronic forms PGIRP-1 to PGIRP-6 on its e-platform for monitoring insolvency resolution processes concerning personal guarantors to corporate debtors.",
-        "the Board has received feedback from Insolvency Professionals (IPs) and Insolvency Professional Agencies (IPAs) seeking the extension on filing the forms.",
-        "a) The last date for submission of all applicable PGIRP forms is hereby further extended till 31st December 2026.",
-        "b) In line with this extension, penalties for delayed submission or modification of these forms shall now be levied only after 31st December 2026."
+        "a) The last date for submission of all applicable PGIRP forms is hereby further extended till \n31st December 2026.",
+        "b) In line with this extension, penalties for delayed submission or modification of these forms \nshall now be levied only after 31st December 2026.",
+        "However, the Board \nhas received feedback from Insolvency Professionals (IPs) and Insolvency Professional \nAgencies (IPAs) seeking the extension on filing the forms. In view of these proposed changes, \nand to ensure seamless compliance, an additional extension of the filing deadline is warranted."
       ],
       "takeaway": [
-        "a) The last date for submission of all applicable PGIRP forms is hereby further extended till 31st December 2026.",
-        "b) In line with this extension, penalties for delayed submission or modification of these forms shall now be levied only after 31st December 2026."
+        "a) The last date for submission of all applicable PGIRP forms is hereby further extended till \n31st December 2026.",
+        "b) In line with this extension, penalties for delayed submission or modification of these forms \nshall now be levied only after 31st December 2026."
       ],
       "effective_date": [
-        "31st December 2026"
+        "a) The last date for submission of all applicable PGIRP forms is hereby further extended till \n31st December 2026."
       ]
     }
   },
   {
     "id": "648425b2bb79a0b5",
-    "title": "IBBI: Circular — Judgments of the Hon'ble Bombay High Court and Delhi High Court on cessation of interim moratorium in respect of personal guarantors to corporate debtors",
+    "title": "IBBI: Circular — Cessation of Interim Moratorium in respect of personal guarantors to corporate debtors",
     "regulatory_authority": "IBBI",
     "country": "India",
     "region": "APAC",
     "state": "National",
-    "law_area": "Insolvency Law",
-    "applicability": "All Registered Insolvency Professionals, All Recognised Insolvency Professional Entities, and All Registered Insolvency Professional Agencies in respect of personal guarantors to corporate debtors",
+    "law_area": "Insolvency and Bankruptcy",
+    "applicability": "All Registered Insolvency Professionals, All Recognised Insolvency Professional Entities, and All Registered Insolvency Professional Agencies",
     "description": "IBBI has issued a circular concerning Judgments of the Hon'ble Bombay High Court and Delhi High Court on cessation of interim moratorium in respect of personal guarantors to corporate debtors.",
-    "summary": "The IBBI clarified the application of sub-section (4) of sections 96 and 124 of the Insolvency and Bankruptcy Code, 2016, following judgments by the Bombay and Delhi High Courts regarding personal guarantors to corporate debtors. The regulator issued this circular to address the legal position on whether interim moratoriums cease for applications pending before the Adjudicating Authority as of the effective date. In practice, compliance workflows involving personal guarantor insolvency proceedings must account for the cessation of interim moratoriums effective from May 26, 2026, for both pending and new applications.",
-    "takeaway": "Review active insolvency proceedings involving personal guarantors to corporate debtors to confirm that interim moratoriums have ceased to operate as of May 26, 2026, in accordance with the judgments and the Insolvency and Bankruptcy Code (Amendment) Act, 2026.",
+    "summary": "The Insolvency and Bankruptcy Code (Amendment) Act, 2026 inserted sub-section (4) in sections 96 and 124 of the Insolvency and Bankruptcy Code, 2016, providing that the interim moratorium shall not apply to personal guarantors to corporate debtors starting from May 26, 2026. This circular highlights judgments from the Bombay High Court and Delhi High Court confirming that this retroactive provision applies to applications that were already filed and remaining pending under adjudication. In practice, compliance workflows and ongoing proceedings must account for the fact that interim moratoriums for personal guarantors ceased to operate as of May 26, 2026 for pending applications.",
+    "takeaway": "Review ongoing insolvency resolution processes involving personal guarantors to corporate debtors to ensure alignment with the cessation of the interim moratorium effective from May 26, 2026.",
     "notification_date": "2026-09-21",
     "effective_date": "21st September 2026",
     "update_type": "Circular",
     "primary_source_link": "https://ibbi.gov.in//uploads/legalframwork/778e13b82df050c20c0c13dfa3e8ea16.pdf",
     "source_name": "Insolvency and Bankruptcy Board of India — Circulars",
-    "collected_at": "2026-10-03T07:51:08.921213+00:00",
+    "collected_at": "2026-10-03T08:15:49.516107+00:00",
     "source_document_sha256": "51e4717a38f5c2793e4b4095a5c9b34269136b1d270363630387657e900cb346",
     "source_text_path": "data/source_documents/51e4717a38f5c2793e4b4095a5c9b34269136b1d270363630387657e900cb346.pdf",
     "evidence": [
@@ -426,7 +428,8 @@
     "analysis_status": "published",
     "field_evidence": {
       "title": [
-        "Subject: Judgments of the Hon'ble Bombay High Court and Delhi High Court on cessation of interim moratorium in respect of personal guarantors to corporate debtors."
+        "Subject: Judgments of the Hon'ble Bombay High Court and Delhi High Court on",
+        "cessation of interim moratorium in respect of personal guarantors to corporate debtors."
       ],
       "update_type": [
         "CIRCULAR"
@@ -435,16 +438,18 @@
         "To \nAll Registered Insolvency Professionals \nAll Recognised Insolvency Professional Entities \nAll Registered Insolvency Professional Agencies"
       ],
       "description": [
+        "IBBI",
         "CIRCULAR",
-        "Subject: Judgments of the Hon'ble Bombay High Court and Delhi High Court on cessation of interim moratorium in respect of personal guarantors to corporate debtors."
+        "Subject: Judgments of the Hon'ble Bombay High Court and Delhi High Court on \ncessation of interim moratorium in respect of personal guarantors to corporate debtors."
       ],
       "summary": [
         "The Insolvency and Bankruptcy Code (Amendment) Act, 2026 inserted sub-section (4) in \nsections 96 and 124 of the Insolvency and Bankruptcy Code, 2016, providing that the interim \nmoratorium shall not apply in respect of a personal guarantor to a corporate debtor, with effect \nfrom 26th May, 2026.",
-        "Subject: Judgments of the Hon'ble Bombay High Court and Delhi High Court on \ncessation of interim moratorium in respect of personal guarantors to corporate debtors.",
-        "Accordingly, it may be noted that the interim moratorium under section 96 (and, \ncorrespondingly, section 124) of the Code, in respect of a personal guarantor to a corporate \ndebtor, has ceased to operate with effect from 26th May, 2026 in respect of applications pending \nbefore Adjudicating Authority as on that date."
+        "2. In this regard, the Hon'ble Bombay High Court, in Tata Capital Financial Services Limited \nv. Neel Motors LLP and others (Commercial Arbitration Petition No. 620 of 2021), by \njudgment dated 24th July, 2026, has inter-alia observed that –",
+        "3. Further, the Hon'ble Delhi High Court in IDBI Trusteeship Services Ltd. v. Manish Jain and \nOrs. (CS(COMM) 800/2025), by judgment dated 19th August 2026, has also inter-\nalia observed that –",
+        "4. Accordingly, it may be noted that the interim moratorium under section 96 (and, \ncorrespondingly, section 124) of the Code, in respect of a personal guarantor to a corporate \ndebtor, has ceased to operate with effect from 26th May, 2026 in respect of applications pending \nbefore Adjudicating Authority as on that date."
       ],
       "takeaway": [
-        "Accordingly, it may be noted that the interim moratorium under section 96 (and, \ncorrespondingly, section 124) of the Code, in respect of a personal guarantor to a corporate \ndebtor, has ceased to operate with effect from 26th May, 2026 in respect of applications pending \nbefore Adjudicating Authority as on that date."
+        "4. Accordingly, it may be noted that the interim moratorium under section 96 (and, \ncorrespondingly, section 124) of the Code, in respect of a personal guarantor to a corporate \ndebtor, has ceased to operate with effect from 26th May, 2026 in respect of applications pending \nbefore Adjudicating Authority as on that date."
       ],
       "effective_date": [
         "Date:21st September 2026"
