@@ -219,6 +219,20 @@ except (FileNotFoundError, json.JSONDecodeError):
 
 all_updates = [u for u in all_updates if u.get("analysis_status") == "published"]
 
+# TRANSPARENCY LINE: tells the person exactly which sources are actually
+# contributing right now, and when data was last refreshed. Without this,
+# someone visiting the site has no way to tell "MCA just hasn't published
+# anything new" apart from "the tracker is broken" - both look identical
+# from the outside. This makes the current, honest state visible instead
+# of implied.
+active_authorities = sorted({u["regulatory_authority"] for u in all_updates})
+last_updated = max((u.get("collected_at", "") for u in all_updates), default="")
+last_updated_display = last_updated[:10] if last_updated else "not yet run"
+st.caption(
+    f"Currently contributing: {', '.join(active_authorities) if active_authorities else 'none yet'} "
+    f"· Last refreshed: {last_updated_display}"
+)
+
 with st.sidebar:
     st.markdown(
         '<div class="sidebar-brand"><span class="sidebar-brand-mark">⚖</span>'
@@ -248,45 +262,49 @@ for u in updates:
     u["_urgency"] = classify_urgency(u.get("effective_date", ""))
 updates = [u for u in updates if u["_urgency"] in selected_urgency_keys]
 
-strip_html = '<div class="stats-strip">'
-strip_html += f'<div class="stat-block"><div class="stat-num">{len(updates)}</div><div class="stat-label">Total updates</div></div>'
-for key in ("urgent", "pending", "review"):
-    count = sum(1 for u in updates if u["_urgency"] == key)
-    style = URGENCY_STYLE[key]
-    strip_html += f'<div class="stat-block"><div class="stat-num" style="color:{style["color"]}">{count}</div><div class="stat-label">{style["label"]}</div></div>'
-strip_html += "</div>"
-st.markdown(strip_html, unsafe_allow_html=True)
+# CHANGED: the old version here showed three large counters (Action
+# required / Upcoming / For review) as the headline. With only a handful
+# of updates total, splitting them into three sub-categories as big numbers
+# implied a scale of activity the data doesn't have, and distracted from
+# this tool's actual job: helping someone find updates FOR THEIR LAW AREA.
+# The practice-area chart is now the main navigation aid - it directly
+# answers "where should I look first" - with a plain total above it.
+group_label_count = len({u["_group"] for u in updates})
+st.markdown(
+    f'<p class="section-title">{len(updates)} update{"s" if len(updates) != 1 else ""} '
+    f'across {group_label_count} practice area{"s" if group_label_count != 1 else ""}</p>',
+    unsafe_allow_html=True,
+)
+
+st.markdown('<div class="chart-card">', unsafe_allow_html=True)
+group_counts = {g: sum(1 for u in updates if u["_group"] == g) for g in GROUP_ORDER}
+ordered_groups = sorted(group_counts, key=lambda g: group_counts[g])
+fig = go.Figure(go.Bar(
+    x=[group_counts[g] for g in ordered_groups],
+    y=ordered_groups,
+    orientation="h",
+    marker_color=[GROUP_COLOR[g] for g in ordered_groups],
+    text=[group_counts[g] for g in ordered_groups],
+    textposition="outside",
+    textfont=dict(color="#EDE9E1"),
+))
+fig.update_layout(
+    plot_bgcolor="rgba(0,0,0,0)",
+    paper_bgcolor="rgba(0,0,0,0)",
+    font=dict(color="#EDE9E1", family="IBM Plex Sans"),
+    margin=dict(l=0, r=30, t=10, b=10),
+    height=260,
+    xaxis=dict(showgrid=False, visible=False),
+    yaxis=dict(showgrid=False),
+)
+st.plotly_chart(fig, use_container_width=True, config={"displayModeBar": False})
+st.caption("Tap a tab below to open that practice area directly.")
+st.markdown('</div>', unsafe_allow_html=True)
 
 tab_labels = ["Overview"] + [f"{g} ({sum(1 for u in updates if u['_group'] == g)})" for g in GROUP_ORDER]
 tabs = st.tabs(tab_labels)
 
 with tabs[0]:
-    st.markdown('<div class="chart-card">', unsafe_allow_html=True)
-    st.markdown('<p class="section-title">Updates by practice area</p>', unsafe_allow_html=True)
-    group_counts = {g: sum(1 for u in updates if u["_group"] == g) for g in GROUP_ORDER}
-    ordered_groups = sorted(group_counts, key=lambda g: group_counts[g])
-    fig = go.Figure(go.Bar(
-        x=[group_counts[g] for g in ordered_groups],
-        y=ordered_groups,
-        orientation="h",
-        marker_color=[GROUP_COLOR[g] for g in ordered_groups],
-        text=[group_counts[g] for g in ordered_groups],
-        textposition="outside",
-        textfont=dict(color="#EDE9E1"),
-    ))
-    fig.update_layout(
-        plot_bgcolor="rgba(0,0,0,0)",
-        paper_bgcolor="rgba(0,0,0,0)",
-        font=dict(color="#EDE9E1", family="IBM Plex Sans"),
-        margin=dict(l=0, r=30, t=10, b=10),
-        height=260,
-        xaxis=dict(showgrid=False, visible=False),
-        yaxis=dict(showgrid=False),
-    )
-    st.plotly_chart(fig, use_container_width=True, config={"displayModeBar": False})
-    st.caption("Use the tabs below to open any practice area directly.")
-    st.markdown('</div>', unsafe_allow_html=True)
-
     st.markdown('<p class="section-title">Most urgent right now</p>', unsafe_allow_html=True)
     urgent_first = sorted(
         [u for u in updates if u["_urgency"] == "urgent"],
