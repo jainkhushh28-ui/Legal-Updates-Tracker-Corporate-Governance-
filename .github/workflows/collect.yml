@@ -15,9 +15,16 @@ jobs:
         with:
           python-version: '3.11'
 
-      - run: pip install -r requirements.txt
+      # CHANGED: installs from requirements-collector.txt, not requirements.txt.
+      # requirements.txt is now reserved for the Streamlit app only (which
+      # runs on a different Python version and never needs Playwright at
+      # all) - mixing the two caused Streamlit Cloud's deploy to fail
+      # outright, since Playwright's "greenlet" dependency cannot build on
+      # Streamlit Cloud's Python version. Keeping them as two separate files
+      # means each environment only installs what it actually uses.
+      - run: pip install -r requirements-collector.txt
 
-      # NEW: Playwright's Python package (installed above via requirements.txt)
+      # Playwright's Python package (installed above via requirements-collector.txt)
       # only gives us the code to CONTROL a browser - it doesn't include the
       # actual browser itself. This step downloads a real headless Chromium
       # browser onto the GitHub Actions runner, and --with-deps also installs
